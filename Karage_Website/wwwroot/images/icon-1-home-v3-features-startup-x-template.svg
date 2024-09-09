@@ -1,0 +1,16 @@
+<svg width="131" height="137" viewBox="0 0 131 137" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="51.6793" cy="83.0651" rx="51.6793" ry="51.935" fill="#F8EDE3"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="1" width="116" height="134">
+<path d="M113.456 91.403C114.569 103.077 102.461 94.1516 100.802 99.2429C94.036 120.004 74.6002 135 51.6793 135C23.1376 135 0 111.748 0 83.065C0 54.3821 0 1 51.6793 1C88.2181 1 110.319 21.3197 113.456 47.0933C113.827 50.1498 115.759 61.7217 115.949 64.7065C116.422 72.151 113.456 85.4047 113.456 91.403Z" fill="#EFA6B4"/>
+</mask>
+<g mask="url(#mask0)">
+<rect x="12.7695" y="32.1152" width="65.6583" height="117.179" rx="10" fill="#292C32" stroke="#292C32" stroke-width="2"/>
+<rect x="18.8516" y="24.4756" width="65.6583" height="117.179" rx="10" fill="white" stroke="#292C32" stroke-width="2"/>
+<rect x="37.0566" y="44.8364" width="69.5408" height="45.3659" rx="2" fill="#292C32" stroke="#292C32" stroke-width="2"/>
+<rect x="40.8574" y="41.0166" width="69.5408" height="45.3659" rx="2" fill="#1E756B" stroke="#292C32" stroke-width="2"/>
+<ellipse cx="94.1467" cy="75.964" rx="4.6291" ry="4.65201" fill="white"/>
+<ellipse cx="100.319" cy="75.964" rx="4.6291" ry="4.65201" fill="#FFD584"/>
+<rect x="49.0391" y="75.2" width="20.4291" height="1.52793" rx="0.763966" fill="white"/>
+<path d="M37.6172 24.5569H65.7448V24.9904C65.7448 27.1996 63.9539 28.9904 61.7448 28.9904H41.6172C39.408 28.9904 37.6172 27.1996 37.6172 24.9904V24.5569Z" fill="#292C32"/>
+</g>
+</svg>

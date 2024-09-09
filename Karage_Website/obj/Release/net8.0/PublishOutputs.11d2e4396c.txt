@@ -1,0 +1,7 @@
+E:\Projects\Karage_Website\Karage_Website\obj\Release\net8.0\PubTmp\Out\Karage_Website.exe
+E:\Projects\Karage_Website\Karage_Website\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+E:\Projects\Karage_Website\Karage_Website\obj\Release\net8.0\PubTmp\Out\appsettings.json
+E:\Projects\Karage_Website\Karage_Website\obj\Release\net8.0\PubTmp\Out\Karage_Website.dll
+E:\Projects\Karage_Website\Karage_Website\obj\Release\net8.0\PubTmp\Out\Karage_Website.deps.json
+E:\Projects\Karage_Website\Karage_Website\obj\Release\net8.0\PubTmp\Out\Karage_Website.runtimeconfig.json
+E:\Projects\Karage_Website\Karage_Website\obj\Release\net8.0\PubTmp\Out\Karage_Website.pdb
