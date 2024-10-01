@@ -2818,9 +2818,9 @@ h1 {
     margin-top: 0px;
     margin-bottom: 18px;
     color: #292c32;
-    font-size: 55px;
+    font-size: 60px;
     line-height: 1.308em;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 h2 {
@@ -3561,6 +3561,7 @@ figcaption {
     padding: 16px 26px;
     font-size: 16px;
     line-height: 1.125em;
+    font-weight:700;
 }
 
 .button-primary.coming-soon {
@@ -3834,7 +3835,7 @@ figcaption {
 .nav-link {
     color: #292c32;
     line-height: 1.125em;
-    font-weight: 500;
+    font-weight: 700;
     text-decoration: none;
 }
 
@@ -5916,7 +5917,7 @@ figcaption {
 }
 
 .title.home-v2-hero {
-    max-width: 650px;
+    max-width: 710px;
     margin-right: auto;
     margin-bottom: 24px;
     margin-left: auto;
@@ -7474,7 +7475,7 @@ figcaption {
     color: #292c32;
     font-size: 16px;
     line-height: 1.125em;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .cart-quantity {
@@ -9461,7 +9462,7 @@ figcaption {
     }
 
 .container-medium-710px {
-    max-width: 710px;
+    max-width: 755px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 24px;

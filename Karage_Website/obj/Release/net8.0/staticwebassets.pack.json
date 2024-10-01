@@ -217,6 +217,14 @@
       "PackagePath": "staticwebassets\\images\\Pocket.png"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Vector.svg",
+      "PackagePath": "staticwebassets\\images\\Vector.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Vectorgreen.svg",
+      "PackagePath": "staticwebassets\\images\\Vectorgreen.svg"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\about-v1-startup-x-webflow-template-p-1080.jpeg",
       "PackagePath": "staticwebassets\\images\\about-v1-startup-x-webflow-template-p-1080.jpeg"
     },
@@ -515,6 +523,30 @@
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\contact-startuper-x-webflow-template.png",
       "PackagePath": "staticwebassets\\images\\contact-startuper-x-webflow-template.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\core1.svg",
+      "PackagePath": "staticwebassets\\images\\core1.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\core2.svg",
+      "PackagePath": "staticwebassets\\images\\core2.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\core3.svg",
+      "PackagePath": "staticwebassets\\images\\core3.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\core4.svg",
+      "PackagePath": "staticwebassets\\images\\core4.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\core5.svg",
+      "PackagePath": "staticwebassets\\images\\core5.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\core6.svg",
+      "PackagePath": "staticwebassets\\images\\core6.svg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\create-account-startuper-x-webflow-template-p-130x130q80.png",
@@ -853,8 +885,8 @@
       "PackagePath": "staticwebassets\\images\\icon-1-contact-links-startup-x-template.svg"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-1-contact-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-1-contact-startup-x-template.svg"
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-1-contact-startup-x-template.svg.svg",
+      "PackagePath": "staticwebassets\\images\\icon-1-contact-startup-x-template.svg.svg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-1-create-account-social-media-startup-x-template.svg",
@@ -909,8 +941,8 @@
       "PackagePath": "staticwebassets\\images\\icon-2-contact-links-startup-x-template.svg"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-2-contact-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-2-contact-startup-x-template.svg"
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-2-contact-startup-x-template.svg.svg",
+      "PackagePath": "staticwebassets\\images\\icon-2-contact-startup-x-template.svg.svg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-2-create-account-social-media-startup-x-template.svg",
@@ -957,12 +989,8 @@
       "PackagePath": "staticwebassets\\images\\icon-3-company-perks-startup-x-template.svg"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-3-contact-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-3-contact-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-3-contact-startup-x-template_1.svg",
-      "PackagePath": "staticwebassets\\images\\icon-3-contact-startup-x-template_1.svg"
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-3-contact-startup-x-template.svg.svg",
+      "PackagePath": "staticwebassets\\images\\icon-3-contact-startup-x-template.svg.svg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-3-home-v2-get-started-startup-x-template.svg",
