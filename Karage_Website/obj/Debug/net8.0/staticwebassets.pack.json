@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Karage_Website.bundle.scp.css"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\css\\garage-sa-arabic.webflow.css",
+      "PackagePath": "staticwebassets\\css\\garage-sa-arabic.webflow.css"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\css\\garage-sa.webflow.css",
       "PackagePath": "staticwebassets\\css\\garage-sa.webflow.css"
     },
@@ -687,6 +691,14 @@
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\filled-icon-font.svg",
       "PackagePath": "staticwebassets\\images\\filled-icon-font.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\flag-for-flag-saudi-arabia-svgrepo-com.svg",
+      "PackagePath": "staticwebassets\\images\\flag-for-flag-saudi-arabia-svgrepo-com.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\flag-for-flag-united-kingdom-svgrepo-com.svg",
+      "PackagePath": "staticwebassets\\images\\flag-for-flag-united-kingdom-svgrepo-com.svg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\forgot-password-startuper-x-webflow-template-p-130x130q80.png",
@@ -1899,6 +1911,10 @@
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\request-a-demo-startuper-x-webflow-template.png",
       "PackagePath": "staticwebassets\\images\\request-a-demo-startuper-x-webflow-template.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\saudi-arabia-flag.png",
+      "PackagePath": "staticwebassets\\images\\saudi-arabia-flag.png"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\sections-startuper-x-webflow-template-p-130x130q80.png",

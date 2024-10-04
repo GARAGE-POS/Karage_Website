@@ -6,12 +6,12 @@
     <meta charset="utf-8">
     <title>Karage</title>
     <meta content="Presenting Startuper, our ultimate startup Webflow Template &amp; UI Kit. It includes a total of over 35 pages, so it has everything you will need to launch an amazing website as easy as 1, 2, 3." name="description">
-    <meta content="Home V2 - Startuper X - Webflow Ecommerce website template" property="og:title">
+    <meta content="Karage" property="og:title">
     <meta content="Presenting Startuper, our ultimate startup Webflow Template &amp; UI Kit. It includes a total of over 35 pages, so it has everything you will need to launch an amazing website as easy as 1, 2, 3." property="og:description">
-    <meta content="https://uploads-ssl.webflow.com/609b26d9c54c342f9473db3f/626b35a91bfe11477f674b41_open-graph-startuper-x-webflow-template.png" property="og:image">
-    <meta content="Home V2 - Startuper X - Webflow Ecommerce website template" property="twitter:title">
+    <meta content="http://cp.garage.sa/assets/images/Group%2030.svg" property="og:image">
+    <meta content="Karage" property="twitter:title">
     <meta content="Presenting Startuper, our ultimate startup Webflow Template &amp; UI Kit. It includes a total of over 35 pages, so it has everything you will need to launch an amazing website as easy as 1, 2, 3." property="twitter:description">
-    <meta content="https://uploads-ssl.webflow.com/609b26d9c54c342f9473db3f/626b35a91bfe11477f674b41_open-graph-startuper-x-webflow-template.png" property="twitter:image">
+    <meta content="http://cp.garage.sa/assets/images/Group%2030.svg" property="twitter:image">
     <meta property="og:type" content="website">
     <meta content="summary_large_image" name="twitter:card">
     <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -40,16 +40,16 @@
                                 <a href="" class="nav-link">Products</a>
                             </li>
                             <li class="nav-item-wrapper">
-                                <a href="" class="nav-link">Business Types</a>
+                                <a href="@Url.Action("BusinessType", "BusinessType")" class="nav-link">Business Types</a>
                             </li>
                             <li class="nav-item-wrapper">
-                                <a href="@Url.Action("About", "Home")" class="nav-link">Market Place</a>
+                                <a href="@Url.Action("MarketPlace", "MarketPlace")" class="nav-link">Market Place</a>
                             </li>
                             <li class="nav-item-wrapper">
                                 <a href="@Url.Action("Pricing", "Home")" class="nav-link">Pricing</a>
                             </li>
                             <li class="nav-item-wrapper header-button-mobile">
-                                <a href="" class="button-primary header-button mobile w-button">Get started</a>
+                                <a href="" class="button-primary header-button mobile w-button" style="background:#b6f174; color:#134f1a">Try it for - Free</a>
                             </li>
                         </ul>
                     </nav>
@@ -59,7 +59,11 @@
                                 <div class="w-inline-block">Sign in</div>
                             </a>
                         </div>
-                        <a href="../utility-pages/create-account.html" class="button-lightgreen header-button w-button">Try it for - Free</a>
+                        <a href="" class="button-primary header-button w-button" style="background:#b6f174; color:#134f1a">Try it for - Free</a>
+                        <a href="@Url.Action("ArIndex", "Home")" class="header-button w-inline-block" style="padding-left:20px; text-decoration:none;">
+                            العربية
+                            <img src="~/images/flag-for-flag-saudi-arabia-svgrepo-com.svg" style="width:40px; padding-left:10px;" />
+                        </a>
                         <div class="menu-button w-nav-button">
                             <div class="header-menu-button-icon-wrapper">
                                 <div class="icon-wrapper">

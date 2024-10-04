@@ -29,3 +29,4 @@ E:\Projects\Karage_Website\Karage_Website\obj\Release\net8.0\Karage_Website.pdb
 E:\Projects\Karage_Website\Karage_Website\obj\Release\net8.0\Karage_Website.genruntimeconfig.cache
 E:\Projects\Karage_Website\Karage_Website\obj\Release\net8.0\ref\Karage_Website.dll
 E:\Projects\Karage_Website\Karage_Website\obj\Release\net8.0\Karage_Website.sourcelink.json
+E:\Projects\Karage_Website\Karage_Website\obj\Release\net8.0\scopedcss\Views\Shared\_ArLayout.cshtml.rz.scp.css

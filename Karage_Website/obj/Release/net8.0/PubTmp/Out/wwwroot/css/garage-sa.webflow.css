@@ -2808,10 +2808,10 @@
 
 body {
     font-family: 'spacegrotesk-variablefont_wght';
-    color: #6f7278;
+    color: #6e7277;
     font-size: 18px;
-    line-height: 1.833em;
-    font-weight: 500;
+    line-height: 1.5rem;
+    font-weight: 600;
 }
 
 h1 {
@@ -2827,7 +2827,7 @@ h2 {
     margin-top: 0px;
     margin-bottom: 24px;
     color: #292c32;
-    font-size: 38px;
+    font-size: 36px;
     line-height: 1.316em;
     font-weight: 700;
 }
@@ -3002,7 +3002,7 @@ figcaption {
 }
 
 .bg-secondary-1 {
-    background-color: #fbf9f8;
+    background-color: #fdf9f4;
 }
 
 .bg-secondary-2 {
@@ -3363,6 +3363,7 @@ figcaption {
 }
 
 .button-lightgreen {
+    margin-bottom: 10px;
     padding: 24px 44px;
     border-radius: 80px;
     background-color: #b6f174;
@@ -3561,7 +3562,7 @@ figcaption {
     padding: 16px 26px;
     font-size: 16px;
     line-height: 1.125em;
-    font-weight:700;
+    font-weight: 700;
 }
 
 .button-primary.coming-soon {
@@ -3651,8 +3652,8 @@ figcaption {
     }
 
     .button-secondary.button-green {
-        border-color: #b6f174;
-        color: #b6f174;
+        border-color: #ebfbcb;
+        color: #ebfbcb;
     }
 
         .button-secondary.button-green:hover {
@@ -4099,13 +4100,13 @@ figcaption {
     }
 
     .section.features {
-        padding-top: 120px;
-        padding-bottom: 188px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
 
     .section.services {
         position: relative;
-        padding-top: 120px;
+        padding-top: 80px;
     }
 
     .section.contact {
@@ -4753,7 +4754,7 @@ figcaption {
 }
 
 .paragraph.neutral-100 {
-    color: #B6F174;
+    color: #B6F174 !important;
 }
 
     .paragraph.neutral-100.home-v1-hero {
@@ -5158,554 +5159,594 @@ figcaption {
         box-shadow: 0 4px 22px 0 rgba(41, 44, 50, 0.04);
     }
 
-    .card.perk {
-        position: relative;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        border-width: 0px;
-        box-shadow: none;
-    }
+.cardw.feature {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 580px;
+    padding: 48px 45px 28px 42px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
 
-    .card.faq {
-        margin-bottom: 20px;
-        padding: 30px 32px;
-        box-shadow: none;
-        cursor: pointer;
-    }
+.card.perk {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-width: 0px;
+    box-shadow: none;
+}
 
-    .card.home-v3-feature {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        max-width: 580px;
-        padding: 48px 50px 28px 53px;
-        -webkit-box-pack: justify;
-        -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-    }
+.card.faq {
+    margin-bottom: 20px;
+    padding: 30px 32px;
+    box-shadow: none;
+    cursor: pointer;
+}
 
-    .card.home-v3-case-study {
-        padding: 64px 31px 66px;
-        text-align: center;
-    }
+.card.home-v3-feature {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 580px;
+    padding: 48px 50px 28px 53px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
 
-    .card.home-v3-testimonials {
-        position: absolute;
-        left: 0px;
-        z-index: 1;
-        max-width: 43%;
-        padding: 78px 44px;
-    }
+.card.home-v3-case-study {
+    padding: 64px 31px 66px;
+    text-align: center;
+}
 
-    .card.team-v1 {
-        -webkit-transform: translate(0px, 0px);
-        -ms-transform: translate(0px, 0px);
-        transform: translate(0px, 0px);
-        -webkit-transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
-        transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
-        transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease;
-        transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
+.card.home-v3-testimonials {
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    max-width: 43%;
+    padding: 78px 44px;
+}
+
+.card.team-v1 {
+    -webkit-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+    -webkit-transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease;
+    transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
+    color: #6f7278;
+    text-decoration: none;
+}
+
+    .card.team-v1:hover {
+        border-color: #055f5b;
+        box-shadow: 0 15px 20px 0 rgba(41, 44, 50, 0.05);
+        -webkit-transform: translate(0px, -8px);
+        -ms-transform: translate(0px, -8px);
+        transform: translate(0px, -8px);
         color: #6f7278;
-        text-decoration: none;
     }
 
-        .card.team-v1:hover {
-            border-color: #055f5b;
-            box-shadow: 0 15px 20px 0 rgba(41, 44, 50, 0.05);
-            -webkit-transform: translate(0px, -8px);
-            -ms-transform: translate(0px, -8px);
-            transform: translate(0px, -8px);
-            color: #6f7278;
-        }
+.card.about-v1-value {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 52px 40px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
 
-    .card.about-v1-value {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        padding: 52px 40px;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: start;
-        -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-        align-items: flex-start;
+.card.about-v2-value {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 52px 40px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.card.team-v2 {
+    padding: 40px 40px 56px;
+    -webkit-transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease;
+    transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
+    text-align: center;
+}
+
+    .card.team-v2:hover {
+        border-color: #055f5b;
+        box-shadow: 0 15px 20px 0 rgba(41, 44, 50, 0.05);
+        -webkit-transform: translate(0px, -8px);
+        -ms-transform: translate(0px, -8px);
+        transform: translate(0px, -8px);
     }
 
-    .card.about-v2-value {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        padding: 52px 40px;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: start;
-        -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-        align-items: flex-start;
+.card.about-v2-offices {
+    max-width: 571px;
+    -webkit-transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease;
+    transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
+}
+
+    .card.about-v2-offices:hover {
+        border-color: #055f5b;
+        box-shadow: 0 15px 20px 0 rgba(41, 44, 50, 0.05);
+        -webkit-transform: translate(0px, -8px);
+        -ms-transform: translate(0px, -8px);
+        transform: translate(0px, -8px);
     }
 
-    .card.team-v2 {
-        padding: 40px 40px 56px;
-        -webkit-transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
-        transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
-        transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease;
-        transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
-        text-align: center;
-    }
+.card.career {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 53px 41px 56px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease;
+    transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
+    color: #6f7278;
+    text-decoration: none;
+}
 
-        .card.team-v2:hover {
-            border-color: #055f5b;
-            box-shadow: 0 15px 20px 0 rgba(41, 44, 50, 0.05);
-            -webkit-transform: translate(0px, -8px);
-            -ms-transform: translate(0px, -8px);
-            transform: translate(0px, -8px);
-        }
-
-    .card.about-v2-offices {
-        max-width: 571px;
-        -webkit-transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
-        transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
-        transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease;
-        transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
-    }
-
-        .card.about-v2-offices:hover {
-            border-color: #055f5b;
-            box-shadow: 0 15px 20px 0 rgba(41, 44, 50, 0.05);
-            -webkit-transform: translate(0px, -8px);
-            -ms-transform: translate(0px, -8px);
-            transform: translate(0px, -8px);
-        }
-
-    .card.career {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        padding: 53px 41px 56px;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
-        transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
-        transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease;
-        transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
+    .card.career:hover {
+        border-color: #055f5b;
+        box-shadow: 0 15px 20px 0 rgba(41, 44, 50, 0.05);
+        -webkit-transform: translate(0px, -8px);
+        -ms-transform: translate(0px, -8px);
+        transform: translate(0px, -8px);
         color: #6f7278;
-        text-decoration: none;
     }
 
-        .card.career:hover {
-            border-color: #055f5b;
-            box-shadow: 0 15px 20px 0 rgba(41, 44, 50, 0.05);
-            -webkit-transform: translate(0px, -8px);
-            -ms-transform: translate(0px, -8px);
-            transform: translate(0px, -8px);
-            color: #6f7278;
-        }
+.card.feature {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 580px;
+    padding: 48px 45px 28px 42px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
 
-    .card.feature {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        max-width: 580px;
-        padding: 48px 45px 28px 42px;
-        -webkit-box-pack: justify;
-        -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
+.cardw.feature {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 580px;
+    padding: 48px 45px 28px 42px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.card.contact {
+    padding: 51px 44px 43px;
+    -webkit-transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease;
+    transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
+    text-align: center;
+}
+
+    .card.contact:hover {
+        border-color: #055f5b;
+        box-shadow: 0 15px 20px 0 rgba(41, 44, 50, 0.05);
+        -webkit-transform: translate(0px, -8px);
+        -ms-transform: translate(0px, -8px);
+        transform: translate(0px, -8px);
     }
 
-    .card.contact {
-        padding: 51px 44px 43px;
-        -webkit-transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
-        transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
-        transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease;
-        transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
-        text-align: center;
+.card.contact-form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 676px;
+    min-height: 621px;
+    padding: 56px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-shadow: none;
+}
+
+.card.company-perk {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 37px 44px 47px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.card.careers-testimonials-about {
+    position: absolute;
+    left: 32px;
+    bottom: 32px;
+    padding: 30px 39px 36px;
+    border-width: 0px;
+}
+
+.card.career-page {
+    padding: 64px 70px 84px;
+}
+
+.card.career-apply {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    padding: 42px 40px 61px;
+}
+
+.card.blog-v1-featured {
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    max-width: 58%;
+    padding: 79px 50px 79px 40px;
+}
+
+.card.author {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 800px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 71px 72px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: box-shadow 300ms ease, border-color 300ms ease, -webkit-transform 300ms ease;
+    transition: box-shadow 300ms ease, border-color 300ms ease, -webkit-transform 300ms ease;
+    transition: box-shadow 300ms ease, border-color 300ms ease, transform 300ms ease;
+    transition: box-shadow 300ms ease, border-color 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
+}
+
+    .card.author:hover {
+        border-color: #055f5b;
+        box-shadow: 0 15px 20px 0 rgba(41, 44, 50, 0.05);
+        -webkit-transform: translate(0px, -8px);
+        -ms-transform: translate(0px, -8px);
+        transform: translate(0px, -8px);
     }
 
-        .card.contact:hover {
-            border-color: #055f5b;
-            box-shadow: 0 15px 20px 0 rgba(41, 44, 50, 0.05);
-            -webkit-transform: translate(0px, -8px);
-            -ms-transform: translate(0px, -8px);
-            transform: translate(0px, -8px);
-        }
+.card.plan {
+    position: relative;
+    max-width: 384px;
+    margin-right: 23px;
+    padding: 49px 32px 57px;
+}
 
-    .card.contact-form {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        width: 100%;
-        max-width: 676px;
-        min-height: 621px;
-        padding: 56px;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        box-shadow: none;
+    .card.plan.popular {
+        margin-bottom: 64px;
     }
 
-    .card.company-perk {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        padding: 37px 44px 47px;
-        -webkit-box-pack: justify;
-        -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        -webkit-box-align: start;
-        -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-        align-items: flex-start;
-    }
+.card.team {
+    padding: 82px 102px 89px;
+}
 
-    .card.careers-testimonials-about {
-        position: absolute;
-        left: 32px;
-        bottom: 32px;
-        padding: 30px 39px 36px;
-        border-width: 0px;
-    }
+.card.help-center-category {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100%;
+    padding: 56px 32px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: box-shadow 300ms ease, border-color 300ms ease, -webkit-transform 300ms ease;
+    transition: box-shadow 300ms ease, border-color 300ms ease, -webkit-transform 300ms ease;
+    transition: box-shadow 300ms ease, border-color 300ms ease, transform 300ms ease;
+    transition: box-shadow 300ms ease, border-color 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
+    color: #6f7278;
+    text-align: center;
+    text-decoration: none;
+}
 
-    .card.career-page {
-        padding: 64px 70px 84px;
-    }
-
-    .card.career-apply {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 20px;
-        padding: 42px 40px 61px;
-    }
-
-    .card.blog-v1-featured {
-        position: absolute;
-        left: 0px;
-        z-index: 1;
-        max-width: 58%;
-        padding: 79px 50px 79px 40px;
-    }
-
-    .card.author {
-        position: relative;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        max-width: 800px;
-        margin-top: 40px;
-        margin-right: auto;
-        margin-left: auto;
-        padding: 71px 72px;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-transition: box-shadow 300ms ease, border-color 300ms ease, -webkit-transform 300ms ease;
-        transition: box-shadow 300ms ease, border-color 300ms ease, -webkit-transform 300ms ease;
-        transition: box-shadow 300ms ease, border-color 300ms ease, transform 300ms ease;
-        transition: box-shadow 300ms ease, border-color 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
-    }
-
-        .card.author:hover {
-            border-color: #055f5b;
-            box-shadow: 0 15px 20px 0 rgba(41, 44, 50, 0.05);
-            -webkit-transform: translate(0px, -8px);
-            -ms-transform: translate(0px, -8px);
-            transform: translate(0px, -8px);
-        }
-
-    .card.plan {
-        position: relative;
-        max-width: 384px;
-        margin-right: 23px;
-        padding: 49px 32px 57px;
-    }
-
-        .card.plan.popular {
-            margin-bottom: 64px;
-        }
-
-    .card.team {
-        padding: 82px 102px 89px;
-    }
-
-    .card.help-center-category {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        min-height: 100%;
-        padding: 56px 32px;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-transition: box-shadow 300ms ease, border-color 300ms ease, -webkit-transform 300ms ease;
-        transition: box-shadow 300ms ease, border-color 300ms ease, -webkit-transform 300ms ease;
-        transition: box-shadow 300ms ease, border-color 300ms ease, transform 300ms ease;
-        transition: box-shadow 300ms ease, border-color 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
+    .card.help-center-category:hover {
+        border-color: #055f5b;
+        box-shadow: 0 15px 20px 0 rgba(41, 44, 50, 0.05);
+        -webkit-transform: translate(0px, -8px);
+        -ms-transform: translate(0px, -8px);
+        transform: translate(0px, -8px);
         color: #6f7278;
-        text-align: center;
-        text-decoration: none;
     }
 
-        .card.help-center-category:hover {
-            border-color: #055f5b;
-            box-shadow: 0 15px 20px 0 rgba(41, 44, 50, 0.05);
-            -webkit-transform: translate(0px, -8px);
-            -ms-transform: translate(0px, -8px);
-            transform: translate(0px, -8px);
-            color: #6f7278;
-        }
+.card.help-center-category-article {
+    padding: 71px 47px;
+    -webkit-transition: box-shadow 300ms ease, border-color 300ms ease, -webkit-transform 300ms ease;
+    transition: box-shadow 300ms ease, border-color 300ms ease, -webkit-transform 300ms ease;
+    transition: box-shadow 300ms ease, border-color 300ms ease, transform 300ms ease;
+    transition: box-shadow 300ms ease, border-color 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
+    color: #6f7278;
+    text-decoration: none;
+}
 
-    .card.help-center-category-article {
-        padding: 71px 47px;
-        -webkit-transition: box-shadow 300ms ease, border-color 300ms ease, -webkit-transform 300ms ease;
-        transition: box-shadow 300ms ease, border-color 300ms ease, -webkit-transform 300ms ease;
-        transition: box-shadow 300ms ease, border-color 300ms ease, transform 300ms ease;
-        transition: box-shadow 300ms ease, border-color 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
+    .card.help-center-category-article:hover {
+        border-color: #055f5b;
+        box-shadow: 0 15px 20px 0 rgba(41, 44, 50, 0.05);
+        -webkit-transform: translate(0px, -8px);
+        -ms-transform: translate(0px, -8px);
+        transform: translate(0px, -8px);
         color: #6f7278;
-        text-decoration: none;
     }
 
-        .card.help-center-category-article:hover {
-            border-color: #055f5b;
-            box-shadow: 0 15px 20px 0 rgba(41, 44, 50, 0.05);
-            -webkit-transform: translate(0px, -8px);
-            -ms-transform: translate(0px, -8px);
-            transform: translate(0px, -8px);
-            color: #6f7278;
-        }
+.card.help-center-article {
+    position: relative;
+    z-index: 2;
+    padding: 98px 138px 40px;
+    box-shadow: 0 4px 22px 0 rgba(41, 44, 50, 0.04);
+}
 
-    .card.help-center-article {
-        position: relative;
-        z-index: 2;
-        padding: 98px 138px 40px;
-        box-shadow: 0 4px 22px 0 rgba(41, 44, 50, 0.04);
+.card.create-account-testimonial {
+    margin-bottom: 58px;
+    padding: 65px 55px 72px;
+    text-align: center;
+}
+
+.card.sign-in-testimonial {
+    margin-bottom: 58px;
+    padding: 65px 55px 72px;
+    text-align: center;
+}
+
+.card.forgot-password {
+    padding: 82px 76px 87px;
+    text-align: center;
+}
+
+.card.confirm-email {
+    padding: 45px 78px 67px;
+    box-shadow: 0 4px 22px 0 rgba(41, 44, 50, 0.04);
+    text-align: center;
+}
+
+.card.terms-conditions-nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.card.coming-soon {
+    padding: 77px 77px 100px;
+    box-shadow: 0 4px 22px 0 rgba(41, 44, 50, 0.04);
+    text-align: center;
+}
+
+.card.request-demo {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 50%;
+    min-height: 625px;
+    padding: 82px 39px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.card.request-demo-content-team {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 371px;
+    margin-bottom: 43px;
+    padding: 29px 30px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.card.landing-page-hero {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 604px;
+    min-height: 617px;
+    padding: 82px 39px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.card.landing-page-testimonial {
+    max-width: 573px;
+    padding: 60px 40px;
+    border-radius: 12px;
+}
+
+.card.product-about-tabs-content {
+    max-width: 878px;
+    margin-left: auto;
+    padding: 86px 79px 68px;
+}
+
+.card.default {
+    padding: 48px 48px 56px;
+}
+
+.card.pages {
+    padding: 0px 0px 32px;
+    -webkit-transition: box-shadow 350ms ease, color 300ms ease;
+    transition: box-shadow 350ms ease, color 300ms ease;
+    text-align: center;
+    text-decoration: none;
+}
+
+    .card.pages:hover {
+        box-shadow: 0 8px 16px 0 rgba(41, 44, 50, 0.04);
     }
 
-    .card.create-account-testimonial {
-        margin-bottom: 58px;
-        padding: 65px 55px 72px;
-        text-align: center;
+.card.figma-included {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 24px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.card.buy-now {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 24px;
+    background-color: #4a3aff;
+    -webkit-transition: color 300ms ease, -webkit-transform 300ms ease;
+    transition: color 300ms ease, -webkit-transform 300ms ease;
+    transition: transform 300ms ease, color 300ms ease;
+    transition: transform 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
+    text-decoration: none;
+}
+
+    .card.buy-now:hover {
+        -webkit-transform: scale(0.98);
+        -ms-transform: scale(0.98);
+        transform: scale(0.98);
     }
 
-    .card.sign-in-testimonial {
-        margin-bottom: 58px;
-        padding: 65px 55px 72px;
-        text-align: center;
+    .card.buy-now.white {
+        background-color: #fff;
+        color: #6f7278;
     }
 
-    .card.forgot-password {
-        padding: 82px 76px 87px;
-        text-align: center;
-    }
-
-    .card.confirm-email {
-        padding: 45px 78px 67px;
-        box-shadow: 0 4px 22px 0 rgba(41, 44, 50, 0.04);
-        text-align: center;
-    }
-
-    .card.terms-conditions-nav {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 20px;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-    }
-
-    .card.coming-soon {
-        padding: 77px 77px 100px;
-        box-shadow: 0 4px 22px 0 rgba(41, 44, 50, 0.04);
-        text-align: center;
-    }
-
-    .card.request-demo {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        width: 100%;
-        max-width: 50%;
-        min-height: 625px;
-        padding: 82px 39px;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-    }
-
-    .card.request-demo-content-team {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        max-width: 371px;
-        margin-bottom: 43px;
-        padding: 29px 30px;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-    }
-
-    .card.landing-page-hero {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        width: 100%;
-        max-width: 604px;
-        min-height: 617px;
-        padding: 82px 39px;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-    }
-
-    .card.landing-page-testimonial {
-        max-width: 573px;
-        padding: 60px 40px;
-        border-radius: 12px;
-    }
-
-    .card.product-about-tabs-content {
-        max-width: 878px;
-        margin-left: auto;
-        padding: 86px 79px 68px;
-    }
-
-    .card.default {
-        padding: 48px 48px 56px;
-    }
-
-    .card.pages {
-        padding: 0px 0px 32px;
-        -webkit-transition: box-shadow 350ms ease, color 300ms ease;
-        transition: box-shadow 350ms ease, color 300ms ease;
-        text-align: center;
-        text-decoration: none;
-    }
-
-        .card.pages:hover {
-            box-shadow: 0 8px 16px 0 rgba(41, 44, 50, 0.04);
-        }
-
-    .card.figma-included {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        margin-top: 24px;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-    }
-
-    .card.buy-now {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-pack: start;
-        -webkit-justify-content: flex-start;
-        -ms-flex-pack: start;
-        justify-content: flex-start;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        border-radius: 24px;
-        background-color: #4a3aff;
-        -webkit-transition: color 300ms ease, -webkit-transform 300ms ease;
-        transition: color 300ms ease, -webkit-transform 300ms ease;
-        transition: transform 300ms ease, color 300ms ease;
-        transition: transform 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
-        text-decoration: none;
-    }
-
-        .card.buy-now:hover {
-            -webkit-transform: scale(0.98);
-            -ms-transform: scale(0.98);
-            transform: scale(0.98);
-        }
-
-        .card.buy-now.white {
-            background-color: #fff;
-            color: #6f7278;
-        }
-
-    .card.text-divider {
-        margin-bottom: 56px;
-        padding: 34px 40px;
-    }
+.card.text-divider {
+    margin-bottom: 56px;
+    padding: 34px 40px;
+}
 
 .checkout-form {
     padding: 126px 0px 180px;
@@ -5743,7 +5784,7 @@ figcaption {
     }
 
 .title.neutral-100 {
-    color: #B6F174;
+    color: #B6F174 !important;
 }
 
     .title.neutral-100.cta-1 {
@@ -5810,10 +5851,11 @@ figcaption {
     }
 
     .title.neutral-100.blog-v2-hero {
-        max-width: 500px;
+        /*max-width: 500px;*/
         margin-right: auto;
         margin-bottom: 14px;
         margin-left: auto;
+        font-size: 85px;
     }
 
     .title.neutral-100.blog-post {
@@ -7946,7 +7988,7 @@ figcaption {
         right: 0px;
         z-index: -1;
         min-height: 63%;
-        background-color: #055f5b;
+        background-color: #114617;
     }
 
     .bg.about-v1-hero-shape-1 {
@@ -8054,7 +8096,6 @@ figcaption {
         bottom: 0%;
         z-index: -1;
         min-height: 1109px;
-        background-color: #fafafc;
     }
 
     .bg.contact {
@@ -8065,7 +8106,7 @@ figcaption {
         z-index: -1;
         overflow: hidden;
         min-height: 58%;
-        background: #B6F174;
+        background: #114617;
     }
 
     .bg.contact-form {
@@ -8075,7 +8116,7 @@ figcaption {
         bottom: 0%;
         overflow: hidden;
         width: 48%;
-        background: #FEFAF4;
+        background: #b6f074;
     }
 
     .bg.faqs-contact {
@@ -8834,7 +8875,7 @@ figcaption {
 }
 
 .accent-text-primary-1 {
-    color: #055f5b;
+    color: #b6f174;
 }
 
 .card-home-v1-testimonials-name {
@@ -10266,14 +10307,14 @@ figcaption {
 
 .about-v1-hero-achievement-number {
     margin-bottom: 6px;
-    color: #292c32;
+    color: #b6f174;
     font-size: 50px;
     line-height: 1.08em;
     font-weight: 800;
 }
 
 .about-v1-hero-achievement-text {
-    color: #292c32;
+    color: #b6f174;
     font-size: 20px;
     line-height: 1.7em;
     font-weight: 700;
@@ -10635,9 +10676,9 @@ figcaption {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    max-width: 497px;
+    max-width: 512px;
     margin-right: 3px;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
@@ -14827,6 +14868,29 @@ figcaption {
         align-items: stretch;
     }
 
+    .cardw.feature {
+        max-width: 100%;
+        padding-right: 35px;
+        padding-bottom: 48px;
+        padding-left: 35px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+
     .card.contact {
         display: -webkit-box;
         display: -webkit-flex;
@@ -18835,6 +18899,20 @@ figcaption {
         text-align: center;
     }
 
+    .cardw.feature {
+        padding: 40px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        text-align: center;
+    }
+
     .card.contact {
         padding: 43px 37px 36px;
         -webkit-box-orient: vertical;
@@ -22528,6 +22606,10 @@ figcaption {
     }
 
     .card.feature {
+        padding: 33px 25px;
+    }
+
+    .cardw.feature {
         padding: 33px 25px;
     }
 

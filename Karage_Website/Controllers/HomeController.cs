@@ -24,18 +24,38 @@ namespace Karage_Website.Controllers
         {
             return View();
         }
-
+        [Route("ar/home")]
+        public IActionResult ArIndex()
+        {
+            return View();
+        }
+        [Route("en/about")]
         public IActionResult About()
         {
             return View();
         }
-
+        [Route("ar/about")]
+        public IActionResult ArAbout()
+        {
+            return View();
+        }
+        [Route("en/pricing")]
         public IActionResult Pricing()
         {
             return View();
         }
-
+        [Route("ar/pricing")]
+        public IActionResult ArPricing()
+        {
+            return View();
+        }
+        [Route("en/contact")]
         public IActionResult Contact()
+        {
+            return View();
+        }
+        [Route("ar/contact")]
+        public IActionResult ArContact()
         {
             return View();
         }
