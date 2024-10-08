@@ -2806,8 +2806,13 @@
     src: url('../fonts/spacegrotesk-variablefont_wght.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'janna lt bold';
+    src: url('../fonts/janna lt bold/janna lt bold.ttf') format('truetype');
+}
+
 body {
-    font-family: 'spacegrotesk-variablefont_wght';
+    font-family: 'janna lt bold';
     color: #6e7277;
     font-size: 18px;
     line-height: 1.5rem;
@@ -3386,6 +3391,32 @@ figcaption {
         color: #b6f174;
     }
 
+.button-darkgreen {
+    margin-bottom: 70px;
+    margin-top: 40px;
+    padding: 24px 44px;
+    border-radius: 80px;
+    background-color: #134f1a;
+    -webkit-transition: color 300ms ease, box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
+    transition: color 300ms ease, box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
+    transition: color 300ms ease, transform 300ms ease, box-shadow 300ms ease, background-color 300ms ease;
+    transition: color 300ms ease, transform 300ms ease, box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
+    color: #b6f174;
+    line-height: 1.111em;
+    font-weight: 700;
+    text-align: center;
+}
+
+    .button-darkgreen:hover {
+        border: #134f1a, 1px solid !important;
+        background-color: white;
+        box-shadow: 0 10px 22px 0 rgba(41, 44, 50, 0.1);
+        -webkit-transform: translate(0px, -4px);
+        -ms-transform: translate(0px, -4px);
+        transform: translate(0px, -4px);
+        color: #134f1a;
+    }
+
 .button-primary:hover {
     background-color: #003c39;
     box-shadow: 0 10px 22px 0 rgba(41, 44, 50, 0.1);
@@ -3876,9 +3907,9 @@ figcaption {
     }
 
 .footer-nav {
-    margin-right: 18px;
+    margin-right: 0px;
     margin-bottom: 0px;
-    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .footer-logo {
@@ -6446,7 +6477,7 @@ figcaption {
 .split-content.faqs-left {
     width: 100%;
     max-width: 572px;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .split-content.faqs-right {
@@ -7635,7 +7666,7 @@ figcaption {
 
 .subtitle {
     color: #055f5b;
-    font-size: 45px;
+    font-size: 30px;
     line-height: 1.125em;
     font-weight: 700;
     letter-spacing: 0.07em;
@@ -8025,6 +8056,30 @@ figcaption {
     .bg.about-v2-hero-shape-2 {
         right: -156px;
         bottom: -413px;
+        width: 277px;
+        min-height: 277px;
+        min-width: 277px;
+        border-radius: 1000px;
+        background-color: #ffd584;
+    }
+
+    .bg.mykarage-v1-hero {
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        z-index: -1;
+        min-height: 63%;
+        background-color: #b6f174;
+    }
+
+    .bg.mykarage-v1-hero-shape-1 {
+        left: -94px;
+        top: -109px;
+    }
+
+    .bg.mykarage-v1-hero-shape-2 {
+        top: -138px;
+        right: -107px;
         width: 277px;
         min-height: 277px;
         min-width: 277px;
@@ -8469,9 +8524,9 @@ figcaption {
     }
 
     .bg.create-account {
-        left: auto;
+        right: auto;
         top: 0%;
-        right: 0%;
+        left: 0%;
         bottom: 0%;
         z-index: -1;
         overflow: hidden;
@@ -8813,6 +8868,12 @@ figcaption {
         min-width: 380px;
         border-radius: 1000px;
         background-color: #ffd584;
+    }
+
+    .bg.mykarage-v1-hero-achievements-shape {
+        left: -290px;
+        z-index: -1;
+        max-width: 320px;
     }
 
     .bg.password-shape-2 {
@@ -9367,7 +9428,7 @@ figcaption {
     }
 
 .footer-menu-wrapper {
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
     .footer-menu-wrapper.last {
@@ -9783,6 +9844,7 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    margin-top:110px;
     margin-bottom: 110px;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -11216,7 +11278,7 @@ figcaption {
     }
 
     .button-category.all {
-        margin-right: 16px;
+        margin-left: 16px;
     }
 
     .button-category.icon {
@@ -14097,7 +14159,7 @@ figcaption {
 
 @media screen and (min-width: 1440px) {
     .footer-nav {
-        margin-right: 40px;
+        /*margin-left: 40px;*/
     }
 
     .section.home-sections {
@@ -14110,7 +14172,7 @@ figcaption {
     }
 
     .footer-menu-wrapper {
-        margin-right: 40px;
+        margin-left: 40px;
     }
 
         .footer-menu-wrapper.pages {
@@ -14344,7 +14406,7 @@ figcaption {
         }
 
     .footer-nav {
-        margin-right: 30px;
+        margin-left: 30px;
     }
 
     .footer-logo {
@@ -16777,17 +16839,17 @@ figcaption {
     }
 
     .footer-menu-wrapper {
-        margin-right: 64px;
+        margin-left: 64px;
         margin-bottom: 60px;
     }
 
         .footer-menu-wrapper.pages {
             max-width: 433px;
-            margin-right: 64px;
+            margin-left: 64px;
         }
 
     .footer-small-print {
-        margin-right: 30px;
+        margin-left: 30px;
         margin-bottom: 20px;
     }
 
@@ -20817,7 +20879,7 @@ figcaption {
     }
 
     .about-v1-story-wrapper {
-        text-align: left;
+        text-align: right;
     }
 
     .about-v1-story-content {
@@ -22012,8 +22074,8 @@ figcaption {
     }
 
     .section {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 0px;
+        padding-bottom: 50px;
     }
 
         .section.bg-primary-1.home-v1-hero {
@@ -23121,7 +23183,7 @@ figcaption {
 
     .split-content.clients-individuals-left {
         margin-bottom: 40px;
-        text-align: left;
+        text-align: right;
     }
 
     .split-content.clients-individuals-right {
@@ -23133,7 +23195,7 @@ figcaption {
 
     .split-content.clients-startups-right {
         margin-bottom: 40px;
-        text-align: left;
+        text-align: right;
     }
 
     .split-content.about-v1-story-left {
@@ -24280,6 +24342,7 @@ figcaption {
 
     .clients-individuals-wrapper {
         margin-bottom: 76px;
+        margin-top:0px;
     }
 
     .clients-individuals-features-grid {

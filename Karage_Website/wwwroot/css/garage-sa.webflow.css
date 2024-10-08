@@ -3371,19 +3371,46 @@ figcaption {
     transition: color 300ms ease, box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
     transition: color 300ms ease, transform 300ms ease, box-shadow 300ms ease, background-color 300ms ease;
     transition: color 300ms ease, transform 300ms ease, box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
-    color: #355215;
+    color: #134f1a;
     line-height: 1.111em;
     font-weight: 700;
     text-align: center;
 }
 
     .button-lightgreen:hover {
-        background-color: #355215;
+        background-color: #ffffff;
+        border: #b6f174, 1px solid !important;
         box-shadow: 0 10px 22px 0 rgba(41, 44, 50, 0.1);
         -webkit-transform: translate(0px, -4px);
         -ms-transform: translate(0px, -4px);
         transform: translate(0px, -4px);
         color: #b6f174;
+    }
+
+.button-darkgreen {
+    margin-bottom: 70px;
+    margin-top: 40px;
+    padding: 24px 44px;
+    border-radius: 80px;
+    background-color: #134f1a;
+    -webkit-transition: color 300ms ease, box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
+    transition: color 300ms ease, box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
+    transition: color 300ms ease, transform 300ms ease, box-shadow 300ms ease, background-color 300ms ease;
+    transition: color 300ms ease, transform 300ms ease, box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
+    color: #b6f174;
+    line-height: 1.111em;
+    font-weight: 700;
+    text-align: center;
+}
+
+    .button-darkgreen:hover {
+        border: #134f1a, 1px solid !important;
+        background-color: white;
+        box-shadow: 0 10px 22px 0 rgba(41, 44, 50, 0.1);
+        -webkit-transform: translate(0px, -4px);
+        -ms-transform: translate(0px, -4px);
+        transform: translate(0px, -4px);
+        color: #134f1a;
     }
 
 .button-primary:hover {
@@ -8006,6 +8033,30 @@ figcaption {
         background-color: #ffd584;
     }
 
+    .bg.mykarage-v1-hero {
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        z-index: -1;
+        min-height: 63%;
+        background-color: #b6f174;
+    }
+
+    .bg.mykarage-v1-hero-shape-1 {
+        left: -94px;
+        top: -109px;
+    }
+
+    .bg.mykarage-v1-hero-shape-2 {
+        top: -138px;
+        right: -107px;
+        width: 277px;
+        min-height: 277px;
+        min-width: 277px;
+        border-radius: 1000px;
+        background-color: #ffd584;
+    }
+
     .bg.about-v1-values-shape-1 {
         top: -106px;
         right: -197px;
@@ -8476,7 +8527,7 @@ figcaption {
         z-index: -1;
         overflow: hidden;
         width: 49%;
-        background-color: #055f5b;
+        background-color: #114617;
     }
 
     .bg.create-account-shape-1 {
@@ -8783,6 +8834,12 @@ figcaption {
     }
 
     .bg.about-v1-hero-achievements-shape {
+        left: -290px;
+        z-index: -1;
+        max-width: 320px;
+    }
+
+    .bg.mykarage-v1-hero-achievements-shape {
         left: -290px;
         z-index: -1;
         max-width: 320px;
@@ -16170,12 +16227,26 @@ figcaption {
         min-height: 58%;
     }
 
+    .bg.mykarage-v1-hero {
+        min-height: 58%;
+    }
+
     .bg.about-v1-hero-shape-1 {
         left: -143px;
         top: -92px;
     }
 
     .bg.about-v1-hero-shape-2 {
+        top: -148px;
+        right: -137px;
+    }
+
+    .bg.mykarage-v1-hero-shape-1 {
+        left: -143px;
+        top: -92px;
+    }
+
+    .bg.mykarage-v1-hero-shape-2 {
         top: -148px;
         right: -137px;
     }
@@ -20045,6 +20116,16 @@ figcaption {
         right: -157px;
     }
 
+    .bg.mykarage-v1-hero-shape-1 {
+        left: -209px;
+        top: -83px;
+    }
+
+    .bg.mykarage-v1-hero-shape-2 {
+        top: -158px;
+        right: -157px;
+    }
+
     .bg.about-v2-hero-shape-1 {
         left: -232px;
     }
@@ -20344,6 +20425,11 @@ figcaption {
     }
 
     .bg.about-v1-hero-achievements-shape {
+        left: -205px;
+    }
+
+
+    .bg.mykarage-v1-hero-achievements-shape {
         left: -205px;
     }
 
@@ -23656,12 +23742,26 @@ figcaption {
         min-height: 53%;
     }
 
+    .bg.mykarage-v1-hero {
+        min-height: 53%;
+    }
+
     .bg.about-v1-hero-shape-1 {
         left: -231px;
         top: -58px;
     }
 
     .bg.about-v1-hero-shape-2 {
+        top: -183px;
+        right: -190px;
+    }
+
+    .bg.mykarage-v1-hero-shape-1 {
+        left: -231px;
+        top: -58px;
+    }
+
+    .bg.mykarage-v1-hero-shape-2 {
         top: -183px;
         right: -190px;
     }
@@ -23954,6 +24054,10 @@ figcaption {
     }
 
     .bg.about-v1-hero-achievements-shape {
+        left: -259px;
+    }
+
+    .bg.mykarage-v1-hero-achievements-shape {
         left: -259px;
     }
 

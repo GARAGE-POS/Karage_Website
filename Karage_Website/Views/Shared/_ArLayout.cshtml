@@ -43,13 +43,13 @@
                                 <a href="@Url.Action("ArBusinessType", "BusinessType")" class="nav-link">أنواع الأعمال</a>
                             </li>
                             <li class="nav-item-wrapper">
-                                <a href="@Url.Action("ArMarketPlace", "MarketPlace")" class="nav-link">السوق</a>
+                                <a href="@Url.Action("ArMarketPlace", "MarketPlace")" class="nav-link">متجر التطبيقات</a>
                             </li>
                             <li class="nav-item-wrapper">
                                 <a href="@Url.Action("ArPricing", "Home")" class="nav-link">التسعير</a>
                             </li>
                             <li class="nav-item-wrapper header-button-mobile">
-                                <a href="" class="button-primary header-button mobile w-button" style="background:#b6f174; color:#134f1a">جربه - مجانًا</a>
+                                <a href="@Url.Action("ArTryForFree", "LandingPages")" class="button-primary header-button mobile w-button" style="background:#b6f174; color:#134f1a">جربه - مجانًا</a>
                             </li>
 
                             <li class="nav-item-wrapper header-button-mobile">
@@ -63,7 +63,7 @@
                                 <div class="w-inline-block">تسجيل الدخول</div>
                             </a>
                         </div>
-                        <a href="" class="button-primary header-button w-button" style="background:#b6f174; color:#134f1a">جربه - مجانًا</a>
+                        <a href="@Url.Action("ArTryForFree", "LandingPages")" class="button-primary header-button w-button" style="background:#b6f174; color:#134f1a">جربه - مجانًا</a>
                         <a href="@Url.Action("Index", "Home")" class="header-button w-inline-block" style="padding-right:20px; text-decoration:none;">English<img src="~/images/flag-for-flag-united-kingdom-svgrepo-com.svg" style="width:40px; padding-right:10px;" /></a>
                         <div class="menu-button w-nav-button">
                             <div class="header-menu-button-icon-wrapper">
@@ -81,7 +81,7 @@
         <main role="main">
             @RenderBody()
         </main>
-        <footer class="footer">
+        <footer class="footer" style="direction:rtl">
             <div class="container-default w-container">
                 <div data-w-id="be78ef8e-1474-3219-9769-118139e7f737" class="footer-content">
                     <div class="footer-menu-wrapper">
@@ -103,80 +103,83 @@
                         </div>
                     </div>
                     <div class="footer-menu-wrapper">
-                        <div class="footer-title">Products</div>
+                        <div class="footer-title">المنتجات</div>
                         <div class="footer-menu-content">
                             <ul role="list" class="footer-nav w-list-unstyled">
                                 <li class="footer-nav-item">
-                                    <a href="" class="footert-nav-link">Kashier</a>
+                                    <a href="@Url.Action("ArKashier", "LandingPages")" class="footert-nav-link">كاشير</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="" class="footert-nav-link">Pocket</a>
+                                    <a href="@Url.Action("ArPocket", "LandingPages")" class="footert-nav-link">بوكيت</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="" class="footert-nav-link">Pocket Lite</a>
+                                    <a href="" class="footert-nav-link">بوكيت لايت</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="" class="footert-nav-link">My Karage</a>
+                                    <a href="@Url.Action("ArMyKarage", "LandingPages")" class="footert-nav-link">مستودعي في كاراج</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="footer-menu-wrapper">
-                        <div class="footer-title">Karage</div>
+                        <div class="footer-title">كاراج</div>
                         <div class="footer-menu-content">
                             <ul role="list" class="footer-nav w-list-unstyled">
                                 <li class="footer-nav-item">
-                                    <a href="@Url.Action("ArAbout", "Home")" class="footert-nav-link">About</a>
+                                    <a href="@Url.Action("ArAbout", "Home")" class="footert-nav-link">معلومات عنا</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="@Url.Action("ArContact", "Home")" class="footert-nav-link">Contact Us</a>
+                                    <a href="@Url.Action("ArContact", "Home")" class="footert-nav-link">اتصل بنا</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="" class="footert-nav-link">Support</a>
+                                    <a href="" class="footert-nav-link">الدعم</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="@Url.Action("ArPricing", "Home")" class="footert-nav-link">Pricing</a>
+                                    <a href="@Url.Action("ArPricing", "Home")" class="footert-nav-link">التسعير</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="footer-menu-wrapper last">
-                        <div class="footer-title">Legal</div>
+                        <div class="footer-title">قانوني</div>
                         <div class="footer-menu-content">
                             <ul role="list" class="footer-nav w-list-unstyled">
                                 <li class="footer-nav-item">
-                                    <a href="" class="footert-nav-link">Terms & Conditions</a>
+                                    <a href="" class="footert-nav-link">الشروط والأحكام</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="" class="footert-nav-link">Privacy Policy</a>
+                                    <a href="" class="footert-nav-link">سياسة الخصوصية</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="" class="footert-nav-link">Coming Soon</a>
+                                    <a href="" class="footert-nav-link">
+                                        قريبًا
+
+                                    </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="footer-menu-wrapper last">
-                        <div class="footer-title">Industries</div>
+                        <div class="footer-title">الصناعات</div>
                         <div class="footer-menu-content">
                             <ul role="list" class="footer-nav w-list-unstyled">
                                 <li class="footer-nav-item">
-                                    <a href="" class="footert-nav-link">Oil Change & Maintenance</a>
+                                    <a href="" class="footert-nav-link">تغيير الزيت والصيانة</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="" class="footert-nav-link">Protection & Polishing</a>
+                                    <a href="" class="footert-nav-link">الحماية والتلميع</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="" class="footert-nav-link">Painting & Denting</a>
+                                    <a href="" class="footert-nav-link">الدهان والانبعاج</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="" class="footert-nav-link">Tyres & Battries</a>
+                                    <a href="" class="footert-nav-link">الإطارات والبطاريات</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="" class="footert-nav-link">Mechanic</a>
+                                    <a href="" class="footert-nav-link">ميكانيكي</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="" class="footert-nav-link">Programming</a>
+                                    <a href="" class="footert-nav-link">برمجة</a>
                                 </li>
                             </ul>
                         </div>
@@ -185,7 +188,7 @@
                 <div class="divider footer-content-bottom-divider"></div>
                 <div data-w-id="c87e86cc-55f9-10a0-58c6-8bebd2db9d27" class="footer-content-bottom">
                     <div class="footer-small-print">
-                        Copyright © Startuper X | Designed by BRIX Templates - Powered by Webflow</a>
+                        حقوق النشر © كاراج | تصميم بواسطة قوالب BRIX - مدعوم بواسطة Webflow
                     </div>
 
                 </div>
