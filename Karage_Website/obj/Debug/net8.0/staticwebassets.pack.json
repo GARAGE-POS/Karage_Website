@@ -57,6 +57,34 @@
       "PackagePath": "staticwebassets\\fonts\\THICCCBOI-SemiBold.ttf"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\YekanBakh-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\YekanBakh-Black.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\avenir_font\\Linotype - Avenir Arabic Black.otf",
+      "PackagePath": "staticwebassets\\fonts\\avenir_font\\Linotype - Avenir Arabic Black.otf"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\avenir_font\\Linotype - Avenir Arabic Book.otf",
+      "PackagePath": "staticwebassets\\fonts\\avenir_font\\Linotype - Avenir Arabic Book.otf"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\avenir_font\\Linotype - Avenir Arabic Heavy.otf",
+      "PackagePath": "staticwebassets\\fonts\\avenir_font\\Linotype - Avenir Arabic Heavy.otf"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\avenir_font\\Linotype - Avenir Arabic Light.otf",
+      "PackagePath": "staticwebassets\\fonts\\avenir_font\\Linotype - Avenir Arabic Light.otf"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\avenir_font\\Linotype - Avenir Arabic Medium.otf",
+      "PackagePath": "staticwebassets\\fonts\\avenir_font\\Linotype - Avenir Arabic Medium.otf"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\avenir_font\\Linotype - Avenir Arabic Regular.otf",
+      "PackagePath": "staticwebassets\\fonts\\avenir_font\\Linotype - Avenir Arabic Regular.otf"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\filled-icon-font.eot",
       "PackagePath": "staticwebassets\\fonts\\filled-icon-font.eot"
     },
@@ -189,6 +217,14 @@
       "PackagePath": "staticwebassets\\images\\6.svg"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Container.png",
+      "PackagePath": "staticwebassets\\images\\Container.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Container2.png",
+      "PackagePath": "staticwebassets\\images\\Container2.png"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Favicon.svg",
       "PackagePath": "staticwebassets\\images\\Favicon.svg"
     },
@@ -235,6 +271,14 @@
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Vectorgreen.svg",
       "PackagePath": "staticwebassets\\images\\Vectorgreen.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\about-container.png",
+      "PackagePath": "staticwebassets\\images\\about-container.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\about-container2.png",
+      "PackagePath": "staticwebassets\\images\\about-container2.png"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\about-v1-startup-x-webflow-template-p-1080.jpeg",
@@ -1791,6 +1835,18 @@
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-testimonial-sign-in-startup-x-template.jpg",
       "PackagePath": "staticwebassets\\images\\image-testimonial-sign-in-startup-x-template.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\img1.png",
+      "PackagePath": "staticwebassets\\images\\img1.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\img2.png",
+      "PackagePath": "staticwebassets\\images\\img2.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\img3.png",
+      "PackagePath": "staticwebassets\\images\\img3.png"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\john-carter-profile-picture-small-startup-x-webflow-template-p-130x130q80.jpeg",

@@ -2805,15 +2805,21 @@
     font-family: 'spacegrotesk-variablefont_wght';
     src: url('../fonts/spacegrotesk-variablefont_wght.ttf') format('truetype');
 }
-
+@font-face {
+    font-family: 'linotype - avenir arabic regular';
+    src: url('../fonts/avenir_font/linotype - avenir arabic regular.otf') format('opentype');
+}
 body {
-    font-family: 'spacegrotesk-variablefont_wght';
+    font-family: 'linotype - avenir arabic regular';
     color: #6e7277;
     font-size: 18px;
-    line-height: 1.5rem;
+    line-height: 2.25rem;
     font-weight: 600;
 }
-
+@font-face {
+    font-family: 'yekanbakh-black';
+    src: url('../fonts/yekanbakh-black.ttf') format('truetype');
+}
 h1 {
     margin-top: 0px;
     margin-bottom: 18px;
@@ -2821,6 +2827,7 @@ h1 {
     font-size: 60px;
     line-height: 1.308em;
     font-weight: 900;
+    font-family: 'yekanbakh-black';
 }
 
 h2 {
@@ -2830,6 +2837,7 @@ h2 {
     font-size: 36px;
     line-height: 1.316em;
     font-weight: 700;
+    font-family: 'yekanbakh-black';
 }
 
 h3 {
@@ -2839,6 +2847,7 @@ h3 {
     font-size: 24px;
     line-height: 1.375em;
     font-weight: 700;
+    font-family: 'yekanbakh-black';
 }
 
 h4 {
@@ -2848,6 +2857,7 @@ h4 {
     font-size: 22px;
     line-height: 1.091em;
     font-weight: 700;
+    font-family: 'yekanbakh-black';
 }
 
 h5 {
@@ -2857,6 +2867,7 @@ h5 {
     font-size: 18px;
     line-height: 1.389em;
     font-weight: 700;
+    font-family: 'yekanbakh-black';
 }
 
 h6 {
@@ -2866,6 +2877,7 @@ h6 {
     font-size: 16px;
     line-height: 1.125em;
     font-weight: 800;
+    font-family: 'yekanbakh-black';
 }
 
 p {
