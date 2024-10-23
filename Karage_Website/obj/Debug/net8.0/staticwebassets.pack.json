@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\Inter-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Inter-Regular.ttf"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\Janna LT Bold\\Janna LT Bold.ttf",
       "PackagePath": "staticwebassets\\fonts\\Janna LT Bold\\Janna LT Bold.ttf"
     },
@@ -57,8 +61,16 @@
       "PackagePath": "staticwebassets\\fonts\\THICCCBOI-SemiBold.ttf"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\Yekan Bakh Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Yekan Bakh Regular.ttf"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\YekanBakh-Black.ttf",
       "PackagePath": "staticwebassets\\fonts\\YekanBakh-Black.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\YekanBakh-Heavy.ttf",
+      "PackagePath": "staticwebassets\\fonts\\YekanBakh-Heavy.ttf"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\avenir_font\\Linotype - Avenir Arabic Black.otf",
@@ -177,36 +189,12 @@
       "PackagePath": "staticwebassets\\images\\2.svg"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\3-notification-bars-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\3-notification-bars-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\3-notification-bars-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\3-notification-bars-startuper-x-webflow-template.png"
-    },
-    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\3.svg",
       "PackagePath": "staticwebassets\\images\\3.svg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\4.svg",
       "PackagePath": "staticwebassets\\images\\4.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\404-not-found-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\404-not-found-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\404-not-found-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\404-not-found-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\404-not-found-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\404-not-found-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\404-not-found-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\404-not-found-startuper-x-webflow-template.png"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\5.svg",
@@ -223,6 +211,30 @@
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Container2.png",
       "PackagePath": "staticwebassets\\images\\Container2.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Core_1.svg",
+      "PackagePath": "staticwebassets\\images\\Core_1.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Core_2.svg",
+      "PackagePath": "staticwebassets\\images\\Core_2.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Core_3.svg",
+      "PackagePath": "staticwebassets\\images\\Core_3.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Core_4.svg",
+      "PackagePath": "staticwebassets\\images\\Core_4.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Core_5.svg",
+      "PackagePath": "staticwebassets\\images\\Core_5.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Core_6.svg",
+      "PackagePath": "staticwebassets\\images\\Core_6.svg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Favicon.svg",
@@ -281,164 +293,16 @@
       "PackagePath": "staticwebassets\\images\\about-container2.png"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\about-v1-startup-x-webflow-template-p-1080.jpeg",
-      "PackagePath": "staticwebassets\\images\\about-v1-startup-x-webflow-template-p-1080.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\about-v1-startup-x-webflow-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\about-v1-startup-x-webflow-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\about-v1-startup-x-webflow-template.jpg",
-      "PackagePath": "staticwebassets\\images\\about-v1-startup-x-webflow-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\about-v1-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\about-v1-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\about-v1-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\about-v1-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\about-v1-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\about-v1-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\about-v1-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\about-v1-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\about-v2-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\about-v2-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\about-v2-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\about-v2-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\about-v2-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\about-v2-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\about-v2-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\about-v2-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\about-v3-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\about-v3-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\about-v3-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\about-v3-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\about-v3-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\about-v3-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\about-v3-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\about-v3-startuper-x-webflow-template.png"
-    },
-    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\airconditioner.png",
       "PackagePath": "staticwebassets\\images\\airconditioner.png"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\arabichome.png",
+      "PackagePath": "staticwebassets\\images\\arabichome.png"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\batteries.png",
       "PackagePath": "staticwebassets\\images\\batteries.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-category-single-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\blog-category-single-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-category-single-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\blog-category-single-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-category-single-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\blog-category-single-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-category-single-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\blog-category-single-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-post-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\blog-post-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-post-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\blog-post-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-post-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\blog-post-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-post-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\blog-post-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-v1-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\blog-v1-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-v1-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\blog-v1-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-v1-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\blog-v1-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-v1-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\blog-v1-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-v2-single-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\blog-v2-single-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-v2-single-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\blog-v2-single-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-v2-single-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\blog-v2-single-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-v2-single-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\blog-v2-single-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-v3-category-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\blog-v3-category-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-v3-category-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\blog-v3-category-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-v3-category-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\blog-v3-category-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-v3-category-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\blog-v3-category-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-v3-startup-x-webflow-template-p-1080.jpeg",
-      "PackagePath": "staticwebassets\\images\\blog-v3-startup-x-webflow-template-p-1080.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-v3-startup-x-webflow-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\blog-v3-startup-x-webflow-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\blog-v3-startup-x-webflow-template.jpg",
-      "PackagePath": "staticwebassets\\images\\blog-v3-startup-x-webflow-template.jpg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\bonat.png",
@@ -453,148 +317,20 @@
       "PackagePath": "staticwebassets\\images\\button-icon.svg"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\buy-template-now-on-webflow-startuper-x-webflow-template-p-1080.png",
-      "PackagePath": "staticwebassets\\images\\buy-template-now-on-webflow-startuper-x-webflow-template-p-1080.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\buy-template-now-on-webflow-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\buy-template-now-on-webflow-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\buy-template-now-on-webflow-startuper-x-webflow-template-p-1600.png",
-      "PackagePath": "staticwebassets\\images\\buy-template-now-on-webflow-startuper-x-webflow-template-p-1600.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\buy-template-now-on-webflow-startuper-x-webflow-template-p-2000.png",
-      "PackagePath": "staticwebassets\\images\\buy-template-now-on-webflow-startuper-x-webflow-template-p-2000.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\buy-template-now-on-webflow-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\buy-template-now-on-webflow-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\buy-template-now-on-webflow-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\buy-template-now-on-webflow-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\buy-template-now-on-webflow-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\buy-template-now-on-webflow-startuper-x-webflow-template.png"
-    },
-    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\card-icon.svg",
       "PackagePath": "staticwebassets\\images\\card-icon.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\career-category-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\career-category-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\career-category-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\career-category-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\career-category-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\career-category-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\career-category-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\career-category-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\career-single-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\career-single-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\career-single-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\career-single-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\career-single-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\career-single-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\career-single-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\career-single-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\careers-single-startup-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\careers-single-startup-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\careers-single-startup-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\careers-single-startup-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\careers-single-startup-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\careers-single-startup-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\careers-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\careers-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\careers-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\careers-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\careers-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\careers-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\careers-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\careers-startuper-x-webflow-template.png"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\carwash.png",
       "PackagePath": "staticwebassets\\images\\carwash.png"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\checkbox.svg",
+      "PackagePath": "staticwebassets\\images\\checkbox.svg"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\colors-icon.svg",
       "PackagePath": "staticwebassets\\images\\colors-icon.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\coming-soon-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\coming-soon-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\coming-soon-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\coming-soon-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\coming-soon-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\coming-soon-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\coming-soon-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\coming-soon-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\contact-startup-x-webflow-template-p-1080.jpeg",
-      "PackagePath": "staticwebassets\\images\\contact-startup-x-webflow-template-p-1080.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\contact-startup-x-webflow-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\contact-startup-x-webflow-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\contact-startup-x-webflow-template.jpg",
-      "PackagePath": "staticwebassets\\images\\contact-startup-x-webflow-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\contact-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\contact-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\contact-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\contact-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\contact-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\contact-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\contact-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\contact-startuper-x-webflow-template.png"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\core1.svg",
@@ -621,138 +357,6 @@
       "PackagePath": "staticwebassets\\images\\core6.svg"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\create-account-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\create-account-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\create-account-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\create-account-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\create-account-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\create-account-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\create-account-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\create-account-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\custom-icon-set-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\custom-icon-set-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\custom-icon-set-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\custom-icon-set-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\custom-icon-set-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\custom-icon-set-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\email-confirmation-startuper-x-webflow-template-1-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\email-confirmation-startuper-x-webflow-template-1-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\email-confirmation-startuper-x-webflow-template-1-p-500.png",
-      "PackagePath": "staticwebassets\\images\\email-confirmation-startuper-x-webflow-template-1-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\email-confirmation-startuper-x-webflow-template-1-p-800.png",
-      "PackagePath": "staticwebassets\\images\\email-confirmation-startuper-x-webflow-template-1-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\email-confirmation-startuper-x-webflow-template-1.png",
-      "PackagePath": "staticwebassets\\images\\email-confirmation-startuper-x-webflow-template-1.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\email-confirmation-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\email-confirmation-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\email-confirmation-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\email-confirmation-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\email-confirmation-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\email-confirmation-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\email-confirmation-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\email-confirmation-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\email-signature-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\email-signature-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\email-signature-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\email-signature-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\email-signature-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\email-signature-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\email-signature-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\email-signature-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\features-startup-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\features-startup-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\features-startup-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\features-startup-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\features-startup-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\features-startup-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\features-startup-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\features-startup-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\features-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\features-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\features-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\features-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\features-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\features-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\features-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\features-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\figma-file-included-startuper-x-webflow-template-p-1080.png",
-      "PackagePath": "staticwebassets\\images\\figma-file-included-startuper-x-webflow-template-p-1080.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\figma-file-included-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\figma-file-included-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\figma-file-included-startuper-x-webflow-template-p-1600.png",
-      "PackagePath": "staticwebassets\\images\\figma-file-included-startuper-x-webflow-template-p-1600.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\figma-file-included-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\figma-file-included-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\figma-file-included-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\figma-file-included-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\figma-file-included-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\figma-file-included-startuper-x-webflow-template.png"
-    },
-    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\figma-request-file-brix-templates.svg",
       "PackagePath": "staticwebassets\\images\\figma-request-file-brix-templates.svg"
     },
@@ -769,200 +373,8 @@
       "PackagePath": "staticwebassets\\images\\flag-for-flag-united-kingdom-svgrepo-com.svg"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\forgot-password-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\forgot-password-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\forgot-password-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\forgot-password-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\forgot-password-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\forgot-password-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\forgot-password-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\forgot-password-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\form-landong-page-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\form-landong-page-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\form-landong-page-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\form-landong-page-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\form-landong-page-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\form-landong-page-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\form-landong-page-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\form-landong-page-startuper-x-webflow-template.png"
-    },
-    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\gidea.png",
       "PackagePath": "staticwebassets\\images\\gidea.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\headers-and-footers-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\headers-and-footers-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\headers-and-footers-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\headers-and-footers-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\headers-and-footers-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\headers-and-footers-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\headers-and-footers-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\headers-and-footers-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\help-center-category-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\help-center-category-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\help-center-category-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\help-center-category-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\help-center-category-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\help-center-category-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\help-center-single-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\help-center-single-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\help-center-single-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\help-center-single-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\help-center-single-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\help-center-single-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\help-center-single-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\help-center-single-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\help-center-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\help-center-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\help-center-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\help-center-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\help-center-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\help-center-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v1-startup-x-webflow-template-p-1080.jpeg",
-      "PackagePath": "staticwebassets\\images\\home-v1-startup-x-webflow-template-p-1080.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v1-startup-x-webflow-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\home-v1-startup-x-webflow-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v1-startup-x-webflow-template.jpg",
-      "PackagePath": "staticwebassets\\images\\home-v1-startup-x-webflow-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v1-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\home-v1-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v1-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\home-v1-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v1-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\home-v1-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v1-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\home-v1-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v2-startup-x-webflow-template-p-1080.jpeg",
-      "PackagePath": "staticwebassets\\images\\home-v2-startup-x-webflow-template-p-1080.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v2-startup-x-webflow-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\home-v2-startup-x-webflow-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v2-startup-x-webflow-template-p-800.jpeg",
-      "PackagePath": "staticwebassets\\images\\home-v2-startup-x-webflow-template-p-800.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v2-startup-x-webflow-template.jpg",
-      "PackagePath": "staticwebassets\\images\\home-v2-startup-x-webflow-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v2-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\home-v2-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v2-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\home-v2-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v2-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\home-v2-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v2-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\home-v2-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v3-startup-x-webflow-template-p-1080.jpeg",
-      "PackagePath": "staticwebassets\\images\\home-v3-startup-x-webflow-template-p-1080.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v3-startup-x-webflow-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\home-v3-startup-x-webflow-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v3-startup-x-webflow-template.jpg",
-      "PackagePath": "staticwebassets\\images\\home-v3-startup-x-webflow-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v3-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\home-v3-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v3-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\home-v3-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v3-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\home-v3-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\home-v3-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\home-v3-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-1-about-v1-values-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-1-about-v1-values-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-1-about-v2-offices-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-1-about-v2-offices-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-1-careers-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-1-careers-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-1-company-perks-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-1-company-perks-startup-x-template.svg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-1-contact-links-startup-x-template.svg",
@@ -973,54 +385,6 @@
       "PackagePath": "staticwebassets\\images\\icon-1-contact-startup-x-template.svg.svg"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-1-create-account-social-media-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-1-create-account-social-media-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-1-home-v1-features-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-1-home-v1-features-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-1-home-v2-get-started-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-1-home-v2-get-started-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-1-home-v3-features-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-1-home-v3-features-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-1-input-2-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-1-input-2-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-1-input-focused-request-demo-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-1-input-focused-request-demo-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-1-input-request-demo-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-1-input-request-demo-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-1-input-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-1-input-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-2-about-v1-values-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-2-about-v1-values-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-2-about-v2-offices-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-2-about-v2-offices-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-2-careers-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-2-careers-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-2-company-perks-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-2-company-perks-startup-x-template.svg"
-    },
-    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-2-contact-links-startup-x-template.svg",
       "PackagePath": "staticwebassets\\images\\icon-2-contact-links-startup-x-template.svg"
     },
@@ -1029,716 +393,16 @@
       "PackagePath": "staticwebassets\\images\\icon-2-contact-startup-x-template.svg.svg"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-2-create-account-social-media-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-2-create-account-social-media-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-2-home-v1-features-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-2-home-v1-features-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-2-home-v2-get-started-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-2-home-v2-get-started-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-2-home-v3-features-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-2-home-v3-features-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-2-input-2-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-2-input-2-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-2-input-focused-request-demo-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-2-input-focused-request-demo-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-2-input-request-demo-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-2-input-request-demo-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-2-input-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-2-input-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-3-about-v1-values-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-3-about-v1-values-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-3-about-v2-offices-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-3-about-v2-offices-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-3-company-perks-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-3-company-perks-startup-x-template.svg"
-    },
-    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-3-contact-startup-x-template.svg.svg",
       "PackagePath": "staticwebassets\\images\\icon-3-contact-startup-x-template.svg.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-3-home-v2-get-started-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-3-home-v2-get-started-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-3-home-v3-features-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-3-home-v3-features-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-3-input-2-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-3-input-2-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-3-input-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-3-input-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-4-about-v1-values-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-4-about-v1-values-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-4-company-perks-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-4-company-perks-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-4-home-v1-features-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-4-home-v1-features-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-4-home-v3-features-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-4-home-v3-features-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-4-input-2-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-4-input-2-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-4-input-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-4-input-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-5-about-v1-values-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-5-about-v1-values-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-5-home-v1-features-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-5-home-v1-features-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-5-home-v3-features-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-5-home-v3-features-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-6-about-v1-values-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-6-about-v1-values-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-6-home-v3-features-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-6-home-v3-features-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-career-apply-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-career-apply-startup-x-template.svg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-check-startup-x-template.svg",
       "PackagePath": "staticwebassets\\images\\icon-check-startup-x-template.svg"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-coming-soon-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-coming-soon-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-confirm-email-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-confirm-email-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-forgot-password-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-forgot-password-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-home-v3-testimonials-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-home-v3-testimonials-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-input-focused-pasword-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-input-focused-pasword-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-input-pasword-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-input-pasword-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icon-password-protected-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\icon-password-protected-startup-x-template.svg"
-    },
-    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\icons-icon.svg",
       "PackagePath": "staticwebassets\\images\\icons-icon.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-about-v1-story-startup-x-template-p-1080.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-1-about-v1-story-startup-x-template-p-1080.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-about-v1-story-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-1-about-v1-story-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-about-v1-story-startup-x-template-p-500.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-1-about-v1-story-startup-x-template-p-500.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-about-v1-story-startup-x-template-p-800.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-1-about-v1-story-startup-x-template-p-800.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-about-v1-story-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-1-about-v1-story-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-about-v2-offices-startup-x-template-p-1080.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-1-about-v2-offices-startup-x-template-p-1080.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-about-v2-offices-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-1-about-v2-offices-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-about-v2-offices-startup-x-template-p-500.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-1-about-v2-offices-startup-x-template-p-500.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-about-v2-offices-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-1-about-v2-offices-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-about-v3-hero-startup-x-template-p-1080.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-1-about-v3-hero-startup-x-template-p-1080.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-about-v3-hero-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-1-about-v3-hero-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-about-v3-hero-startup-x-template-p-1600.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-1-about-v3-hero-startup-x-template-p-1600.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-about-v3-hero-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-1-about-v3-hero-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-help-center-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\image-1-help-center-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-home-v1-perks-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-1-home-v1-perks-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-home-v1-perks-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-1-home-v1-perks-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-home-v2-clients-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-1-home-v2-clients-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-home-v2-clients-startup-x-template-p-500.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-1-home-v2-clients-startup-x-template-p-500.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-home-v2-clients-startup-x-template-p-800.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-1-home-v2-clients-startup-x-template-p-800.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-home-v2-clients-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-1-home-v2-clients-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-home-v2-hero-startup-x-template-p-1080.png",
-      "PackagePath": "staticwebassets\\images\\image-1-home-v2-hero-startup-x-template-p-1080.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-home-v2-hero-startup-x-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\image-1-home-v2-hero-startup-x-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-home-v2-hero-startup-x-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\image-1-home-v2-hero-startup-x-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-home-v2-hero-startup-x-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\image-1-home-v2-hero-startup-x-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-home-v2-hero-startup-x-template.png",
-      "PackagePath": "staticwebassets\\images\\image-1-home-v2-hero-startup-x-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-landing-page-startup-x-template-p-1080.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-1-landing-page-startup-x-template-p-1080.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-landing-page-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-1-landing-page-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-landing-page-startup-x-template-p-500.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-1-landing-page-startup-x-template-p-500.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-landing-page-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-1-landing-page-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-licenses-freepik-startup-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\image-1-licenses-freepik-startup-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-licenses-freepik-startup-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\image-1-licenses-freepik-startup-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-licenses-freepik-startup-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\image-1-licenses-freepik-startup-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-licenses-freepik-startup-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\image-1-licenses-freepik-startup-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-licenses-pexels-startup-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\image-1-licenses-pexels-startup-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-licenses-pexels-startup-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\image-1-licenses-pexels-startup-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-licenses-pexels-startup-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\image-1-licenses-pexels-startup-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-licenses-unsplash-startup-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\image-1-licenses-unsplash-startup-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-licenses-unsplash-startup-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\image-1-licenses-unsplash-startup-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-licenses-unsplash-startup-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\image-1-licenses-unsplash-startup-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-1-services-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\image-1-services-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-about-v1-story-startup-x-template-p-1080.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-2-about-v1-story-startup-x-template-p-1080.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-about-v1-story-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-2-about-v1-story-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-about-v1-story-startup-x-template-p-500.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-2-about-v1-story-startup-x-template-p-500.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-about-v1-story-startup-x-template-p-800.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-2-about-v1-story-startup-x-template-p-800.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-about-v1-story-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-2-about-v1-story-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-about-v2-offices-startup-x-template-p-1080.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-2-about-v2-offices-startup-x-template-p-1080.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-about-v2-offices-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-2-about-v2-offices-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-about-v2-offices-startup-x-template-p-500.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-2-about-v2-offices-startup-x-template-p-500.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-about-v2-offices-startup-x-template-p-800.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-2-about-v2-offices-startup-x-template-p-800.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-about-v2-offices-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-2-about-v2-offices-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-about-v3-hero-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-2-about-v3-hero-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-about-v3-hero-startup-x-template-p-800.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-2-about-v3-hero-startup-x-template-p-800.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-about-v3-hero-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-2-about-v3-hero-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-help-center-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\image-2-help-center-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-home-v1-perks-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-2-home-v1-perks-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-home-v1-perks-startup-x-template-p-500.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-2-home-v1-perks-startup-x-template-p-500.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-home-v1-perks-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-2-home-v1-perks-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-home-v2-clients-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-2-home-v2-clients-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-home-v2-clients-startup-x-template-p-500.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-2-home-v2-clients-startup-x-template-p-500.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-home-v2-clients-startup-x-template-p-800.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-2-home-v2-clients-startup-x-template-p-800.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-home-v2-clients-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-2-home-v2-clients-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-home-v2-hero-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\image-2-home-v2-hero-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-landing-page-startup-x-template-p-1080.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-2-landing-page-startup-x-template-p-1080.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-landing-page-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-2-landing-page-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-landing-page-startup-x-template-p-500.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-2-landing-page-startup-x-template-p-500.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-landing-page-startup-x-template-p-800.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-2-landing-page-startup-x-template-p-800.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-landing-page-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-2-landing-page-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-licenses-freepik-startup-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\image-2-licenses-freepik-startup-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-licenses-freepik-startup-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\image-2-licenses-freepik-startup-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-licenses-freepik-startup-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\image-2-licenses-freepik-startup-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-licenses-freepik-startup-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\image-2-licenses-freepik-startup-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-licenses-pexels-startup-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\image-2-licenses-pexels-startup-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-licenses-pexels-startup-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\image-2-licenses-pexels-startup-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-licenses-pexels-startup-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\image-2-licenses-pexels-startup-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-licenses-unsplash-startup-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\image-2-licenses-unsplash-startup-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-licenses-unsplash-startup-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\image-2-licenses-unsplash-startup-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-licenses-unsplash-startup-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\image-2-licenses-unsplash-startup-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-2-services-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\image-2-services-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-3-home-v1-perks-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-3-home-v1-perks-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-3-home-v1-perks-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-3-home-v1-perks-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-3-home-v2-hero-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\image-3-home-v2-hero-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-3-licenses-freepik-startup-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\image-3-licenses-freepik-startup-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-3-licenses-freepik-startup-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\image-3-licenses-freepik-startup-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-3-licenses-freepik-startup-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\image-3-licenses-freepik-startup-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-3-licenses-unsplash-startup-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\image-3-licenses-unsplash-startup-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-3-licenses-unsplash-startup-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\image-3-licenses-unsplash-startup-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-3-licenses-unsplash-startup-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\image-3-licenses-unsplash-startup-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-3-services-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\image-3-services-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-4-services-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\image-4-services-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-5-services-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\image-5-services-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-6-services-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\image-6-services-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-about-v1-hero-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-about-v1-hero-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-about-v1-hero-startup-x-template-p-1600.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-about-v1-hero-startup-x-template-p-1600.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-about-v1-hero-startup-x-template-p-2000.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-about-v1-hero-startup-x-template-p-2000.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-about-v1-hero-startup-x-template-p-800.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-about-v1-hero-startup-x-template-p-800.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-about-v1-hero-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-about-v1-hero-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-about-v2-hero-startup-x-template-p-1080.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-about-v2-hero-startup-x-template-p-1080.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-about-v2-hero-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-about-v2-hero-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-about-v2-hero-startup-x-template-p-500.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-about-v2-hero-startup-x-template-p-500.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-about-v2-hero-startup-x-template-p-800.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-about-v2-hero-startup-x-template-p-800.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-about-v2-hero-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-about-v2-hero-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-about-v3-mission-startup-x-template-p-1080.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-about-v3-mission-startup-x-template-p-1080.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-about-v3-mission-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-about-v3-mission-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-about-v3-mission-startup-x-template-p-500.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-about-v3-mission-startup-x-template-p-500.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-about-v3-mission-startup-x-template-p-800.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-about-v3-mission-startup-x-template-p-800.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-about-v3-mission-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-about-v3-mission-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-blog-post-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-blog-post-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-blog-post-startup-x-template-p-1600.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-blog-post-startup-x-template-p-1600.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-blog-post-startup-x-template-p-500.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-blog-post-startup-x-template-p-500.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-blog-post-startup-x-template-p-800.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-blog-post-startup-x-template-p-800.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-blog-post-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-blog-post-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-careers-hero-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-careers-hero-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-careers-hero-startup-x-template-p-1600.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-careers-hero-startup-x-template-p-1600.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-careers-hero-startup-x-template-p-2000.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-careers-hero-startup-x-template-p-2000.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-careers-hero-startup-x-template-p-800.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-careers-hero-startup-x-template-p-800.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-careers-hero-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-careers-hero-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-careers-testimonials-startup-x-template-p-1080.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-careers-testimonials-startup-x-template-p-1080.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-careers-testimonials-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-careers-testimonials-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-careers-testimonials-startup-x-template-p-500.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-careers-testimonials-startup-x-template-p-500.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-careers-testimonials-startup-x-template-p-800.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-careers-testimonials-startup-x-template-p-800.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-careers-testimonials-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-careers-testimonials-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home--v2-features-startup-x-template-p-1080.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home--v2-features-startup-x-template-p-1080.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home--v2-features-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home--v2-features-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home--v2-features-startup-x-template-p-500.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home--v2-features-startup-x-template-p-500.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home--v2-features-startup-x-template-p-800.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home--v2-features-startup-x-template-p-800.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home--v2-features-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-home--v2-features-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v1-get-started-startup-x-template-p-1080.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v1-get-started-startup-x-template-p-1080.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v1-get-started-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v1-get-started-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v1-get-started-startup-x-template-p-500.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v1-get-started-startup-x-template-p-500.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v1-get-started-startup-x-template-p-800.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v1-get-started-startup-x-template-p-800.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v1-get-started-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-home-v1-get-started-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v1-hero-startup-x-template-p-1080.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v1-hero-startup-x-template-p-1080.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v1-hero-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v1-hero-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v1-hero-startup-x-template-p-500.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v1-hero-startup-x-template-p-500.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v1-hero-startup-x-template-p-800.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v1-hero-startup-x-template-p-800.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v1-hero-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-home-v1-hero-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v1-testimonials-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v1-testimonials-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v1-testimonials-startup-x-template-p-500.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v1-testimonials-startup-x-template-p-500.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v1-testimonials-startup-x-template-p-800.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v1-testimonials-startup-x-template-p-800.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v1-testimonials-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-home-v1-testimonials-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v2-testimonials-video-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v2-testimonials-video-startup-x-template-p-130x130q80.jpeg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v2-testimonials-video-startup-x-template-p-1600.jpeg",
@@ -1757,84 +421,8 @@
       "PackagePath": "staticwebassets\\images\\image-home-v2-testimonials-video-startup-x-template.jpg"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v3-hero-startup-x-template-p-1080.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v3-hero-startup-x-template-p-1080.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v3-hero-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v3-hero-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v3-hero-startup-x-template-p-1600.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v3-hero-startup-x-template-p-1600.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v3-hero-startup-x-template-p-2000.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v3-hero-startup-x-template-p-2000.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v3-hero-startup-x-template-p-2600.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v3-hero-startup-x-template-p-2600.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v3-hero-startup-x-template-p-500.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v3-hero-startup-x-template-p-500.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v3-hero-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-home-v3-hero-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v3-testimonials-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v3-testimonials-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v3-testimonials-startup-x-template-p-1600.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v3-testimonials-startup-x-template-p-1600.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v3-testimonials-startup-x-template-p-500.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v3-testimonials-startup-x-template-p-500.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v3-testimonials-startup-x-template-p-800.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-home-v3-testimonials-startup-x-template-p-800.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-home-v3-testimonials-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-home-v3-testimonials-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-testimonial-company-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-testimonial-company-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-testimonial-company-startup-x-template-p-500.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-testimonial-company-startup-x-template-p-500.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-testimonial-company-startup-x-template-p-800.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-testimonial-company-startup-x-template-p-800.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-testimonial-company-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-testimonial-company-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-testimonial-create-account-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-testimonial-create-account-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-testimonial-create-account-startup-x-template.jpg",
       "PackagePath": "staticwebassets\\images\\image-testimonial-create-account-startup-x-template.jpg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-testimonial-sign-in-startup-x-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\image-testimonial-sign-in-startup-x-template-p-130x130q80.jpeg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-testimonial-sign-in-startup-x-template.jpg",
-      "PackagePath": "staticwebassets\\images\\image-testimonial-sign-in-startup-x-template.jpg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\img1.png",
@@ -1849,12 +437,28 @@
       "PackagePath": "staticwebassets\\images\\img3.png"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\john-carter-profile-picture-small-startup-x-webflow-template-p-130x130q80.jpeg",
-      "PackagePath": "staticwebassets\\images\\john-carter-profile-picture-small-startup-x-webflow-template-p-130x130q80.jpeg"
-    },
-    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\john-carter-profile-picture-small-startup-x-webflow-template.jpg",
       "PackagePath": "staticwebassets\\images\\john-carter-profile-picture-small-startup-x-webflow-template.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\kashier-home.png",
+      "PackagePath": "staticwebassets\\images\\kashier-home.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\kashier1.png",
+      "PackagePath": "staticwebassets\\images\\kashier1.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\kashier2.png",
+      "PackagePath": "staticwebassets\\images\\kashier2.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\kashier3.png",
+      "PackagePath": "staticwebassets\\images\\kashier3.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\kashier4.png",
+      "PackagePath": "staticwebassets\\images\\kashier4.png"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\line-rounded-icons.svg",
@@ -1865,68 +469,44 @@
       "PackagePath": "staticwebassets\\images\\line-square-icons.svg"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\logo-1-companies-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\logo-1-companies-startup-x-template.svg"
-    },
-    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\logo-1-create-account-companies-startup-x-template.svg",
       "PackagePath": "staticwebassets\\images\\logo-1-create-account-companies-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\logo-1-home-v3-companies-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\logo-1-home-v3-companies-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\logo-2-companies-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\logo-2-companies-startup-x-template.svg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\logo-2-create-account-companies-startup-x-template.svg",
       "PackagePath": "staticwebassets\\images\\logo-2-create-account-companies-startup-x-template.svg"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\logo-2-home-v3-companies-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\logo-2-home-v3-companies-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\logo-3-companies-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\logo-3-companies-startup-x-template.svg"
-    },
-    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\logo-3-create-account-companies-startup-x-template.svg",
       "PackagePath": "staticwebassets\\images\\logo-3-create-account-companies-startup-x-template.svg"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\logo-3-home-v3-companies-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\logo-3-home-v3-companies-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\logo-4-companies-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\logo-4-companies-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\logo-4-home-v3-companies-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\logo-4-home-v3-companies-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\logo-5-companies-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\logo-5-companies-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\logo-5-home-v3-companies-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\logo-5-home-v3-companies-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\logo-6-companies-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\logo-6-companies-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\logo-testimonial-company-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\logo-testimonial-company-startup-x-template.svg"
-    },
-    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\mechanic.png",
       "PackagePath": "staticwebassets\\images\\mechanic.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\mykarage-home.png",
+      "PackagePath": "staticwebassets\\images\\mykarage-home.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\mykarage1.png",
+      "PackagePath": "staticwebassets\\images\\mykarage1.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\mykarage2.png",
+      "PackagePath": "staticwebassets\\images\\mykarage2.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\mykarage3.png",
+      "PackagePath": "staticwebassets\\images\\mykarage3.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\mykarage5.png",
+      "PackagePath": "staticwebassets\\images\\mykarage5.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\mykarage6.png",
+      "PackagePath": "staticwebassets\\images\\mykarage6.png"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\nayabusiness.png",
@@ -1937,704 +517,56 @@
       "PackagePath": "staticwebassets\\images\\nearpay.png"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\no motion.mp4",
+      "PackagePath": "staticwebassets\\images\\no motion.mp4"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\oilchange.png",
       "PackagePath": "staticwebassets\\images\\oilchange.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pages-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\pages-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pages-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\pages-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pages-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\pages-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pages-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\pages-startuper-x-webflow-template.png"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\painting.png",
       "PackagePath": "staticwebassets\\images\\painting.png"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pexels-ivan-samkov-4240571-1-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\pexels-ivan-samkov-4240571-1-p-130x130q80.png"
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pocket-home.png",
+      "PackagePath": "staticwebassets\\images\\pocket-home.png"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pexels-ivan-samkov-4240571-1-p-500.png",
-      "PackagePath": "staticwebassets\\images\\pexels-ivan-samkov-4240571-1-p-500.png"
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pocket1.png",
+      "PackagePath": "staticwebassets\\images\\pocket1.png"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pexels-ivan-samkov-4240571-1.png",
-      "PackagePath": "staticwebassets\\images\\pexels-ivan-samkov-4240571-1.png"
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pocket2.png",
+      "PackagePath": "staticwebassets\\images\\pocket2.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pocket3.png",
+      "PackagePath": "staticwebassets\\images\\pocket3.png"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\polishing.png",
       "PackagePath": "staticwebassets\\images\\polishing.png"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pricing-category-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\pricing-category-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pricing-category-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\pricing-category-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pricing-category-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\pricing-category-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pricing-category-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\pricing-category-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pricing-startup-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\pricing-startup-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pricing-startup-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\pricing-startup-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pricing-startup-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\pricing-startup-x-webflow-template.png"
-    },
-    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\protection.png",
       "PackagePath": "staticwebassets\\images\\protection.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\request-a-demo-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\request-a-demo-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\request-a-demo-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\request-a-demo-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\request-a-demo-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\request-a-demo-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\request-a-demo-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\request-a-demo-startuper-x-webflow-template.png"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\saudi-arabia-flag.png",
       "PackagePath": "staticwebassets\\images\\saudi-arabia-flag.png"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\sections-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\sections-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\sections-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\sections-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\sections-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\sections-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\sections-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\sections-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\services-startup-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\services-startup-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\services-startup-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\services-startup-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\services-startup-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\services-startup-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\services-startup-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\services-startup-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\services-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\services-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\services-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\services-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\services-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\services-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\services-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\services-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-1-about-v1-values-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-1-about-v1-values-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-1-block-quote-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-1-block-quote-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-1-blog-v2-hero-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-1-blog-v2-hero-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-1-contact-form-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-1-contact-form-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-1-cta-1-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-1-cta-1-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-1-cta-2-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-1-cta-2-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-1-cta-3-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-1-cta-3-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-1-help-center-article-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-1-help-center-article-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-1-help-center-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-1-help-center-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-1-home-v3-achievements-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-1-home-v3-achievements-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-1-more-jobs-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-1-more-jobs-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-1-newsletter-v1-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-1-newsletter-v1-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-1-pricing-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-1-pricing-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-2-about-v1-values-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-2-about-v1-values-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-2-block-quote-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-2-block-quote-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-2-cta-2-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-2-cta-2-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-2-cta-3-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-2-cta-3-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-2-help-center-article-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-2-help-center-article-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-2-help-center-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-2-help-center-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-2-home-v3-achievements-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-2-home-v3-achievements-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-2-pricing-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-2-pricing-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-3-help-center-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-3-help-center-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-about-v3-hero-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-about-v3-hero-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-achievements-about-v1-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-achievements-about-v1-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-blog-post-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-blog-post-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-card-author-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-card-author-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-careers-hero-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-careers-hero-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-careers-testimonials-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-careers-testimonials-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-home-v1-hero-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-home-v1-hero-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-home-v1-testimonials-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-home-v1-testimonials-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-mission-about-v3-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-mission-about-v3-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-request-demo-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-request-demo-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-shop-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-shop-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-team-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-team-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shape-terms-and-conditions-startup-x-template.svg",
-      "PackagePath": "staticwebassets\\images\\shape-terms-and-conditions-startup-x-template.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shop-single-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\shop-single-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shop-single-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\shop-single-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shop-single-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\shop-single-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shop-single-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\shop-single-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shop-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\shop-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shop-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\shop-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shop-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\shop-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\shop-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\shop-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\sign-in-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\sign-in-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\sign-in-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\sign-in-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\sign-in-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\sign-in-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\sign-in-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\sign-in-startuper-x-webflow-template.png"
-    },
-    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\social-icon-font.svg",
       "PackagePath": "staticwebassets\\images\\social-icon-font.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\social-media-assets-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\social-media-assets-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\social-media-assets-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\social-media-assets-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\social-media-assets-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\social-media-assets-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\social-media-assets-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\social-media-assets-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-template-and-ui-kit-animations-p-1080.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-template-and-ui-kit-animations-p-1080.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-template-and-ui-kit-animations-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-template-and-ui-kit-animations-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-template-and-ui-kit-animations-p-500.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-template-and-ui-kit-animations-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-template-and-ui-kit-animations-p-800.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-template-and-ui-kit-animations-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-template-and-ui-kit-animations.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-template-and-ui-kit-animations.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-template-and-ui-kit-responsive-design-p-1080.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-template-and-ui-kit-responsive-design-p-1080.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-template-and-ui-kit-responsive-design-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-template-and-ui-kit-responsive-design-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-template-and-ui-kit-responsive-design-p-500.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-template-and-ui-kit-responsive-design-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-template-and-ui-kit-responsive-design-p-800.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-template-and-ui-kit-responsive-design-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-template-and-ui-kit-responsive-design.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-template-and-ui-kit-responsive-design.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-CMS-collection-p-1080.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-CMS-collection-p-1080.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-CMS-collection-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-CMS-collection-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-CMS-collection-p-500.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-CMS-collection-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-CMS-collection-p-800.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-CMS-collection-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-CMS-collection.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-CMS-collection.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-CMS-content-p-1080.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-CMS-content-p-1080.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-CMS-content-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-CMS-content-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-CMS-content-p-500.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-CMS-content-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-CMS-content-p-800.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-CMS-content-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-CMS-content.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-CMS-content.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-CMS-p-1080.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-CMS-p-1080.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-CMS-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-CMS-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-CMS-p-500.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-CMS-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-CMS-p-800.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-CMS-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-CMS.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-CMS.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-backups-p-1080.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-backups-p-1080.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-backups-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-backups-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-backups-p-500.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-backups-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-backups-p-800.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-backups-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-backups.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-backups.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-color-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-color-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-color.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-color.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-custom-fonts-p-1080.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-custom-fonts-p-1080.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-custom-fonts-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-custom-fonts-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-custom-fonts-p-500.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-custom-fonts-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-custom-fonts-p-800.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-custom-fonts-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-custom-fonts.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-custom-fonts.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-Content-p-1080.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-Content-p-1080.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-Content-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-Content-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-Content-p-500.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-Content-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-Content-p-800.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-Content-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-Content.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-Content.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-collection-p-1080.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-collection-p-1080.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-collection-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-collection-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-collection-p-500.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-collection-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-collection-p-800.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-collection-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-collection.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-collection.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-p-1080.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-p-1080.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-p-500.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-p-800.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-eCommerce-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-eCommerce.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-eCommerce.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-icons-and-graphics-p-1080.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-icons-and-graphics-p-1080.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-icons-and-graphics-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-icons-and-graphics-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-icons-and-graphics-p-500.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-icons-and-graphics-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-icons-and-graphics-p-800.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-icons-and-graphics-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-icons-and-graphics.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-icons-and-graphics.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-seo-p-1080.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-seo-p-1080.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-seo-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-seo-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-seo-p-500.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-seo-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-seo-p-800.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-seo-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-seo.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-seo.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-static-content-p-1080.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-static-content-p-1080.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-static-content-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-static-content-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-static-content-p-500.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-static-content-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-static-content-p-800.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-static-content-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-static-content.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-static-content.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-typography-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-typography-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-typography-p-500.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-typography-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startup-x-webflow-template-and-ui-kit-typography.png",
-      "PackagePath": "staticwebassets\\images\\startup-x-webflow-template-and-ui-kit-typography.png"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startuper-icon-font.svg",
       "PackagePath": "staticwebassets\\images\\startuper-icon-font.svg"
     },
     {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\startuper-x-webflow-template-logo.svg",
-      "PackagePath": "staticwebassets\\images\\startuper-x-webflow-template-logo.svg"
-    },
-    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\stcpay.png",
       "PackagePath": "staticwebassets\\images\\stcpay.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\styles-and-stymbols-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\styles-and-stymbols-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\styles-and-stymbols-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\styles-and-stymbols-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\styles-and-stymbols-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\styles-and-stymbols-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\team-single-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\team-single-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\team-single-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\team-single-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\team-single-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\team-single-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\team-single-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\team-single-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\team-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\team-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\team-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\team-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\team-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\team-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\team-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\team-startuper-x-webflow-template.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\terms-and-conditions-startuper-x-webflow-template-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\terms-and-conditions-startuper-x-webflow-template-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\terms-and-conditions-startuper-x-webflow-template-p-500.png",
-      "PackagePath": "staticwebassets\\images\\terms-and-conditions-startuper-x-webflow-template-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\terms-and-conditions-startuper-x-webflow-template-p-800.png",
-      "PackagePath": "staticwebassets\\images\\terms-and-conditions-startuper-x-webflow-template-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\terms-and-conditions-startuper-x-webflow-template.png",
-      "PackagePath": "staticwebassets\\images\\terms-and-conditions-startuper-x-webflow-template.png"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\typography-icon.svg",
@@ -2647,34 +579,6 @@
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\webclip.svg",
       "PackagePath": "staticwebassets\\images\\webclip.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\webflow-logo-webfow-templates-brix-templates.svg",
-      "PackagePath": "staticwebassets\\images\\webflow-logo-webfow-templates-brix-templates.svg"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\webflow-templates-brix-templates-p-1080.png",
-      "PackagePath": "staticwebassets\\images\\webflow-templates-brix-templates-p-1080.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\webflow-templates-brix-templates-p-130x130q80.png",
-      "PackagePath": "staticwebassets\\images\\webflow-templates-brix-templates-p-130x130q80.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\webflow-templates-brix-templates-p-1600.png",
-      "PackagePath": "staticwebassets\\images\\webflow-templates-brix-templates-p-1600.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\webflow-templates-brix-templates-p-500.png",
-      "PackagePath": "staticwebassets\\images\\webflow-templates-brix-templates-p-500.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\webflow-templates-brix-templates-p-800.png",
-      "PackagePath": "staticwebassets\\images\\webflow-templates-brix-templates-p-800.png"
-    },
-    {
-      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\webflow-templates-brix-templates.png",
-      "PackagePath": "staticwebassets\\images\\webflow-templates-brix-templates.png"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\xero.png",

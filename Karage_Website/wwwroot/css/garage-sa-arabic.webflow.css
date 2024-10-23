@@ -2810,15 +2810,22 @@
     font-family: 'janna lt bold';
     src: url('../fonts/janna lt bold/janna lt bold.ttf') format('truetype');
 }
-
+@font-face {
+    font-family: 'linotype - avenir arabic regular';
+    src: url('../fonts/avenir_font/linotype - avenir arabic regular.otf') format('opentype');
+}
 body {
-    font-family: 'janna lt bold';
+    font-family: 'linotype - avenir arabic regular';
     color: #6e7277;
     font-size: 18px;
     line-height: 1.5rem;
     font-weight: 600;
 }
 
+@font-face {
+    font-family: 'yekanbakh-heavy';
+    src: url('../fonts/yekanbakh-heavy.ttf') format('truetype');
+}
 h1 {
     margin-top: 0px;
     margin-bottom: 18px;
@@ -2826,6 +2833,7 @@ h1 {
     font-size: 60px;
     line-height: 1.308em;
     font-weight: 900;
+    font-family: 'yekanbakh-heavy';
 }
 
 h2 {
@@ -2835,6 +2843,7 @@ h2 {
     font-size: 36px;
     line-height: 1.316em;
     font-weight: 700;
+    font-family: 'yekanbakh-heavy';
 }
 
 h3 {
@@ -2844,6 +2853,7 @@ h3 {
     font-size: 24px;
     line-height: 1.375em;
     font-weight: 700;
+    font-family: 'yekanbakh-heavy';
 }
 
 h4 {
@@ -2853,6 +2863,7 @@ h4 {
     font-size: 22px;
     line-height: 1.091em;
     font-weight: 700;
+    font-family: 'yekanbakh-heavy';
 }
 
 h5 {
@@ -2862,6 +2873,7 @@ h5 {
     font-size: 18px;
     line-height: 1.389em;
     font-weight: 700;
+    font-family: 'yekanbakh-heavy';
 }
 
 h6 {
@@ -2871,6 +2883,7 @@ h6 {
     font-size: 16px;
     line-height: 1.125em;
     font-weight: 800;
+    font-family: 'yekanbakh-heavy';
 }
 
 p {
@@ -2885,7 +2898,7 @@ a {
 }
 
     a:hover {
-        color: #ffd584;
+        color: #b6f174;
     }
 
 ul {
@@ -3423,7 +3436,7 @@ figcaption {
     -webkit-transform: translate(0px, -4px);
     -ms-transform: translate(0px, -4px);
     transform: translate(0px, -4px);
-    color: #ffd584;
+    color: #ffffff;
 }
 
 .button-primary.small {
@@ -3471,7 +3484,7 @@ figcaption {
 }
 
     .button-primary.button-green:hover {
-        background-color: #ffd584;
+        background-color: #ffffff;
     }
 
     .button-primary.button-green.cta-2 {
@@ -3688,8 +3701,8 @@ figcaption {
     }
 
         .button-secondary.button-green:hover {
-            border-color: #ffd584;
-            color: #ffd584;
+            border-color: #ffffff;
+            color: #ffffff;
         }
 
         .button-secondary.button-green.cta-2 {
@@ -3711,8 +3724,8 @@ figcaption {
         }
 
     .button-secondary.button-white:hover {
-        border-color: #ffd584;
-        color: #ffd584;
+        border-color: #b6f174;
+        color: #b6f174;
     }
 
     .button-secondary.button-white.cta-2 {
@@ -3843,7 +3856,7 @@ figcaption {
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 0px;
-    padding-left: 0px;
+    padding-right: 0px;
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
@@ -3879,7 +3892,7 @@ figcaption {
     }
 
         .nav-link.dropdown:hover {
-            color: #ffd584;
+            color: #b6f174;
         }
 
 .nav-menu.hidden-on-desktop {
@@ -3913,7 +3926,7 @@ figcaption {
 }
 
 .footer-logo {
-    width: 260px;
+    width: 180px;
 }
 
 .footer-nav-item {
@@ -5811,7 +5824,7 @@ figcaption {
 }
 
     .title.order-item:hover {
-        color: #ffd584;
+        color: #b6f174;
     }
 
 .title.neutral-100 {
@@ -6395,7 +6408,7 @@ figcaption {
 }
 
     .title.cart-item-title:hover {
-        color: #ffd584;
+        color: #b6f174;
     }
 
 .split-content.checkout-left {
@@ -7862,7 +7875,7 @@ figcaption {
         min-height: 277px;
         min-width: 277px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.home-v1-hero-shape-2 {
@@ -7877,7 +7890,7 @@ figcaption {
         min-height: 443px;
         min-width: 443px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.home-v1-testimonials-shape-1 {
@@ -7902,7 +7915,7 @@ figcaption {
         min-height: 203px;
         min-width: 203px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.cta-1-shape-4 {
@@ -7912,7 +7925,7 @@ figcaption {
         min-height: 368px;
         min-width: 368px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.cta-2-shape-1 {
@@ -7922,7 +7935,7 @@ figcaption {
         min-height: 368px;
         min-width: 368px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.cta-2-shape-2 {
@@ -7942,7 +7955,7 @@ figcaption {
         min-height: 326px;
         min-width: 326px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.home-v3-hero {
@@ -7990,7 +8003,7 @@ figcaption {
         min-height: 308px;
         min-width: 308px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.cta-3-shape-2 {
@@ -8010,7 +8023,7 @@ figcaption {
         min-height: 202px;
         min-width: 202px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.about-v1-hero {
@@ -8034,7 +8047,7 @@ figcaption {
         min-height: 277px;
         min-width: 277px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.about-v1-values-shape-1 {
@@ -8060,7 +8073,7 @@ figcaption {
         min-height: 277px;
         min-width: 277px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.mykarage-v1-hero {
@@ -8084,7 +8097,7 @@ figcaption {
         min-height: 277px;
         min-width: 277px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.about-v2-achievements-1 {
@@ -8094,7 +8107,7 @@ figcaption {
         min-height: 202px;
         min-width: 202px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.about-v2-achievements-2 {
@@ -8126,7 +8139,7 @@ figcaption {
         min-height: 310px;
         min-width: 310px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.about-v3-values-shape-1 {
@@ -8136,7 +8149,7 @@ figcaption {
         min-height: 311px;
         min-width: 311px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.about-v3-values-shape-2 {
@@ -8195,7 +8208,7 @@ figcaption {
         min-height: 286px;
         min-width: 286px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.contact-form-shape-1 {
@@ -8237,7 +8250,7 @@ figcaption {
         min-height: 340px;
         min-width: 340px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.careers-testimonials-shape {
@@ -8258,7 +8271,7 @@ figcaption {
         min-height: 297px;
         min-width: 297px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.newsletter-v1-shape-1 {
@@ -8274,7 +8287,7 @@ figcaption {
         min-height: 368px;
         min-width: 368px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.blog-v2-hero-shape-1 {
@@ -8284,7 +8297,7 @@ figcaption {
         min-height: 267px;
         min-width: 267px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.blog-v2-hero-shape-2 {
@@ -8306,7 +8319,7 @@ figcaption {
         min-height: 288px;
         min-width: 288px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.blog-post {
@@ -8331,7 +8344,7 @@ figcaption {
         min-height: 366px;
         min-width: 366px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.blog-post-shape-2 {
@@ -8364,7 +8377,7 @@ figcaption {
         min-height: 378px;
         min-width: 378px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.pricing-shape-3 {
@@ -8374,7 +8387,7 @@ figcaption {
         min-height: 315px;
         min-width: 315px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.pricing-shape-4 {
@@ -8401,7 +8414,7 @@ figcaption {
         min-height: 308px;
         min-width: 308px;
         border-radius: 1000px;
-        background-color: #ffd584;
+        background-color: #b6f174;
     }
 
     .bg.team-shape-2 {
@@ -11266,14 +11279,14 @@ figcaption {
 }
 
     .button-category:hover {
-        border-color: #055f5b;
-        background-color: #055f5b;
+        border-color: #134f1a;
+        background-color: #134f1a;
         color: #fff;
     }
 
     .button-category.w--current {
-        border-color: #055f5b;
-        background-color: #055f5b;
+        border-color: #134f1a;
+        background-color: #134f1a;
         color: #fff;
     }
 
@@ -13590,23 +13603,23 @@ figcaption {
 }
 
 .dropdown-nav {
-    margin-right: 25px;
+    margin-left: 25px;
     margin-bottom: 0px;
-    padding-left: 0px;
+    padding-right: 0px;
     list-style-type: none;
 }
 
     .dropdown-nav.last {
-        margin-right: 0px;
+        margin-left: 0px;
     }
 
 .dropdown-nav-pages-wrapper {
     width: 100%;
-    margin-right: 60px;
+    margin-left: 60px;
 }
 
     .dropdown-nav-pages-wrapper.last {
-        margin-right: 0px;
+        margin-left: 0px;
     }
 
     .dropdown-nav-pages-wrapper.inside {
@@ -13667,9 +13680,10 @@ figcaption {
         }
 
 .dropdown-list {
-    left: -339px;
+    left: 0px;
     padding-top: 30px;
     background-color: transparent;
+    text-align: right;
 }
 
 .cart-wrapper {
@@ -19433,6 +19447,7 @@ figcaption {
 
     .title.request-demo-content-features {
         margin-bottom: 16px;
+        text-align:right;
     }
 
     .title.card-request-demo {
@@ -22031,7 +22046,7 @@ figcaption {
     }
 
         .nav-item-wrapper.header-button-mobile {
-            margin-top: 100px;
+            margin-top: 50px;
         }
 
     .nav-link {
@@ -22557,6 +22572,7 @@ figcaption {
 
     .paragraph.contact-form {
         margin-bottom: 30px;
+        text-align:right;
     }
 
     .paragraph.card-career-apply {
@@ -23039,6 +23055,7 @@ figcaption {
 
     .title.contact-form {
         margin-bottom: 10px;
+        text-align:right;
     }
 
     .title.contact-faqs {
@@ -23409,6 +23426,7 @@ figcaption {
 
     .image.card-about-v1-value {
         margin-bottom: 15px;
+        margin-left:0px;
     }
 
     .image.card-about-v2-value {
