@@ -2805,10 +2805,12 @@
     font-family: 'spacegrotesk-variablefont_wght';
     src: url('../fonts/spacegrotesk-variablefont_wght.ttf') format('truetype');
 }
+
 @font-face {
     font-family: 'inter-regular';
     src: url('../fonts/inter-regular.ttf') format('truetype');
 }
+
 body {
     font-family: 'inter-regular';
     color: #6e7277;
@@ -3370,21 +3372,24 @@ figcaption {
     font-weight: 700;
     text-align: center;
 }
+
 @font-face {
     font-family: 'linotype - avenir arabic medium';
     src: url('../fonts/avenir_font/linotype - avenir arabic medium.otf') format('opentype');
 }
+
 @font-face {
     font-family: 'yekanbakh-heavy';
     src: url('../fonts/yekanbakh-heavy.ttf') format('truetype');
 }
+
 .arabic-font {
     font-family: 'yekanbakh-heavy';
 }
 
 .button-lightgreen {
     margin-bottom: 10px;
-    padding: 24px 44px;
+    padding: 20px 30px;
     border-radius: 80px;
     background-color: #b6f174;
     -webkit-transition: color 300ms ease, box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
@@ -3395,6 +3400,7 @@ figcaption {
     line-height: 1.111em;
     font-weight: 700;
     text-align: center;
+    font-size: 14px;
 }
 
     .button-lightgreen:hover {
@@ -3644,7 +3650,7 @@ figcaption {
     }
 
 .button-secondary {
-    padding: 24px 44px;
+    padding: 16px 30px;
     border-style: solid;
     border-width: 1px;
     border-color: #292c32;
@@ -3654,10 +3660,11 @@ figcaption {
     transition: border-color 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
     transition: border-color 300ms ease, color 300ms ease, transform 300ms ease;
     transition: border-color 300ms ease, color 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
-    color: #292c32;
-    line-height: 1.111em;
+    color: var(--base-900-black, #1E1E1E);
+    line-height: 20px;
     font-weight: 500;
     text-align: center;
+    font-size: 14px;
 }
 
     .button-secondary:hover {
@@ -4814,6 +4821,13 @@ figcaption {
 
     .paragraph.neutral-100.about-v1-hero {
         margin-bottom: 40px;
+        color: #ECFBCC !important;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 160% */
+        letter-spacing: -0.06px;
     }
 
     .paragraph.neutral-100.about-v2-hero {
@@ -4834,6 +4848,13 @@ figcaption {
 
     .paragraph.neutral-100.contact {
         margin-bottom: 0px;
+        color: #ECFBCC !important;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 160% */
+        letter-spacing: -0.06px;
     }
 
     .paragraph.neutral-100.newsletter-v1 {
@@ -4846,6 +4867,13 @@ figcaption {
         margin-right: auto;
         margin-bottom: 28px;
         margin-left: auto;
+        color: #114617;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 160% */
+        letter-spacing: -0.06px;
     }
 
     .paragraph.neutral-100.blog-post {
@@ -4859,6 +4887,13 @@ figcaption {
 
     .paragraph.neutral-100.pricing {
         margin-bottom: 0px;
+        color: #D3F6AD;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 160% */
+        letter-spacing: -0.06px;
     }
 
     .paragraph.neutral-100.help-center-category {
@@ -4913,8 +4948,13 @@ figcaption {
 .paragraph.home-v2-hero {
     max-width: 568px;
     margin-right: auto;
-    margin-bottom: 58px;
+    margin-bottom: 45px;
     margin-left: auto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    letter-spacing: -0.06px;
 }
 
 .paragraph.home-v2-features {
@@ -4927,10 +4967,20 @@ figcaption {
 
 .paragraph.clients-individuals {
     margin-bottom: 0px;
+    color: #737373;
+    font-size: 17.297px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32.99px; /* 190.728% */
 }
 
 .paragraph.clients-startups {
     margin-bottom: 0px;
+    color: #737373;
+    font-size: 17.297px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32.99px; /* 190.728% */
 }
 
 .paragraph.home-v2-get-started {
@@ -4955,6 +5005,11 @@ figcaption {
 
 .paragraph.about-v1-story {
     margin-bottom: 0px;
+    color: #737373;
+    font-size: 17.016px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32.99px; /* 193.881% */
 }
 
 .paragraph.about-v1-mission {
@@ -4999,22 +5054,50 @@ figcaption {
 
 .paragraph.card-feature {
     margin-bottom: 0px;
+    color: #737373;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32.99px;
 }
 
 .paragraph.services {
     margin-bottom: 0px;
+    color: #666 !important;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    letter-spacing: -0.06px;
 }
 
 .paragraph.card-service {
     margin-bottom: 0px;
+    color: #737373;
+    font-size: 14.875px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 154.074% */
 }
 
 .paragraph.card-contact {
     margin-bottom: 0px;
+    color: #737373;
+    text-align: center;
+    font-size: 17.156px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32.99px; /* 192.291% */
 }
 
 .paragraph.contact-form {
     margin-bottom: 40px;
+    color: #737373;
+    font-size: 17.156px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32.99px; /* 192.291% */
 }
 
 .paragraph.careers-hero {
@@ -5135,6 +5218,11 @@ figcaption {
 
 .paragraph.request-demo-content {
     margin-bottom: 0px;
+    color: #737373;
+    font-size: 17.156px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32.99px; /* 192.291% */
 }
 
 .paragraph.landing-page-content-top-paragraph {
@@ -5238,7 +5326,16 @@ figcaption {
     align-items: center;
     border-width: 0px;
     box-shadow: none;
+    cursor: pointer;
 }
+
+    .card.perk:hover {
+        border: 1px solid; 
+        border-color: #055f5b;
+        transform: translate(0, -8px);
+        box-shadow: 0 15px 20px rgba(41, 44, 50, .05);
+        cursor:pointer;
+    }
 
 .card.faq {
     margin-bottom: 20px;
@@ -5340,6 +5437,7 @@ figcaption {
     transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease;
     transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
     text-align: center;
+    background: #ededed;
 }
 
     .card.team-v2:hover {
@@ -5856,6 +5954,11 @@ figcaption {
         -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
+        color: #ECFBCC;
+        font-size: 35.625px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50.01px; /* 140.379% */
     }
 
     .title.neutral-100.cta-3 {
@@ -6121,10 +6224,11 @@ figcaption {
 }
 
 .title.h3-size {
-    color: #292c32;
-    font-size: 24px;
-    line-height: 1.375em;
+    color: #1E1E1E;
+    font-size: 26px;
+    font-style: normal;
     font-weight: 700;
+    line-height: 33px;
 }
 
     .title.h3-size.card-feature {
@@ -6150,7 +6254,11 @@ figcaption {
 
     .title.h3-size.card-plan {
         margin-bottom: 13px;
-        color: #055f5b;
+        color: #3F9444 !important;
+        font-size: 22.688px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 33px; /* 145.455% */
     }
 
     .title.h3-size.card-team-name {
@@ -6184,6 +6292,12 @@ figcaption {
 
 .title.contact-faqs {
     margin-bottom: 0px;
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px; /* 123.684% */
 }
 
 .title.company-perks {
@@ -6333,6 +6447,11 @@ figcaption {
 
 .title.request-demo-content-features {
     margin-bottom: 22px;
+    color: #1E1E1E;
+    font-size: 22.875px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px; /* 144.262% */
 }
 
 .title.card-request-demo {
@@ -7557,14 +7676,14 @@ figcaption {
     }
 
 .cart-button {
-    margin-right: 23px;
-    padding: 0px;
-    border-radius: 80px;
+    padding: 15px 30px 15px 30px;
     background-color: transparent;
-    color: #292c32;
+    color: #3F9444;
     font-size: 16px;
     line-height: 1.125em;
     font-weight: 700;
+    border-radius: 80px;
+    border: 2px solid #3F9444;
 }
 
 .cart-quantity {
@@ -7681,11 +7800,11 @@ figcaption {
     }
 
 .subtitle {
-    color: #055f5b;
+    color: #3F9444;
     font-size: 16px;
-    line-height: 1.125em;
+    line-height: 15px;
     font-weight: 700;
-    letter-spacing: 0.07em;
+    letter-spacing: 1.12px;
     text-transform: uppercase;
 }
 
@@ -8952,7 +9071,7 @@ figcaption {
 }
 
 .accent-text-primary-1 {
-    color: #b6f174;
+    color: #D3F6AD;
 }
 
 .card-home-v1-testimonials-name {
@@ -9110,6 +9229,10 @@ figcaption {
     border-radius: 18px;
     background-color: #fff;
     text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #737373;
 }
 
 .faqs-wrapper {
@@ -9462,10 +9585,11 @@ figcaption {
 
 .footer-title {
     margin-bottom: 28px;
-    color: #292c32;
-    font-size: 20px;
-    line-height: 1.5em;
+    color: #1E1E1E;
+    font-size: 20.797px;
+    font-style: normal;
     font-weight: 700;
+    line-height: 33px; /* 158.678% */
 }
 
 .footer-menu-content {
@@ -9899,10 +10023,11 @@ figcaption {
     border-radius: 18px;
     background-color: #fff;
     box-shadow: 0 6px 34px 0 rgba(12, 34, 72, 0.06);
-    color: #292c32;
-    font-size: 20px;
-    line-height: 1.7em;
+    color: #292C32;
+    font-size: 17px;
+    font-style: normal;
     font-weight: 700;
+    line-height: 34px; /* 174.08% */
 }
 
 .clients-startups-wrapper {
@@ -10384,17 +10509,21 @@ figcaption {
 
 .about-v1-hero-achievement-number {
     margin-bottom: 6px;
-    color: #b6f174;
-    font-size: 50px;
-    line-height: 1.08em;
-    font-weight: 800;
+    color: #D3F6AD;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px; /* 60% */
 }
 
 .about-v1-hero-achievement-text {
-    color: #b6f174;
-    font-size: 20px;
-    line-height: 1.7em;
-    font-weight: 700;
+    color: #B6F174;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px; /* 130.769% */
 }
 
 .about-v1-story-wrapper {
@@ -10962,6 +11091,13 @@ figcaption {
 
 .card-contact-link-main {
     margin-bottom: 8px;
+    color: #3F9444 !important;
+    text-align: center;
+    font-size: 16.594px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32.99px; /* 198.81% */
+    text-decoration-line: underline;
 }
 
 .card-contact-link {
@@ -11008,11 +11144,12 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    color: #292c32;
-    font-size: 20px;
-    line-height: 1.65em;
-    font-weight: 700;
     text-decoration: none;
+    color: #1E1E1E;
+    font-size: 18.594px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px; /* 177.479% */
 }
 
 .card-contact-form-block {
@@ -12146,6 +12283,7 @@ figcaption {
 
 .pricing-wrapper {
     display: -webkit-box;
+    display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -12162,10 +12300,11 @@ figcaption {
 
 .card-plan-price {
     margin-bottom: 9px;
-    color: #292c32;
-    font-size: 38px;
-    line-height: 1.316em;
+    color:  #1E1E1E;
+    font-size: 50px;
+    font-style: normal;
     font-weight: 700;
+    line-height: 50px; /* 83.333% */
 }
 
 .card-plan-features-title {
@@ -12202,7 +12341,7 @@ figcaption {
     margin-top: 13px;
     margin-right: 10px;
     border-radius: 1000px;
-    background-color: #055f5b;
+    background-color: #3F9444;
 }
 
 .popular-badge {
@@ -13006,8 +13145,11 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    line-height: 1.333em;
+    color: #666;
+    font-size: 17.297px;
+    font-style: normal;
     font-weight: 600;
+    line-height: 23.99px; /* 138.696% */
 }
 
 .request-demo-content-feature-icon {
@@ -14195,7 +14337,11 @@ figcaption {
         }
 
     .footer-title {
-        font-size: 22px;
+        color: #1E1E1E;
+        font-size: 17.797px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 33px; /* 158.678% */
     }
 
     .shipping-method-price {
@@ -19263,6 +19409,11 @@ figcaption {
         max-width: 431px;
         margin-right: auto;
         margin-left: auto;
+        color: #1E1E1E;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50.01px;
     }
 
     .title.clients-startups {
@@ -25949,4 +26100,15 @@ figcaption {
     font-weight: 800;
     font-style: normal;
     font-display: swap;
+}
+
+.container-default.faqs {
+    color: #1E1E1E;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px; /* 135% */
+    letter-spacing: -0.4px;
+    text-align:left;
+    margin-bottom:80px;
 }

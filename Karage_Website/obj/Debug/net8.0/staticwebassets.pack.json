@@ -285,6 +285,10 @@
       "PackagePath": "staticwebassets\\images\\Vectorgreen.svg"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\WhatsApp.png",
+      "PackagePath": "staticwebassets\\images\\WhatsApp.png"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\about-container.png",
       "PackagePath": "staticwebassets\\images\\about-container.png"
     },
@@ -485,6 +489,10 @@
       "PackagePath": "staticwebassets\\images\\mechanic.png"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\moyasar.png",
+      "PackagePath": "staticwebassets\\images\\moyasar.png"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\mykarage-home.png",
       "PackagePath": "staticwebassets\\images\\mykarage-home.png"
     },
@@ -517,8 +525,16 @@
       "PackagePath": "staticwebassets\\images\\nearpay.png"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\neoleap.png",
+      "PackagePath": "staticwebassets\\images\\neoleap.png"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\no motion.mp4",
       "PackagePath": "staticwebassets\\images\\no motion.mp4"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\odoo.png",
+      "PackagePath": "staticwebassets\\images\\odoo.png"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\oilchange.png",
@@ -569,6 +585,10 @@
       "PackagePath": "staticwebassets\\images\\stcpay.png"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\surepay.png",
+      "PackagePath": "staticwebassets\\images\\surepay.png"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\typography-icon.svg",
       "PackagePath": "staticwebassets\\images\\typography-icon.svg"
     },
@@ -577,12 +597,20 @@
       "PackagePath": "staticwebassets\\images\\tyres.png"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\unifonic.png",
+      "PackagePath": "staticwebassets\\images\\unifonic.png"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\webclip.svg",
       "PackagePath": "staticwebassets\\images\\webclip.svg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\xero.png",
       "PackagePath": "staticwebassets\\images\\xero.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\yaqeen.png",
+      "PackagePath": "staticwebassets\\images\\yaqeen.png"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\js\\site.js",

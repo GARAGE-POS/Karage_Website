@@ -5235,7 +5235,16 @@ figcaption {
     align-items: center;
     border-width: 0px;
     box-shadow: none;
+    cursor: pointer;
 }
+
+    .card.perk:hover {
+        border: 1px solid;
+        border-color: #055f5b;
+        transform: translate(0, -8px);
+        box-shadow: 0 15px 20px rgba(41, 44, 50, .05);
+        cursor: pointer;
+    }
 
 .card.faq {
     margin-bottom: 20px;
@@ -6147,7 +6156,11 @@ figcaption {
 
     .title.h3-size.card-plan {
         margin-bottom: 13px;
-        color: #055f5b;
+        color: #3F9444 !important;
+        font-size: 22.688px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 33px; /* 145.455% */
     }
 
     .title.h3-size.card-team-name {
@@ -7554,14 +7567,14 @@ figcaption {
     }
 
 .cart-button {
-    margin-right: 23px;
-    padding: 0px;
-    border-radius: 80px;
+    padding: 15px 15px 15px 30px;
     background-color: transparent;
-    color: #292c32;
+    color: #3F9444;
     font-size: 16px;
     line-height: 1.125em;
     font-weight: 700;
+    border-radius: 80px;
+    border: 2px solid #3F9444;
 }
 
 .cart-quantity {
@@ -9107,6 +9120,7 @@ figcaption {
     border-radius: 18px;
     background-color: #fff;
     text-align: center;
+    color: #737373;
 }
 
 .faqs-wrapper {
@@ -12200,7 +12214,7 @@ figcaption {
     margin-top: 8px;
     margin-left: 10px;
     border-radius: 1000px;
-    background-color: #055f5b;
+    background-color: #3F9444;
 }
 
 .popular-badge {
