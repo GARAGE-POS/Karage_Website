@@ -2810,12 +2810,19 @@
     font-family: 'janna lt bold';
     src: url('../fonts/janna lt bold/janna lt bold.ttf') format('truetype');
 }
+
 @font-face {
     font-family: 'linotype - avenir arabic regular';
     src: url('../fonts/avenir_font/linotype - avenir arabic regular.otf') format('opentype');
 }
+
+@font-face {
+    font-family: 'ibmplexsansarabic-regular';
+    src: url('../fonts/ibmplex/ibmplexsansarabic-regular.ttf') format('truetype');
+}
+
 body {
-    font-family: 'linotype - avenir arabic regular';
+    font-family: 'ibmplexsansarabic-regular';
     color: #6e7277;
     font-size: 18px;
     line-height: 1.5rem;
@@ -2826,6 +2833,7 @@ body {
     font-family: 'yekanbakh-heavy';
     src: url('../fonts/yekanbakh-heavy.ttf') format('truetype');
 }
+
 h1 {
     margin-top: 0px;
     margin-bottom: 18px;
@@ -2833,7 +2841,7 @@ h1 {
     font-size: 60px;
     line-height: 1.308em;
     font-weight: 900;
-    font-family: 'yekanbakh-heavy';
+    font-family: 'ibmplexsansarabic-regular';
 }
 
 h2 {
@@ -2843,7 +2851,7 @@ h2 {
     font-size: 36px;
     line-height: 1.316em;
     font-weight: 700;
-    font-family: 'yekanbakh-heavy';
+    font-family: 'ibmplexsansarabic-regular';
 }
 
 h3 {
@@ -2853,7 +2861,7 @@ h3 {
     font-size: 24px;
     line-height: 1.375em;
     font-weight: 700;
-    font-family: 'yekanbakh-heavy';
+    font-family: 'ibmplexsansarabic-regular';
 }
 
 h4 {
@@ -2863,7 +2871,7 @@ h4 {
     font-size: 22px;
     line-height: 1.091em;
     font-weight: 700;
-    font-family: 'yekanbakh-heavy';
+    font-family: 'ibmplexsansarabic-regular';
 }
 
 h5 {
@@ -2873,7 +2881,7 @@ h5 {
     font-size: 18px;
     line-height: 1.389em;
     font-weight: 700;
-    font-family: 'yekanbakh-heavy';
+    font-family: 'ibmplexsansarabic-regular';
 }
 
 h6 {
@@ -2883,7 +2891,7 @@ h6 {
     font-size: 16px;
     line-height: 1.125em;
     font-weight: 800;
-    font-family: 'yekanbakh-heavy';
+    font-family: 'ibmplexsansarabic-regular';
 }
 
 p {
@@ -3382,26 +3390,28 @@ figcaption {
 
 .button-lightgreen {
     margin-bottom: 10px;
-    padding: 24px 44px;
+    padding: 25px 45px;
     border-radius: 80px;
     background-color: #b6f174;
     -webkit-transition: color 300ms ease, box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
     transition: color 300ms ease, box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
     transition: color 300ms ease, transform 300ms ease, box-shadow 300ms ease, background-color 300ms ease;
     transition: color 300ms ease, transform 300ms ease, box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
-    color: #355215;
+    color: #134f1a;
     line-height: 1.111em;
     font-weight: 700;
     text-align: center;
+    font-size: 14px;
 }
 
     .button-lightgreen:hover {
-        background-color: #355215;
+        background-color: #ffffff;
+        border: black, 1px solid !important;
         box-shadow: 0 10px 22px 0 rgba(41, 44, 50, 0.1);
         -webkit-transform: translate(0px, -4px);
         -ms-transform: translate(0px, -4px);
         transform: translate(0px, -4px);
-        color: #b6f174;
+        color: black;
     }
 
 .button-darkgreen {
@@ -3432,7 +3442,7 @@ figcaption {
 
 .button-primary:hover {
     background-color: #003c39;
-    box-shadow: 0 10px 22px 0 rgba(41, 44, 50, 0.1);
+    /*box-shadow: 0 10px 22px 0 rgba(41, 44, 50, 0.1);*/
     -webkit-transform: translate(0px, -4px);
     -ms-transform: translate(0px, -4px);
     transform: translate(0px, -4px);
@@ -3641,7 +3651,7 @@ figcaption {
     }
 
 .button-secondary {
-    padding: 24px 44px;
+    padding: 20px 30px;
     border-style: solid;
     border-width: 1px;
     border-color: #292c32;
@@ -3658,11 +3668,11 @@ figcaption {
 }
 
     .button-secondary:hover {
-        border-color: #055f5b;
+        border-color: black;
         -webkit-transform: translate(0px, -4px);
         -ms-transform: translate(0px, -4px);
         transform: translate(0px, -4px);
-        color: #055f5b;
+        color: black;
     }
 
     .button-secondary.small {
@@ -3892,7 +3902,7 @@ figcaption {
     }
 
         .nav-link.dropdown:hover {
-            color: #b6f174;
+            color: black;
         }
 
 .nav-menu.hidden-on-desktop {
@@ -4004,7 +4014,7 @@ figcaption {
 
     .section.bg-primary-1.blog-v2-hero {
         overflow: hidden;
-        padding-top: 124px;
+        padding-top: 60px;
         padding-bottom: 140px;
     }
 
@@ -4110,8 +4120,8 @@ figcaption {
 
     .section.home-v2-hero {
         overflow: hidden;
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 60px;
+        padding-bottom: 40px;
     }
 
     .section.home-v3-hero {
@@ -4124,7 +4134,7 @@ figcaption {
     .section.about-v1-hero {
         position: relative;
         overflow: hidden;
-        padding-top: 127px;
+        padding-top: 60px;
     }
 
     .section.padding-180px {
@@ -4213,7 +4223,7 @@ figcaption {
     .section.pricing {
         position: relative;
         overflow: hidden;
-        padding-top: 120px;
+        padding-top: 60px;
         padding-bottom: 180px;
     }
 
@@ -4996,14 +5006,31 @@ figcaption {
 
 .paragraph.card-feature {
     margin-bottom: 0px;
+    color: #737373;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32.99px;
 }
 
 .paragraph.services {
     margin-bottom: 0px;
+    color: #666 !important;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.06px;
 }
 
 .paragraph.card-service {
     margin-bottom: 0px;
+    color: #737373;
+    font-size: 14.875px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
 }
 
 .paragraph.card-contact {
@@ -5239,7 +5266,7 @@ figcaption {
 }
 
     .card.perk:hover {
-        border: 1px solid;
+        /*border: 1px solid;*/
         border-color: #055f5b;
         transform: translate(0, -8px);
         box-shadow: 0 15px 20px rgba(41, 44, 50, .05);
@@ -5463,9 +5490,9 @@ figcaption {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    max-width: 676px;
-    min-height: 621px;
-    padding: 56px;
+    max-width: 590px;
+    min-height: 620px;
+    padding: 40px;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -5833,11 +5860,11 @@ figcaption {
 }
 
     .title.order-item:hover {
-        color: #b6f174;
+        color: #ECFBCC;
     }
 
 .title.neutral-100 {
-    color: #B6F174 !important;
+    color: #ECFBCC !important;
 }
 
     .title.neutral-100.cta-1 {
@@ -7683,7 +7710,7 @@ figcaption {
     max-width: 43px;
     min-height: 2px;
     margin-right: 20px;
-    background-color: #055f5b;
+    background-color: #3F9444;
 }
 
     .subtitle-line.bg-neutral-100 {
@@ -7691,11 +7718,11 @@ figcaption {
     }
 
 .subtitle {
-    color: #055f5b;
-    font-size: 30px;
-    line-height: 1.125em;
+    color: #3F9444;
+    font-size: 20px;
+    line-height: 15px;
     font-weight: 700;
-    letter-spacing: 0.07em;
+    letter-spacing: 1.12px;
     text-transform: uppercase;
 }
 
@@ -8196,7 +8223,7 @@ figcaption {
         right: 0%;
         bottom: 0%;
         overflow: hidden;
-        width: 48%;
+        width: 55%;
         background: #b6f074;
     }
 
@@ -9120,6 +9147,9 @@ figcaption {
     border-radius: 18px;
     background-color: #fff;
     text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
     color: #737373;
 }
 
@@ -9379,9 +9409,9 @@ figcaption {
 
 .cta-2-button-primary-arrow {
     margin-top: auto;
-    -webkit-align-self: flex-start;
+    -webkit-align-self: flex-end;
     -ms-flex-item-align: start;
-    align-self: flex-start;
+    align-self: flex-end;
     font-family: 'Icons Startup X Template', sans-serif;
     font-size: 22px;
     line-height: 1.273em;
@@ -9396,9 +9426,9 @@ figcaption {
 
 .cta-2-button-secondary-icon {
     margin-top: auto;
-    -webkit-align-self: flex-start;
+    -webkit-align-self: flex-end;
     -ms-flex-item-align: start;
-    align-self: flex-start;
+    align-self: flex-end;
     font-family: 'Icons Startup X Template', sans-serif;
     font-size: 22px;
     line-height: 1.273em;
@@ -9871,7 +9901,7 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-top:110px;
+    margin-top: 110px;
     margin-bottom: 110px;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -14394,7 +14424,7 @@ figcaption {
         margin-left: 23px;
         padding: 0px;
         border-radius: 1000px;
-        background-color: #055f5b;
+        background-color: #114617;
         -webkit-transition: background-color 350ms ease;
         transition: background-color 350ms ease;
         color: #fff;
@@ -14402,11 +14432,11 @@ figcaption {
     }
 
         .menu-button:hover {
-            background-color: #055f5b;
+            background-color: #114617;
         }
 
         .menu-button.w--open {
-            background-color: #055f5b;
+            background-color: #114617;
         }
 
         .menu-button.v2 {
@@ -19262,6 +19292,11 @@ figcaption {
         max-width: 431px;
         margin-right: auto;
         margin-left: auto;
+        color: #1E1E1E;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50.01px;
     }
 
     .title.clients-startups {
@@ -19347,6 +19382,7 @@ figcaption {
 
     .title.services {
         margin-bottom: 6px;
+        font-size: 50px !IMPORTANT;
     }
 
     .title.h3-size {
@@ -19461,7 +19497,7 @@ figcaption {
 
     .title.request-demo-content-features {
         margin-bottom: 16px;
-        text-align:right;
+        text-align: right;
     }
 
     .title.card-request-demo {
@@ -21904,6 +21940,8 @@ figcaption {
     .container-default {
         padding-right: 16px;
         padding-left: 16px;
+        padding-top: 20px;
+        padding-bottom: 40px !important;
     }
 
     .section-styleguide {
@@ -22045,8 +22083,8 @@ figcaption {
         }
 
     .header {
-        padding-top: 23px;
-        padding-bottom: 23px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     .header-navigation {
@@ -22095,7 +22133,7 @@ figcaption {
     }
 
     .footer-logo {
-        width: 181px;
+        width: 150px;
     }
 
     .footer-nav-item {
@@ -22103,8 +22141,8 @@ figcaption {
     }
 
     .section {
-        padding-top: 0px;
-        padding-bottom: 50px;
+        padding-top: 20px !important;
+        padding-bottom: 30px !important;
     }
 
         .section.bg-primary-1.home-v1-hero {
@@ -22197,13 +22235,13 @@ figcaption {
         }
 
         .section.bg-secondary-1.contact-form {
-            padding-top: 92px;
+            padding-top: 20px;
             padding-bottom: 92px;
         }
 
         .section.home-v2-hero {
-            padding-top: 61px;
-            padding-bottom: 50px;
+            padding-top: 60px;
+            padding-bottom: 30px;
         }
 
         .section.home-v3-hero {
@@ -22211,7 +22249,8 @@ figcaption {
         }
 
         .section.about-v1-hero {
-            padding-top: 65px;
+            padding-top: 40px !important;
+            padding-bottom: 0px !important;
         }
 
         .section.padding-180px {
@@ -22229,8 +22268,8 @@ figcaption {
         }
 
         .section.features {
-            padding-top: 61px;
-            padding-bottom: 96px;
+            padding-top: 60px;
+            padding-bottom: 40px;
         }
 
         .section.services {
@@ -22586,7 +22625,7 @@ figcaption {
 
     .paragraph.contact-form {
         margin-bottom: 30px;
-        text-align:right;
+        text-align: right;
     }
 
     .paragraph.card-career-apply {
@@ -22702,7 +22741,8 @@ figcaption {
     }
 
     .cardw.feature {
-        padding: 33px 25px;
+        /*padding: 33px 25px;*/
+        padding: 5px 25px;
     }
 
     .card.contact {
@@ -22865,10 +22905,12 @@ figcaption {
 
     .title.neutral-100.contact {
         margin-bottom: 6px;
+        padding-top: 60px;
     }
 
     .title.neutral-100.blog-v2-hero {
         margin-bottom: 6px;
+        font-size: 45px;
     }
 
     .title.neutral-100.blog-post {
@@ -22934,6 +22976,7 @@ figcaption {
     .title.home-v2-hero {
         max-width: 402px;
         margin-bottom: 10px;
+        margin-top: 60px;
     }
 
     .title.home-v2-features {
@@ -23069,7 +23112,7 @@ figcaption {
 
     .title.contact-form {
         margin-bottom: 10px;
-        text-align:right;
+        text-align: right;
     }
 
     .title.contact-faqs {
@@ -23440,7 +23483,7 @@ figcaption {
 
     .image.card-about-v1-value {
         margin-bottom: 15px;
-        margin-left:0px;
+        margin-left: 0px;
     }
 
     .image.card-about-v2-value {
@@ -23459,6 +23502,7 @@ figcaption {
 
     .image.card-feature {
         margin-bottom: 15px;
+        width: 75px;
     }
 
     .image.card-contact {
@@ -23575,7 +23619,8 @@ figcaption {
     }
 
     .cart-button {
-        margin-right: 15px;
+        margin-left: 8px;
+        font-size: 12px;
     }
 
     .cart-container {
@@ -24249,10 +24294,12 @@ figcaption {
 
     .cta-2-button-primary-text {
         font-size: 18px;
+        text-align: right;
     }
 
     .cta-2-button-secondary-text {
         font-size: 18px;
+        text-align: right;
     }
 
     .footer-content-top {
@@ -24374,7 +24421,7 @@ figcaption {
 
     .clients-individuals-wrapper {
         margin-bottom: 76px;
-        margin-top:0px;
+        margin-top: 0px !important;
     }
 
     .clients-individuals-features-grid {
@@ -24551,7 +24598,7 @@ figcaption {
     }
 
     .about-v1-hero-image {
-        margin-bottom: 58px;
+        margin-bottom: 0px;
     }
 
     .about-v2-hero-content {
@@ -24676,6 +24723,7 @@ figcaption {
 
     .contact-form-content {
         margin-bottom: 40px;
+        /*margin-top: 50px;*/
     }
 
     .contact-form-links-grid {

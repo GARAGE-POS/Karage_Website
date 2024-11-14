@@ -30,3 +30,6 @@ E:\Projects\Karage_Website\Karage_Website\obj\Debug\net8.0\Karage_Website.genrun
 E:\Projects\Karage_Website\Karage_Website\obj\Debug\net8.0\ref\Karage_Website.dll
 E:\Projects\Karage_Website\Karage_Website\obj\Debug\net8.0\Karage_Website.sourcelink.json
 E:\Projects\Karage_Website\Karage_Website\obj\Debug\net8.0\scopedcss\Views\Shared\_ArLayout.cshtml.rz.scp.css
+E:\Projects\Karage_Website\Karage_Website\bin\Debug\net8.0\Kveer.XmlRPC.dll
+E:\Projects\Karage_Website\Karage_Website\obj\Debug\net8.0\Karage_Website.csproj.AssemblyReference.cache
+E:\Projects\Karage_Website\Karage_Website\obj\Debug\net8.0\Karage_W.C9CF04DC.Up2Date

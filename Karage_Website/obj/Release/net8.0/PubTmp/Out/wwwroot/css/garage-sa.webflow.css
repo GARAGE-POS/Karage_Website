@@ -2891,7 +2891,7 @@ a {
 }
 
     a:hover {
-        color: #b6f174;
+        color: #292c32;
     }
 
 ul {
@@ -3360,7 +3360,7 @@ figcaption {
 }
 
 .button-primary {
-    padding: 24px 44px;
+    padding: 24px 40px;
     border-radius: 80px;
     background-color: #134f1a;
     -webkit-transition: color 300ms ease, box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
@@ -3405,12 +3405,12 @@ figcaption {
 
     .button-lightgreen:hover {
         background-color: #ffffff;
-        border: #b6f174, 1px solid !important;
+        border: black, 1px solid !important;
         box-shadow: 0 10px 22px 0 rgba(41, 44, 50, 0.1);
         -webkit-transform: translate(0px, -4px);
         -ms-transform: translate(0px, -4px);
         transform: translate(0px, -4px);
-        color: #b6f174;
+        color: black;
     }
 
 .button-darkgreen {
@@ -3441,7 +3441,7 @@ figcaption {
 
 .button-primary:hover {
     background-color: #003c39;
-    box-shadow: 0 10px 22px 0 rgba(41, 44, 50, 0.1);
+    /*box-shadow: 0 10px 22px 0 rgba(41, 44, 50, 0.1);*/
     -webkit-transform: translate(0px, -4px);
     -ms-transform: translate(0px, -4px);
     transform: translate(0px, -4px);
@@ -3734,8 +3734,8 @@ figcaption {
         }
 
     .button-secondary.button-white:hover {
-        border-color: #b6f174;
-        color: #b6f174;
+        border-color: black;
+        color: black;
     }
 
     .button-secondary.button-white.cta-2 {
@@ -3902,7 +3902,7 @@ figcaption {
     }
 
         .nav-link.dropdown:hover {
-            color: #b6f174;
+            color: black;
         }
 
 .nav-menu.hidden-on-desktop {
@@ -3912,7 +3912,7 @@ figcaption {
 .footer {
     padding-top: 64px;
     padding-bottom: 42px;
-    border-top: 1px solid #caccd1;
+    /*border-top: 1px solid #caccd1;*/
     background-color: #fff;
 }
 
@@ -4014,8 +4014,8 @@ figcaption {
 
     .section.bg-primary-1.blog-v2-hero {
         overflow: hidden;
-        padding-top: 124px;
-        padding-bottom: 140px;
+        padding-top: 60px;
+        padding-bottom: 110px;
     }
 
     .section.bg-primary-1.terms-conditions-hero {
@@ -4120,8 +4120,8 @@ figcaption {
 
     .section.home-v2-hero {
         overflow: hidden;
-        padding-top: 70px;
-        padding-bottom: 70px;
+        padding-top: 60px;
+        padding-bottom: 40px;
     }
 
     .section.home-v3-hero {
@@ -4134,7 +4134,7 @@ figcaption {
     .section.about-v1-hero {
         position: relative;
         overflow: hidden;
-        padding-top: 127px;
+        padding-top: 60px;
     }
 
     .section.padding-180px {
@@ -4160,7 +4160,7 @@ figcaption {
 
     .section.services {
         position: relative;
-        padding-top: 80px;
+        padding-top: 60px;
     }
 
     .section.contact {
@@ -4223,7 +4223,7 @@ figcaption {
     .section.pricing {
         position: relative;
         overflow: hidden;
-        padding-top: 120px;
+        padding-top: 60px;
         padding-bottom: 180px;
     }
 
@@ -5330,11 +5330,11 @@ figcaption {
 }
 
     .card.perk:hover {
-        border: 1px solid; 
-        border-color: #055f5b;
+        border: 1px solid;
+        border-color: #ededed;
         transform: translate(0, -8px);
         box-shadow: 0 15px 20px rgba(41, 44, 50, .05);
-        cursor:pointer;
+        cursor: pointer;
     }
 
 .card.faq {
@@ -5555,9 +5555,9 @@ figcaption {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    max-width: 676px;
-    min-height: 621px;
-    padding: 56px;
+    max-width: 575px;
+    min-height: 620px;
+    padding: 40px;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -5925,11 +5925,11 @@ figcaption {
 }
 
     .title.order-item:hover {
-        color: #ffd584;
+        color: #ECFBCC;
     }
 
 .title.neutral-100 {
-    color: #B6F174 !important;
+    color: #ECFBCC !important;
 }
 
     .title.neutral-100.cta-1 {
@@ -6104,14 +6104,16 @@ figcaption {
 }
 
 .title.card-faq {
+    font-family: inter-regular;
     margin-right: 20px;
     margin-bottom: 0px;
+    font-size: 18px;
 }
 
 .title.home-v2-hero {
     max-width: 710px;
     margin-right: auto;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
     margin-left: auto;
 }
 
@@ -6294,7 +6296,7 @@ figcaption {
     margin-bottom: 0px;
     color: #1E1E1E;
     text-align: center;
-    font-size: 38px;
+    font-size: 33px;
     font-style: normal;
     font-weight: 700;
     line-height: 47px; /* 123.684% */
@@ -6321,6 +6323,7 @@ figcaption {
     font-size: 38px;
     line-height: 1.316em;
     font-weight: 700;
+    font-family:inter-regular;
 }
 
     .title.h2-size.card-career-page {
@@ -9457,14 +9460,14 @@ figcaption {
     position: absolute;
     width: 16px;
     min-height: 2px;
-    background-color: #055f5b;
+    background-color: #3F9444;
 }
 
 .card-faq-icon-2 {
     position: absolute;
     width: 2px;
     min-height: 16px;
-    background-color: #055f5b;
+    background-color: #3F9444;
 }
 
 .cta-2-wrapper {
@@ -11145,7 +11148,7 @@ figcaption {
     -ms-flex-align: center;
     align-items: center;
     text-decoration: none;
-    color: #1E1E1E;
+    color: #134F1A;
     font-size: 18.594px;
     font-style: normal;
     font-weight: 700;
@@ -12271,7 +12274,7 @@ figcaption {
     -ms-flex-pack: center;
     justify-content: center;
     border-radius: 1000px;
-    background-color: rgba(255, 255, 255, 0.14);
+    background-color: #4A9A54;
 }
 
 .pricing-tabs-content {
@@ -12300,8 +12303,8 @@ figcaption {
 
 .card-plan-price {
     margin-bottom: 9px;
-    color:  #1E1E1E;
-    font-size: 50px;
+    color: #1E1E1E;
+    font-size: 45px;
     font-style: normal;
     font-weight: 700;
     line-height: 50px; /* 83.333% */
@@ -14527,7 +14530,7 @@ figcaption {
         margin-left: 23px;
         padding: 0px;
         border-radius: 1000px;
-        background-color: #055f5b;
+        background-color: #114617;
         -webkit-transition: background-color 350ms ease;
         transition: background-color 350ms ease;
         color: #fff;
@@ -14535,11 +14538,11 @@ figcaption {
     }
 
         .menu-button:hover {
-            background-color: #055f5b;
+            background-color: #114617;
         }
 
         .menu-button.w--open {
-            background-color: #055f5b;
+            background-color: #114617;
         }
 
         .menu-button.v2 {
@@ -19321,6 +19324,7 @@ figcaption {
     .title.neutral-100.cta-2 {
         max-width: 575px;
         margin-bottom: 35px;
+        font-size: 23px;
     }
 
     .title.neutral-100.home-v1-hero {
@@ -19329,6 +19333,12 @@ figcaption {
 
     .title.neutral-100.about-v1-hero {
         margin-bottom: 10px;
+        font-size: 30px !important;
+        padding-top: 40px;
+    }
+
+    .button-darkgreen {
+        padding: 18px 44px;
     }
 
     .title.neutral-100.about-v2-hero {
@@ -19499,6 +19509,7 @@ figcaption {
 
     .title.services {
         margin-bottom: 6px;
+        font-size: 40px !important;
     }
 
     .title.h3-size {
@@ -22070,6 +22081,7 @@ figcaption {
     .container-default {
         padding-right: 16px;
         padding-left: 16px;
+        padding-bottom: 25px !important;
     }
 
     .section-styleguide {
@@ -22172,7 +22184,7 @@ figcaption {
 
     .button-secondary {
         display: block;
-        padding: 20px 15px;
+        padding: 15px 15px;
     }
 
         .button-secondary.large {
@@ -22269,8 +22281,8 @@ figcaption {
     }
 
     .section {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 30px !important;
+        padding-bottom: 70px !important;
     }
 
         .section.bg-primary-1.home-v1-hero {
@@ -22363,13 +22375,15 @@ figcaption {
         }
 
         .section.bg-secondary-1.contact-form {
-            padding-top: 92px;
-            padding-bottom: 92px;
+            /*    padding-top: 92px;
+            padding-bottom: 92px;*/
+            padding-top: 75px;
+            padding-bottom: 35px;
         }
 
         .section.home-v2-hero {
-            padding-top: 61px;
-            padding-bottom: 50px;
+            padding-top: 60px;
+            padding-bottom: 20px;
         }
 
         .section.home-v3-hero {
@@ -22377,7 +22391,8 @@ figcaption {
         }
 
         .section.about-v1-hero {
-            padding-top: 65px;
+            padding-top: 0px !important;
+            padding-bottom: 0px !important;
         }
 
         .section.padding-180px {
@@ -22395,8 +22410,10 @@ figcaption {
         }
 
         .section.features {
-            padding-top: 61px;
-            padding-bottom: 96px;
+            /*  padding-top: 61px;
+            padding-bottom: 96px;*/
+            padding-top: 60px;
+            padding-bottom: 30px;
         }
 
         .section.services {
@@ -22692,6 +22709,7 @@ figcaption {
         margin-right: auto;
         margin-bottom: 30px;
         margin-left: auto;
+        font-size: 15px;
     }
 
     .paragraph.neutral-100.about-v2-hero {
@@ -22710,6 +22728,7 @@ figcaption {
         max-width: 402px;
         margin-right: auto;
         margin-left: auto;
+        font-size: 16px;
     }
 
     .paragraph.card-home-v1-testimonials {
@@ -22867,7 +22886,8 @@ figcaption {
     }
 
     .cardw.feature {
-        padding: 33px 25px;
+        /*padding: 33px 25px;*/
+        padding: 5px 36px;
     }
 
     .card.contact {
@@ -23030,10 +23050,12 @@ figcaption {
 
     .title.neutral-100.contact {
         margin-bottom: 6px;
+        font-size: 50px !important;
     }
 
     .title.neutral-100.blog-v2-hero {
         margin-bottom: 6px;
+        font-size: 45px;
     }
 
     .title.neutral-100.blog-post {
@@ -23042,6 +23064,7 @@ figcaption {
 
     .title.neutral-100.pricing {
         margin-bottom: 6px;
+        font-size: 50px !important;
     }
 
     .title.neutral-100.help-center-hero {
@@ -23099,6 +23122,7 @@ figcaption {
     .title.home-v2-hero {
         max-width: 402px;
         margin-bottom: 10px;
+        font-size: 30px !IMPORTANT;
     }
 
     .title.home-v2-features {
@@ -23240,6 +23264,7 @@ figcaption {
         max-width: 402px;
         margin-right: auto;
         margin-left: auto;
+        font-size:28px;
     }
 
     .title.careers-hero {
@@ -23622,6 +23647,7 @@ figcaption {
 
     .image.card-feature {
         margin-bottom: 15px;
+        width: 75px;
     }
 
     .image.card-contact {
@@ -23738,7 +23764,7 @@ figcaption {
     }
 
     .cart-button {
-        margin-right: 15px;
+        margin-right: 8px;
     }
 
     .cart-container {
@@ -24555,6 +24581,7 @@ figcaption {
 
     .clients-individuals-wrapper {
         margin-bottom: 76px;
+        margin-top: 0px !important;
     }
 
     .clients-individuals-features-grid {
@@ -24856,6 +24883,11 @@ figcaption {
 
     .contact-form-content {
         margin-bottom: 40px;
+        margin-top: 50px;
+    }
+
+    .container-default.faqs {
+        margin-bottom: 10px !important;
     }
 
     .contact-form-links-grid {
@@ -26109,6 +26141,6 @@ figcaption {
     font-weight: 700;
     line-height: 54px; /* 135% */
     letter-spacing: -0.4px;
-    text-align:left;
-    margin-bottom:80px;
+    text-align: left;
+    margin-bottom: 80px;
 }

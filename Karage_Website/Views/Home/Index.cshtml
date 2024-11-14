@@ -5,11 +5,11 @@
 
 <div class="section home-v2-hero wf-section">
     <div class="container-medium-710px home-v2-hero">
-        <h1 data-w-id="68d7f947-d78b-27ba-bbca-e282fc65cd57" style="" class="title home-v2-hero">INNOVATIVE SOLUTION FOR CAR BUSINESS</h1>
+        <h1 data-w-id="68d7f947-d78b-27ba-bbca-e282fc65cd57" style="font-size: 68px;" class="title home-v2-hero">INNOVATIVE SOLUTION FOR CAR BUSINESS</h1>
         <p data-w-id="cf52aed8-91d5-0d11-757b-9ba8c62968f1" style="" class="paragraph home-v2-hero">Karage is your partner in achieving operational excellence.</p>
         <div data-w-id="a295b755-f7b6-c4a2-e919-d1050ead6efc" style="-webkit-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="_2-buttons">
-            <a href="@Url.Action("TryForFree", "LandingPages")" class="button-lightgreen w-button" style="margin-right: 15px;margin-left: 15px;"> Try it for - Free</a>
-            <a href="@Url.Action("Contact", "Home")" class="button-secondary button-white _2-buttons-button w-button" style="margin-left: 15px;margin-right: 15px">Contact Sales</a>
+            <a href="@Url.Action("TryForFree", "LandingPages")" class="button-lightgreen w-button" style="margin-right: 5px;margin-left: 5px;"> Try it for - Free</a>
+            <a href="@Url.Action("Contact", "Home")" class="button-secondary button-white _2-buttons-button w-button" style="margin-left: 5px;margin-right: 5px">Contact Sales</a>
         </div>
     </div>
 </div>
@@ -159,21 +159,25 @@
                 <div class="card-contact-form-block w-form">
                     <h1 class="title h2-size request-demo-content">Schedule a demo today</h1>
 
-                    <form id="wf-form-Request-Demo-Form" name="wf-form-Request-Demo-Form" data-name="Request Demo Form" method="get" class="card-request-demo-form">
-                        <input type="text" class="input name-icon w-input Name" maxlength="256" name="name" data-name="Name" placeholder="Name" id="name" required="">
-                        <input type="email" class="input email-icon w-input Email" maxlength="256" name="email" data-name="Email" placeholder="Email" id="email" required="">
-                        <input type="tel" class="input phone-icon w-input Phone" maxlength="256" name="Phone" data-name="Phone" placeholder="Phone number" id="phone" required="">
-                        <input type="text" class="input company-icon v2 w-input Company" maxlength="256" name="Company" data-name="Company" placeholder="Company" id="company" required="">
-                        <input type="text" class="input w-input CompanySize" maxlength="256" name="Company-Size" data-name="Company Size" placeholder="Company Size" id="Company-Size" required="">
-                        <input type="text" class="input position-icon w-input Position" maxlength="256" name="Position" data-name="Position" placeholder="Position" id="position" required="">
-                        <a onclick="getmail();" class="button-primary request-demo w-button">
+                    <form id="wf-form-Request-Demo-Form" name="wf-form-Request-Demo-Form" data-name="Request Demo Form" class="card-request-demo-form" onsubmit="return handleFormSubmission(event);">
+                        <input type="text" class="input name-icon w-input Name" maxlength="256" name="name" data-name="Name" placeholder="Name" id="name" required>
+                        <input type="email" class="input email-icon w-input Email" maxlength="256" name="email" data-name="Email" placeholder="Email" id="email" required>
+                        <input type="tel" class="input phone-icon w-input Phone" maxlength="256" name="Phone" data-name="Phone" placeholder="Phone number" id="phone" required>
+                        <input type="text" class="input company-icon v2 w-input Company" maxlength="256" name="Company" data-name="Company" placeholder="Company" id="company" required>
+                        <input type="text" class="input w-input CompanySize" maxlength="256" name="Company-Size" data-name="Company Size" placeholder="Company Size" id="Company-Size" required>
+                        <input type="text" class="input position-icon w-input Position" maxlength="256" name="Position" data-name="Position" placeholder="Position" id="position" required>
+
+                        <button type="submit" class="button-primary request-demo w-button" id="submitBtn">
                             Schedule a demo
-                        </a>
+                        </button>
+
+                        <div id="loader" style="display: none;">Submitting...</div>
                     </form>
-                    <div class="success-message w-form-done">
+
+                    <div class="success-message w-form-done" style="display: none;">
                         <div>Your message has been submitted. <br>We will get back to you within 24-48 hours.</div>
                     </div>
-                    <div class="error-message w-form-fail">
+                    <div class="error-message w-form-fail" style="display: none;">
                         <div>Oops! Something went wrong.</div>
                     </div>
                 </div>
@@ -186,7 +190,7 @@
                 </div>
                 <div class="request-demo-content-bottom">
                     <div class="card request-demo-content-team">
-                        <img src="../images/john-carter-profile-picture-small-startup-x-webflow-template.jpg" alt="John Carter - Startup X Webflow Template" class="image request-demo-content-team">
+                        <img src="../images/profile.png" alt="John Carter - Startup X Webflow Template" class="image request-demo-content-team">
                         <div class="request-demo-content-team-content">
                             <div class="request-demo-content-team-name">Mohannad Albosh</div>
                             <div class="request-demo-content-team-position">Customer Success</div>
@@ -219,7 +223,7 @@
     </div>
 </div>
 
-<div class="section wf-section">
+<div class="section wf-section" style="padding-top: 250px; padding-bottom: 250px;">
     <div class="container-default faqs">
         <h2 data-w-id="68d7f947-d78b-27ba-bbca-e282fc65cd57" style="-webkit-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="title clients-individuals">Frequently Asked Questions</h2>
     </div>
@@ -228,7 +232,7 @@
             <div class="split-content faqs-left contact">
                 <div class="card faq">
                     <div class="card-faq-content-top">
-                        <h3 class="title card-faq">What is the monthly cost of your app?</h3>
+                        <h3 class="title card-faq">What is Karage, and how can it help my business?</h3>
                         <div class="card-faq-icon-wrapper">
                             <div class="card-faq-icon-1"></div>
                             <div class="card-faq-icon-2"></div>
@@ -236,12 +240,12 @@
                     </div>
                     <div class="card-faq-content-bottom">
                         <div class="space card-faq"></div>
-                        <p class="paragraph card-faq">Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa. Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.</p>
+                        <p class="paragraph card-faq">Karage is a comprehensive platform designed to streamline operations for car service centers, enhancing efficiency and customer satisfaction.</p>
                     </div>
                 </div>
                 <div class="card faq">
                     <div class="card-faq-content-top">
-                        <h3 class="title card-faq">Do you have any local branches?</h3>
+                        <h3 class="title card-faq">Is Karage suitable for small businesses?</h3>
                         <div class="card-faq-icon-wrapper">
                             <div class="card-faq-icon-1"></div>
                             <div class="card-faq-icon-2"></div>
@@ -249,12 +253,12 @@
                     </div>
                     <div class="card-faq-content-bottom">
                         <div class="space card-faq"></div>
-                        <p class="paragraph card-faq">Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa. Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.</p>
+                        <p class="paragraph card-faq">Yes, Karage supports businesses of all sizes with scalable solutions.</p>
                     </div>
                 </div>
                 <div class="card faq">
                     <div class="card-faq-content-top">
-                        <h3 class="title card-faq">What do I need to create an account?</h3>
+                        <h3 class="title card-faq">What types of features does Karage offer?</h3>
                         <div class="card-faq-icon-wrapper">
                             <div class="card-faq-icon-1"></div>
                             <div class="card-faq-icon-2"></div>
@@ -262,14 +266,14 @@
                     </div>
                     <div class="card-faq-content-bottom">
                         <div class="space card-faq"></div>
-                        <p class="paragraph card-faq">Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa. Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.</p>
+                        <p class="paragraph card-faq">Karage offers inventory management, invoicing, employee tracking, and CRM tools.</p>
                     </div>
                 </div>
             </div>
             <div class="split-content faqs-right contact">
                 <div class="card faq">
                     <div class="card-faq-content-top">
-                        <h3 class="title card-faq">Is the service available globally?</h3>
+                        <h3 class="title card-faq">How secure is my data on Karage?</h3>
                         <div class="card-faq-icon-wrapper">
                             <div class="card-faq-icon-1"></div>
                             <div class="card-faq-icon-2"></div>
@@ -277,12 +281,12 @@
                     </div>
                     <div class="card-faq-content-bottom">
                         <div class="space card-faq"></div>
-                        <p class="paragraph card-faq">Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa. Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.</p>
+                        <p class="paragraph card-faq">Karage prioritizes data security with encryption, ensuring safety.</p>
                     </div>
                 </div>
                 <div class="card faq">
                     <div class="card-faq-content-top">
-                        <h3 class="title card-faq">How do I create an account?</h3>
+                        <h3 class="title card-faq">Can I integrate Karage with other tools I already use?</h3>
                         <div class="card-faq-icon-wrapper">
                             <div class="card-faq-icon-1"></div>
                             <div class="card-faq-icon-2"></div>
@@ -290,12 +294,12 @@
                     </div>
                     <div class="card-faq-content-bottom">
                         <div class="space card-faq"></div>
-                        <p class="paragraph card-faq">Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa. Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.</p>
+                        <p class="paragraph card-faq">Yes, Karage supports integration with various platforms for easy connections.</p>
                     </div>
                 </div>
                 <div class="card faq">
                     <div class="card-faq-content-top">
-                        <h3 class="title card-faq">Do you have iOS and Android apps?</h3>
+                        <h3 class="title card-faq">What platforms does Karage support?</h3>
                         <div class="card-faq-icon-wrapper">
                             <div class="card-faq-icon-1"></div>
                             <div class="card-faq-icon-2"></div>
@@ -303,7 +307,7 @@
                     </div>
                     <div class="card-faq-content-bottom">
                         <div class="space card-faq"></div>
-                        <p class="paragraph card-faq">Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa. Volutpat massa rhoncus odio feugiat tellus elit massa sed ullamcorper a in.</p>
+                        <p class="paragraph card-faq">Karage is available on Android and iPad, with a dashboard accessible on all devices.</p>
                     </div>
                 </div>
             </div>
@@ -314,7 +318,7 @@
 <div class="section bg-primary-1 cta-2 wf-section">
     <div class="container-default w-container">
         <div class="cta-2-wrapper">
-            <h2 data-w-id="64250280-a99e-4564-05be-35c4ed59bca3" class="title neutral-100 cta-2" style="color:#ecfbcc;">Control your business & Create a free account today</h2>
+            <h2 data-w-id="64250280-a99e-4564-05be-35c4ed59bca3" class="title neutral-100 cta-2" style="color:#ECFBCC!important;">Control your business & Create a free account today</h2>
             <div data-w-id="64250280-a99e-4564-05be-35c4ed59bca3" class="_2-buttons cta-2">
                 <a data-w-id="64250280-a99e-4564-05be-35c4ed59bca3" href="@Url.Action("TryForFree", "LandingPages")" class="button-primary button-green cta-2 w-inline-block">
                     <div class="cta-2-button-primary-text">Try Karage <br>for free</div>
@@ -328,3 +332,55 @@
         </div>
     </div>
 </div>
+
+<script>
+    async function handleFormSubmission(event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        // Disable the submit button and show loader
+        const submitBtn = document.getElementById('submitBtn');
+        submitBtn.disabled = true;
+        document.getElementById('loader').style.display = 'block';
+
+        // Hide previous messages
+        document.querySelector('.success-message').style.display = 'none';
+        document.querySelector('.error-message').style.display = 'none';
+
+        // Collect form data
+        const form = document.getElementById('wf-form-Request-Demo-Form');
+        const formData = new FormData(form);
+
+        try {
+            // Send the form data to the server via fetch
+            const response = await fetch('/Home/Subscribe', { // Replace with the correct controller path
+                method: 'POST',
+                body: formData
+            });
+
+            const result = await response.json();
+            console.log(result); // Log the server response for debugging
+
+            // Hide loader
+            document.getElementById('loader').style.display = 'none';
+            document.querySelector('.error-message').style.display = 'none';
+
+            if (result.success) {
+                // Show success message
+                document.querySelector('.success-message').style.display = 'block';
+            } else {
+                // Show error message with server response
+                document.querySelector('.error-message').style.display = 'block';
+                document.querySelector('.error-message').innerText = result.message || "Submission failed.";
+            }
+        } catch (error) {
+            // Hide loader and show error message in case of a network error
+            document.getElementById('loader').style.display = 'none';
+            document.querySelector('.error-message').style.display = 'block';
+            document.querySelector('.error-message').innerText = "An unexpected error occurred. Please try again.";
+            console.error("Error:", error);
+        } finally {
+            // Re-enable the submit button after response or error
+            submitBtn.disabled = false;
+        }
+    }
+</script>

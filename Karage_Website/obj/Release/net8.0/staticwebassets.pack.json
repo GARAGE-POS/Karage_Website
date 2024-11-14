@@ -29,6 +29,34 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\IBMPlex\\IBMPlexSansArabic-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\IBMPlex\\IBMPlexSansArabic-Bold.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\IBMPlex\\IBMPlexSansArabic-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\fonts\\IBMPlex\\IBMPlexSansArabic-ExtraLight.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\IBMPlex\\IBMPlexSansArabic-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\IBMPlex\\IBMPlexSansArabic-Light.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\IBMPlex\\IBMPlexSansArabic-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\IBMPlex\\IBMPlexSansArabic-Medium.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\IBMPlex\\IBMPlexSansArabic-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\IBMPlex\\IBMPlexSansArabic-Regular.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\IBMPlex\\IBMPlexSansArabic-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\IBMPlex\\IBMPlexSansArabic-SemiBold.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\IBMPlex\\IBMPlexSansArabic-Thin.ttf",
+      "PackagePath": "staticwebassets\\fonts\\IBMPlex\\IBMPlexSansArabic-Thin.ttf"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\Inter-Regular.ttf",
       "PackagePath": "staticwebassets\\fonts\\Inter-Regular.ttf"
     },
@@ -301,8 +329,36 @@
       "PackagePath": "staticwebassets\\images\\airconditioner.png"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\arabic-logo.png",
+      "PackagePath": "staticwebassets\\images\\arabic-logo.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\arabic-logo.svg",
+      "PackagePath": "staticwebassets\\images\\arabic-logo.svg"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\arabichome.png",
       "PackagePath": "staticwebassets\\images\\arabichome.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\arrow-drop-down-big.svg",
+      "PackagePath": "staticwebassets\\images\\arrow-drop-down-big.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\banner1.png",
+      "PackagePath": "staticwebassets\\images\\banner1.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\banner2.png",
+      "PackagePath": "staticwebassets\\images\\banner2.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\banner3.png",
+      "PackagePath": "staticwebassets\\images\\banner3.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\banner4.png",
+      "PackagePath": "staticwebassets\\images\\banner4.png"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\batteries.png",
@@ -427,6 +483,10 @@
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image-testimonial-create-account-startup-x-template.jpg",
       "PackagePath": "staticwebassets\\images\\image-testimonial-create-account-startup-x-template.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\image5.svg",
+      "PackagePath": "staticwebassets\\images\\image5.svg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\img1.png",
@@ -563,6 +623,10 @@
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\polishing.png",
       "PackagePath": "staticwebassets\\images\\polishing.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\profile.png",
+      "PackagePath": "staticwebassets\\images\\profile.png"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\protection.png",
