@@ -12691,7 +12691,7 @@ figcaption {
         border-color: #055f5b;
         border-radius: 5px;
         background-color: #055f5b;
-        background-image: url('../images/icon-check-startup-x-template.svg');
+        background-image: url('../images/checkbox.svg');
     }
 
     .create-account-checkbox.w--redirected-focus {

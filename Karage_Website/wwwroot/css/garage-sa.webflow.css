@@ -5330,8 +5330,8 @@ figcaption {
 }
 
     .card.perk:hover {
-        border: 1px solid;
-        border-color: #ededed;
+        /*border: 1px solid;*/
+        /*border-color: #ededed;*/
         transform: translate(0, -8px);
         box-shadow: 0 15px 20px rgba(41, 44, 50, .05);
         cursor: pointer;
@@ -12791,7 +12791,7 @@ figcaption {
         border-color: #055f5b;
         border-radius: 5px;
         background-color: #055f5b;
-        background-image: url('../images/icon-check-startup-x-template.svg');
+        background-image: url('../images/checkbox.svg');
     }
 
     .create-account-checkbox.w--redirected-focus {
