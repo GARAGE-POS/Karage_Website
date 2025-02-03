@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Karage_Website")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ca5a714f0397492a9e0ad3dc5610b3a111533fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ddd6fd3ce5dc2451eaf11ed055cd105c29998ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("Karage_Website")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Karage_Website")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

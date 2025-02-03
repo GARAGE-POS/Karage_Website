@@ -217,6 +217,10 @@
       "PackagePath": "staticwebassets\\images\\2.svg"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\21345.jpg",
+      "PackagePath": "staticwebassets\\images\\21345.jpg"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\3.svg",
       "PackagePath": "staticwebassets\\images\\3.svg"
     },
@@ -233,8 +237,20 @@
       "PackagePath": "staticwebassets\\images\\6.svg"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\AppStore.svg",
+      "PackagePath": "staticwebassets\\images\\AppStore.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Container.jpg",
+      "PackagePath": "staticwebassets\\images\\Container.jpg"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Container.png",
       "PackagePath": "staticwebassets\\images\\Container.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Container2.jpg",
+      "PackagePath": "staticwebassets\\images\\Container2.jpg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Container2.png",
@@ -269,8 +285,16 @@
       "PackagePath": "staticwebassets\\images\\Favicon.svg"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\KSA.svg",
+      "PackagePath": "staticwebassets\\images\\KSA.svg"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Karage Logo.svg",
       "PackagePath": "staticwebassets\\images\\Karage Logo.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Kashier.jpg",
+      "PackagePath": "staticwebassets\\images\\Kashier.jpg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Kashier.png",
@@ -299,6 +323,22 @@
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\My Karage.png",
       "PackagePath": "staticwebassets\\images\\My Karage.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\My-Karage.jpg",
+      "PackagePath": "staticwebassets\\images\\My-Karage.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\MyKarageBanner.svg",
+      "PackagePath": "staticwebassets\\images\\MyKarageBanner.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\PlayStore.svg",
+      "PackagePath": "staticwebassets\\images\\PlayStore.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Pocket.jpg",
+      "PackagePath": "staticwebassets\\images\\Pocket.jpg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Pocket.png",
@@ -337,8 +377,16 @@
       "PackagePath": "staticwebassets\\images\\arabic-logo.svg"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\arabichome.jpg",
+      "PackagePath": "staticwebassets\\images\\arabichome.jpg"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\arabichome.png",
       "PackagePath": "staticwebassets\\images\\arabichome.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\arabichome2.jpg",
+      "PackagePath": "staticwebassets\\images\\arabichome2.jpg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\arrow-drop-down-big.svg",
@@ -415,6 +463,10 @@
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\core6.svg",
       "PackagePath": "staticwebassets\\images\\core6.svg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\fbicon.svg",
+      "PackagePath": "staticwebassets\\images\\fbicon.svg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\figma-request-file-brix-templates.svg",
@@ -513,12 +565,28 @@
       "PackagePath": "staticwebassets\\images\\kashier1.png"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\kashier2.jpg",
+      "PackagePath": "staticwebassets\\images\\kashier2.jpg"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\kashier2.png",
       "PackagePath": "staticwebassets\\images\\kashier2.png"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\kashier2A.jpg",
+      "PackagePath": "staticwebassets\\images\\kashier2A.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\kashier3.jpg",
+      "PackagePath": "staticwebassets\\images\\kashier3.jpg"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\kashier3.png",
       "PackagePath": "staticwebassets\\images\\kashier3.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\kashier3A.jpg",
+      "PackagePath": "staticwebassets\\images\\kashier3A.jpg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\kashier4.png",
@@ -561,20 +629,40 @@
       "PackagePath": "staticwebassets\\images\\mykarage1.png"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\mykarage2.jpg",
+      "PackagePath": "staticwebassets\\images\\mykarage2.jpg"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\mykarage2.png",
       "PackagePath": "staticwebassets\\images\\mykarage2.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\mykarage3.jpg",
+      "PackagePath": "staticwebassets\\images\\mykarage3.jpg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\mykarage3.png",
       "PackagePath": "staticwebassets\\images\\mykarage3.png"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\mykarage4.jpg",
+      "PackagePath": "staticwebassets\\images\\mykarage4.jpg"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\mykarage5.png",
       "PackagePath": "staticwebassets\\images\\mykarage5.png"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\mykarage6.jpg",
+      "PackagePath": "staticwebassets\\images\\mykarage6.jpg"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\mykarage6.png",
       "PackagePath": "staticwebassets\\images\\mykarage6.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\mykarage6A.jpg",
+      "PackagePath": "staticwebassets\\images\\mykarage6A.jpg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\nayabusiness.png",
@@ -613,12 +701,28 @@
       "PackagePath": "staticwebassets\\images\\pocket1.png"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pocket2.jpg",
+      "PackagePath": "staticwebassets\\images\\pocket2.jpg"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pocket2.png",
       "PackagePath": "staticwebassets\\images\\pocket2.png"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pocket2A.jpg",
+      "PackagePath": "staticwebassets\\images\\pocket2A.jpg"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pocket3.jpg",
+      "PackagePath": "staticwebassets\\images\\pocket3.jpg"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pocket3.png",
       "PackagePath": "staticwebassets\\images\\pocket3.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\pocket3A.jpg",
+      "PackagePath": "staticwebassets\\images\\pocket3A.jpg"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\polishing.png",

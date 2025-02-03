@@ -2827,6 +2827,7 @@ body {
     font-size: 18px;
     line-height: 1.5rem;
     font-weight: 600;
+    letter-spacing: -1px !important;
 }
 
 @font-face {
@@ -2906,19 +2907,21 @@ a {
 }
 
     a:hover {
-        color: #b6f174;
+        color: black;
     }
 
 ul {
     margin-top: 0px;
     margin-bottom: 10px;
-    padding-left: 40px;
+    padding-right: 40px;
+    direction: rtl;
 }
 
 ol {
     margin-top: 0px;
     margin-bottom: 10px;
-    padding-left: 40px;
+    padding-right: 40px;
+    direction: rtl;
 }
 
 li {
@@ -3390,7 +3393,7 @@ figcaption {
 
 .button-lightgreen {
     margin-bottom: 10px;
-    padding: 25px 45px;
+    padding: 20px 40px;
     border-radius: 80px;
     background-color: #b6f174;
     -webkit-transition: color 300ms ease, box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
@@ -3401,7 +3404,7 @@ figcaption {
     line-height: 1.111em;
     font-weight: 700;
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
 }
 
     .button-lightgreen:hover {
@@ -3651,7 +3654,7 @@ figcaption {
     }
 
 .button-secondary {
-    padding: 20px 30px;
+    padding: 20px 40px;
     border-style: solid;
     border-width: 1px;
     border-color: #292c32;
@@ -3661,18 +3664,19 @@ figcaption {
     transition: border-color 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
     transition: border-color 300ms ease, color 300ms ease, transform 300ms ease;
     transition: border-color 300ms ease, color 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
-    color: #292c32;
-    line-height: 1.111em;
+    color: var(--base-900-black, #1E1E1E);
+    line-height: 20px;
     font-weight: 500;
     text-align: center;
+    font-size: 20px;
 }
 
     .button-secondary:hover {
-        border-color: black;
+        border-color: #055f5b;
         -webkit-transform: translate(0px, -4px);
         -ms-transform: translate(0px, -4px);
         transform: translate(0px, -4px);
-        color: black;
+        color: #055f5b;
     }
 
     .button-secondary.small {
@@ -3734,8 +3738,8 @@ figcaption {
         }
 
     .button-secondary.button-white:hover {
-        border-color: #b6f174;
-        color: #b6f174;
+        border-color: black;
+        color: black;
     }
 
     .button-secondary.button-white.cta-2 {
@@ -4165,7 +4169,7 @@ figcaption {
 
     .section.contact {
         position: relative;
-        padding-top: 120px;
+        padding-top: 60px;
         padding-bottom: 167px;
     }
 
@@ -4808,7 +4812,7 @@ figcaption {
 }
 
 .paragraph.neutral-100 {
-    color: #B6F174 !important;
+    color: #b6f174 !important;
 }
 
     .paragraph.neutral-100.home-v1-hero {
@@ -4915,6 +4919,10 @@ figcaption {
 
 .paragraph.card-faq {
     margin-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.833em;
 }
 
 .paragraph.home-v2-hero {
@@ -5031,6 +5039,16 @@ figcaption {
     font-style: normal;
     font-weight: 500;
     line-height: 26px;
+}
+
+.paragraph.terms-service {
+    margin-bottom: 0px;
+    color: #737373;
+    font-size: 14.875px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    text-align:right;
 }
 
 .paragraph.card-contact {
@@ -5263,14 +5281,19 @@ figcaption {
     border-width: 0px;
     box-shadow: none;
     cursor: pointer;
+    -webkit-transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease;
+    transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
 }
 
     .card.perk:hover {
         /*border: 1px solid;*/
-        border-color: #055f5b;
-        transform: translate(0, -8px);
         box-shadow: 0 15px 20px rgba(41, 44, 50, .05);
         cursor: pointer;
+        -webkit-transform: translate(0px, -8px);
+        -ms-transform: translate(0px, -8px);
+        transform: translate(0px, -8px);
     }
 
 .card.faq {
@@ -5709,6 +5732,7 @@ figcaption {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+    z-index: 1;
 }
 
 .card.request-demo-content-team {
@@ -5860,11 +5884,11 @@ figcaption {
 }
 
     .title.order-item:hover {
-        color: #ECFBCC;
+        color: #b6f174;
     }
 
 .title.neutral-100 {
-    color: #ECFBCC !important;
+    color: #b6f174 !important;
 }
 
     .title.neutral-100.cta-1 {
@@ -6221,6 +6245,7 @@ figcaption {
 
 .title.contact-faqs {
     margin-bottom: 0px;
+    letter-spacing: 0px !important;
 }
 
 .title.company-perks {
@@ -6432,7 +6457,7 @@ figcaption {
     }
 
 .title.dropdown-nav-title {
-    margin-bottom: 28px;
+    margin-bottom: 15px;
     color: #292c32;
     font-size: 22px;
     line-height: 1.5em;
@@ -7284,8 +7309,8 @@ figcaption {
 }
 
 .image.card-feature {
-    max-width: 131px;
-    margin-left: 30px;
+    max-width: 132px;
+    margin-left: 50px;
     margin-bottom: 20px;
 }
 
@@ -7596,12 +7621,12 @@ figcaption {
 .cart-button {
     padding: 15px 15px 15px 30px;
     background-color: transparent;
-    color: #3F9444;
+    color: #134f1a;
     font-size: 16px;
     line-height: 1.125em;
     font-weight: 700;
     border-radius: 80px;
-    border: 2px solid #3F9444;
+    border: 2px solid #134f1a;
 }
 
 .cart-quantity {
@@ -7722,8 +7747,8 @@ figcaption {
     font-size: 20px;
     line-height: 15px;
     font-weight: 700;
-    letter-spacing: 1.12px;
     text-transform: uppercase;
+    letter-spacing: 0px !important;
 }
 
     .subtitle.neutral-100 {
@@ -10965,7 +10990,7 @@ figcaption {
 }
 
     .container-small-585px.contact {
-        margin-bottom: 65px;
+        margin-bottom: 130px;
         text-align: center;
     }
 
@@ -11004,6 +11029,13 @@ figcaption {
 
 .card-contact-link-main {
     margin-bottom: 8px;
+    color: #3F9444 !important;
+    text-align: center;
+    font-size: 16.594px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32.99px;
+    text-decoration-line: underline;
 }
 
 .card-contact-link {
@@ -12691,7 +12723,7 @@ figcaption {
         border-color: #055f5b;
         border-radius: 5px;
         background-color: #055f5b;
-        background-image: url('../images/icon-check-startup-x-template.svg');
+        background-image: url('../images/checkbox.svg');
     }
 
     .create-account-checkbox.w--redirected-focus {
@@ -13671,7 +13703,7 @@ figcaption {
     }
 
 .dropdown-nav-item {
-    margin-bottom: 24px;
+    margin-bottom: 15px;
     line-height: 1.125em;
 }
 
@@ -13680,9 +13712,9 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 100%;
+    width: 75%;
     max-width: 100%;
-    padding: 60px 40px 45px;
+    padding: 20px 35px 20px;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
@@ -13724,7 +13756,7 @@ figcaption {
         }
 
 .dropdown-list {
-    left: 0px;
+    right: 0px;
     padding-top: 30px;
     background-color: transparent;
     text-align: right;
@@ -16715,8 +16747,8 @@ figcaption {
     }
 
     .card-perk-content {
-        left: 10px;
-        right: 10px;
+        /*left: 10px;*/
+        right: 18px;
         max-width: 378px;
         margin-right: auto;
         margin-left: auto;
@@ -17751,7 +17783,7 @@ figcaption {
     }
 
     .request-demo-features-wrapper {
-        margin-right: 30px;
+        margin-left: 30px;
     }
 
     .request-demo-content-bottom {
@@ -19212,6 +19244,11 @@ figcaption {
 
     .title.neutral-100.about-v1-hero {
         margin-bottom: 10px;
+        font-size: 33px !important;
+    }
+
+    .button-darkgreen {
+        margin-bottom: 15px;
     }
 
     .title.neutral-100.about-v2-hero {
@@ -21187,7 +21224,7 @@ figcaption {
 
     .contact-form-content {
         margin-bottom: 50px;
-        text-align: left;
+        text-align: right;
     }
 
     .contact-form-links-grid {
@@ -21941,7 +21978,7 @@ figcaption {
         padding-right: 16px;
         padding-left: 16px;
         padding-top: 20px;
-        padding-bottom: 40px !important;
+        padding-bottom: 20px !important;
     }
 
     .section-styleguide {
@@ -22142,7 +22179,7 @@ figcaption {
 
     .section {
         padding-top: 20px !important;
-        padding-bottom: 30px !important;
+        padding-bottom: 20px !important;
     }
 
         .section.bg-primary-1.home-v1-hero {
@@ -22249,7 +22286,7 @@ figcaption {
         }
 
         .section.about-v1-hero {
-            padding-top: 40px !important;
+            padding-top: 0px !important;
             padding-bottom: 0px !important;
         }
 
@@ -22976,7 +23013,16 @@ figcaption {
     .title.home-v2-hero {
         max-width: 402px;
         margin-bottom: 10px;
-        margin-top: 60px;
+        font-size: 45px;
+        line-height: 1.2em;
+        font-weight: 900;
+        font-family: 'ibmplexsansarabic-bold';
+        letter-spacing: -1px !important;
+    }
+
+    @font-face {
+        font-family: 'ibmplexsansarabic-bold';
+        src: url('../fonts/ibmplex/ibmplexsansarabic-bold.ttf') format('truetype');
     }
 
     .title.home-v2-features {
@@ -23113,6 +23159,7 @@ figcaption {
     .title.contact-form {
         margin-bottom: 10px;
         text-align: right;
+        margin-top: 40px;
     }
 
     .title.contact-faqs {
@@ -23468,7 +23515,7 @@ figcaption {
     }
 
     .image.clients-individuals-feature-icon {
-        margin-right: 8px;
+        margin-right: 0px;
     }
 
     .image.card-home-v3-feature {
@@ -24420,15 +24467,15 @@ figcaption {
     }
 
     .clients-individuals-wrapper {
-        margin-bottom: 76px;
+        margin-bottom: 15px;
         margin-top: 0px !important;
     }
 
     .clients-individuals-features-grid {
-        left: auto;
+        right: auto;
         top: auto;
-        right: 0px;
-        bottom: 10px;
+        left: 0px;
+        bottom: 50px;
         grid-row-gap: 10px;
     }
 
@@ -24438,7 +24485,7 @@ figcaption {
     }
 
     .clients-startups-achievement {
-        bottom: 20px;
+        /*bottom: 20px;*/
         padding: 30px 20px;
     }
 

@@ -44,5 +44,15 @@ namespace Karage_Website.Controllers
         {
             return View();
         }
+        [Route("en/TermsandCondition")]
+        public IActionResult Terms()
+        {
+            return View();
+        }
+        [Route("ar/TermsandCondition")]
+        public IActionResult ArTerms()
+        {
+            return View();
+        }
     }
 }

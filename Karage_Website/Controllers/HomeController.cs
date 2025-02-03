@@ -6,8 +6,9 @@ using System.Collections;
 using System.Diagnostics;
 using System.Net.Mail;
 using Vitamito.Models.BLL;
-using CookComputing.XmlRpc;
 using System.Net;
+using System.Collections.Generic; // For Dictionary
+using CookComputing.XmlRpc;
 
 namespace Karage_Website.Controllers
 {
@@ -172,6 +173,7 @@ namespace Karage_Website.Controllers
 
         //    return Json(obj);
         //}
+        [Route("Home/Subscribe")]
         [HttpPost]
         public JsonResult Subscribe(demoEmail obj)
         {
@@ -193,10 +195,8 @@ namespace Karage_Website.Controllers
             }
             catch (Exception ex)
             {
-                // Log error for template reading failure
                 return Json(new { success = false, message = $"Error loading template: {ex.Message}" });
             }
-
             try
             {
                 // Create the MailMessage
@@ -219,7 +219,9 @@ namespace Karage_Website.Controllers
                 })
                 {
                     //smtp.Send(mail); // Send the email
-                    var whatsappResult = WhatsAppSend(obj);
+                    // var whatsappResult = WhatsAppSend(obj);
+                    var api = new OdooLeadApi();
+                    api.CreateLead("New Lead", obj.Name, obj.Email, obj.Phone);
                 }
 
                 return Json(new { success = true, message = "Email sent successfully!" });
@@ -227,82 +229,97 @@ namespace Karage_Website.Controllers
             catch (Exception ex)
             {
                 // Log error and return failure message
-                return Json(new { success = false, message = $"Oops! Something went wrong." });
+                return Json(new { success = false, url = "/Home/ar/home", message = $"Oops! Something went wrong." });
             }
         }
-
-
-
         public interface IOdooXmlRpc : IXmlRpcProxy
         {
+            [XmlRpcMethod("authenticate")]
+            object Authenticate(
+                string db,
+                string username,
+                string password,
+                object[] args = null);
+
             [XmlRpcMethod("execute_kw")]
             object Execute(
                 string db,
-                int uid,
+                int userId,
                 string password,
                 string model,
                 string method,
                 object[] args,
-                Hashtable kwargs = null);
+                IDictionary<string, object> kwargs = null);
         }
 
         public class OdooLeadApi
         {
-            private const string OdooUrl = "https://your-odoo-instance-url/xmlrpc/2/";
-            private const string Db = "your_db_name";
-            private const string Username = "your_username";
-            private const string Password = "your_password";
+            private const string OdooUrlCommon = "https://garagepos.odoo.com/xmlrpc/2/common";
+            private const string OdooUrlObject = "https://garagepos.odoo.com/xmlrpc/2/object";
+            private const string Db = "garagepos"; // Your database name
+            private const string Username = "Shariqmalik@garage.sa";
+            private const string Password = "sharkgarage123@";
 
+            private readonly IOdooXmlRpc _commonClient;
+            private readonly IOdooXmlRpc _objectClient;
             private int _userId;
-            private readonly IOdooXmlRpc _odooClient;
 
             public OdooLeadApi()
             {
-                // Initialize the Odoo XML-RPC client
-                _odooClient = XmlRpcProxyGen.Create<IOdooXmlRpc>();
-                _odooClient.Url = OdooUrl + "common";
-                _userId = Authenticate();
+                // Initialize the XML-RPC clients
+                _commonClient = XmlRpcProxyGen.Create<IOdooXmlRpc>();
+                _commonClient.Url = OdooUrlCommon;
+
+                _objectClient = XmlRpcProxyGen.Create<IOdooXmlRpc>();
+                _objectClient.Url = OdooUrlObject;
+
+                Authenticate();
             }
 
-            private int Authenticate()
+            private void Authenticate()
             {
-                // Authenticate the user and get the user ID
-                var loginResult = (int)_odooClient.Execute(
-                    Db, 0, Password, "res.users", "authenticate",
-                    new object[] { Db, Username, Password, new Hashtable() });
-                return loginResult;
+                // Authenticate and retrieve the user ID
+                var userId = _commonClient.Authenticate(Db, Username, Password);
+
+                if (userId == null || !(userId is int))
+                {
+                    throw new Exception("Authentication failed: Invalid username or password.");
+                }
+
+                _userId = (int)userId;
+                Console.WriteLine($"Authenticated successfully with user ID: {_userId}");
             }
+
 
             public void CreateLead(string leadName, string contactName, string email, string phone)
             {
-                // Set up the fields for the lead
-                Hashtable leadData = new Hashtable
-            {
-                {"name", leadName},
-                {"contact_name", contactName},
-                {"email_from", email},
-                {"phone", phone}
-            };
+                // Define the lead data
+                var leadData = new Dictionary<string, object>
+                {
+                    { "name", leadName },
+                    { "contact_name", contactName },
+                    { "email_from", email },
+                    { "phone", phone }
+                };
 
-                // Prepare the arguments for the create method
+                // Ensure all parameters are correctly passed
                 var args = new object[] { leadData };
 
-                // Call the create method on the crm.lead model
-                _odooClient.Url = OdooUrl + "object";
-                int leadId = (int)_odooClient.Execute(
-                    Db, _userId, Password, "crm.lead", "create", args);
+                try
+                {
+                    // Call the create method on the 'crm.lead' model
+                    int leadId = (int)_objectClient.Execute(
+                        Db, _userId, Password, "crm.lead", "create", args);
 
-                Console.WriteLine($"Lead created with ID: {leadId}");
+                    Console.WriteLine($"Lead created successfully with ID: {leadId}");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error creating lead: {ex.Message}");
+                    throw;
+                }
             }
-        }
 
-        class Program
-        {
-            static void Main()
-            {
-                var api = new OdooLeadApi();
-                api.CreateLead("New Lead", "John Doe", "johndoe@example.com", "+123456789");
-            }
         }
 
         [HttpPost]

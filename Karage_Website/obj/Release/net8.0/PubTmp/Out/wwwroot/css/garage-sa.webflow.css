@@ -2642,6 +2642,10 @@
 }
 
 @media screen and (max-width: 479px) {
+    .wf-section {
+        padding-bottom: 50px !important;
+    }
+
     .w-commerce-commercecartcontainerwrapper--cartType-modal {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
@@ -2833,7 +2837,7 @@ h2 {
     margin-top: 0px;
     margin-bottom: 24px;
     color: #292c32;
-    font-size: 36px;
+    font-size: 37px;
     line-height: 1.316em;
     font-weight: 700;
     font-family: 'spacegrotesk-variablefont_wght';
@@ -2843,7 +2847,7 @@ h3 {
     margin-top: 0px;
     margin-bottom: 12px;
     color: #292c32;
-    font-size: 24px;
+    font-size: 26px;
     line-height: 1.375em;
     font-weight: 700;
     font-family: 'spacegrotesk-variablefont_wght';
@@ -2853,7 +2857,7 @@ h4 {
     margin-top: 0px;
     margin-bottom: 16px;
     color: #292c32;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.091em;
     font-weight: 700;
     font-family: 'spacegrotesk-variablefont_wght';
@@ -2863,7 +2867,7 @@ h5 {
     margin-top: 0px;
     margin-bottom: 16px;
     color: #292c32;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.389em;
     font-weight: 700;
     font-family: 'spacegrotesk-variablefont_wght';
@@ -2873,7 +2877,7 @@ h6 {
     margin-top: 0px;
     margin-bottom: 10px;
     color: #292c32;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.125em;
     font-weight: 800;
     font-family: 'spacegrotesk-variablefont_wght';
@@ -3379,17 +3383,22 @@ figcaption {
 }
 
 @font-face {
+    font-family: 'yekan bakh regular';
+    src: url('../fonts/yekan bakh regular.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'yekanbakh-heavy';
     src: url('../fonts/yekanbakh-heavy.ttf') format('truetype');
 }
 
 .arabic-font {
-    font-family: 'yekanbakh-heavy';
+    font-family: 'yekan bakh regular';
 }
 
 .button-lightgreen {
     margin-bottom: 10px;
-    padding: 20px 30px;
+    padding: 20px 40px;
     border-radius: 80px;
     background-color: #b6f174;
     -webkit-transition: color 300ms ease, box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
@@ -3400,7 +3409,8 @@ figcaption {
     line-height: 1.111em;
     font-weight: 700;
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
+    font-family: spacegrotesk-variablefont_wght;
 }
 
     .button-lightgreen:hover {
@@ -3440,7 +3450,7 @@ figcaption {
     }
 
 .button-primary:hover {
-    background-color: #003c39;
+    background-color: #134f1a;
     /*box-shadow: 0 10px 22px 0 rgba(41, 44, 50, 0.1);*/
     -webkit-transform: translate(0px, -4px);
     -ms-transform: translate(0px, -4px);
@@ -3597,6 +3607,8 @@ figcaption {
 .button-primary.blog-v2-hero {
     position: absolute;
     right: 9px;
+    font-weight: 500;
+    font-size: medium;
 }
 
     .button-primary.blog-v2-hero:hover {
@@ -3607,8 +3619,9 @@ figcaption {
 
 .button-primary.header-button {
     padding: 16px 26px;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 1.125em;
+    font-weight: 500;
 }
 
 .button-lightgreen.header-button {
@@ -3650,7 +3663,7 @@ figcaption {
     }
 
 .button-secondary {
-    padding: 16px 30px;
+    padding: 20px 40px;
     border-style: solid;
     border-width: 1px;
     border-color: #292c32;
@@ -3664,7 +3677,8 @@ figcaption {
     line-height: 20px;
     font-weight: 500;
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
+    font-family: spacegrotesk-variablefont_wght;
 }
 
     .button-secondary:hover {
@@ -3892,6 +3906,7 @@ figcaption {
     line-height: 1.125em;
     font-weight: 700;
     text-decoration: none;
+    font-family: spacegrotesk-variablefont_wght;
 }
 
     .nav-link.dropdown {
@@ -4160,12 +4175,12 @@ figcaption {
 
     .section.services {
         position: relative;
-        padding-top: 60px;
+        padding-top: 40px;
     }
 
     .section.contact {
         position: relative;
-        padding-top: 120px;
+        padding-top: 60px;
         padding-bottom: 167px;
     }
 
@@ -4224,7 +4239,7 @@ figcaption {
         position: relative;
         overflow: hidden;
         padding-top: 60px;
-        padding-bottom: 180px;
+        padding-bottom: 160px;
     }
 
     .section.team-page {
@@ -4823,7 +4838,7 @@ figcaption {
         margin-bottom: 40px;
         color: #ECFBCC !important;
         text-align: center;
-        font-size: 18px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 400;
         line-height: 32px; /* 160% */
@@ -4848,7 +4863,7 @@ figcaption {
 
     .paragraph.neutral-100.contact {
         margin-bottom: 0px;
-        color: #ECFBCC !important;
+        color: #b6f174 !important;
         text-align: center;
         font-size: 20px;
         font-style: normal;
@@ -4865,7 +4880,7 @@ figcaption {
     .paragraph.neutral-100.blog-v2-hero {
         max-width: 550px;
         margin-right: auto;
-        margin-bottom: 28px;
+        margin-bottom: 50px;
         margin-left: auto;
         color: #114617;
         text-align: center;
@@ -4943,6 +4958,9 @@ figcaption {
 
 .paragraph.card-faq {
     margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.833em;
 }
 
 .paragraph.home-v2-hero {
@@ -4950,7 +4968,7 @@ figcaption {
     margin-right: auto;
     margin-bottom: 45px;
     margin-left: auto;
-    font-size: 15px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px; /* 160% */
@@ -4968,7 +4986,7 @@ figcaption {
 .paragraph.clients-individuals {
     margin-bottom: 0px;
     color: #737373;
-    font-size: 17.297px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 32.99px; /* 190.728% */
@@ -4977,7 +4995,7 @@ figcaption {
 .paragraph.clients-startups {
     margin-bottom: 0px;
     color: #737373;
-    font-size: 17.297px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 32.99px; /* 190.728% */
@@ -5055,7 +5073,7 @@ figcaption {
 .paragraph.card-feature {
     margin-bottom: 0px;
     color: #737373;
-    font-size: 17px;
+    font-size: 17.58px;
     font-style: normal;
     font-weight: 500;
     line-height: 32.99px;
@@ -5075,7 +5093,7 @@ figcaption {
 .paragraph.card-service {
     margin-bottom: 0px;
     color: #737373;
-    font-size: 14.875px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 500;
     line-height: 26px; /* 154.074% */
@@ -5085,7 +5103,7 @@ figcaption {
     margin-bottom: 0px;
     color: #737373;
     text-align: center;
-    font-size: 17.156px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 32.99px; /* 192.291% */
@@ -5327,14 +5345,20 @@ figcaption {
     border-width: 0px;
     box-shadow: none;
     cursor: pointer;
+    -webkit-transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: border-color 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease;
+    transition: border-color 300ms ease, box-shadow 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
 }
 
     .card.perk:hover {
-        border: 1px solid;
-        border-color: #ededed;
-        transform: translate(0, -8px);
+        /*border: 1px solid;*/
+        /*border-color: #ededed;*/
         box-shadow: 0 15px 20px rgba(41, 44, 50, .05);
         cursor: pointer;
+        -webkit-transform: translate(0px, -8px);
+        -ms-transform: translate(0px, -8px);
+        transform: translate(0px, -8px);
     }
 
 .card.faq {
@@ -5925,11 +5949,11 @@ figcaption {
 }
 
     .title.order-item:hover {
-        color: #ECFBCC;
+        color: #b6f174;
     }
 
 .title.neutral-100 {
-    color: #ECFBCC !important;
+    color: #b6f174 !important;
 }
 
     .title.neutral-100.cta-1 {
@@ -5959,6 +5983,7 @@ figcaption {
         font-style: normal;
         font-weight: 700;
         line-height: 50.01px; /* 140.379% */
+        font-family: inter-regular;
     }
 
     .title.neutral-100.cta-3 {
@@ -6005,7 +6030,7 @@ figcaption {
         margin-right: auto;
         margin-bottom: 14px;
         margin-left: auto;
-        font-size: 85px;
+        font-size: 90px;
     }
 
     .title.neutral-100.blog-post {
@@ -6107,11 +6132,11 @@ figcaption {
     font-family: inter-regular;
     margin-right: 20px;
     margin-bottom: 0px;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .title.home-v2-hero {
-    max-width: 710px;
+    max-width: 1024px;
     margin-right: auto;
     margin-bottom: 10px;
     margin-left: auto;
@@ -6227,7 +6252,7 @@ figcaption {
 
 .title.h3-size {
     color: #1E1E1E;
-    font-size: 26px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: 33px;
@@ -6296,7 +6321,7 @@ figcaption {
     margin-bottom: 0px;
     color: #1E1E1E;
     text-align: center;
-    font-size: 33px;
+    font-size: 38px;
     font-style: normal;
     font-weight: 700;
     line-height: 47px; /* 123.684% */
@@ -6323,7 +6348,7 @@ figcaption {
     font-size: 38px;
     line-height: 1.316em;
     font-weight: 700;
-    font-family:inter-regular;
+    font-family: spacegrotesk-variablefont_wght;
 }
 
     .title.h2-size.card-career-page {
@@ -6517,9 +6542,9 @@ figcaption {
     }
 
 .title.dropdown-nav-title {
-    margin-bottom: 28px;
+    margin-bottom: 15px;
     color: #292c32;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.5em;
     font-weight: 700;
     white-space: nowrap;
@@ -6779,6 +6804,7 @@ figcaption {
 
 .split-content.request-demo-content {
     max-width: 39%;
+    z-index: 1;
 }
 
 .split-content.landing-page-hero-content {
@@ -7369,8 +7395,8 @@ figcaption {
 }
 
 .image.card-feature {
-    max-width: 131px;
-    margin-right: 24px;
+    max-width: 132px;
+    margin-right: 55px;
     margin-bottom: 20px;
 }
 
@@ -7681,12 +7707,13 @@ figcaption {
 .cart-button {
     padding: 15px 30px 15px 30px;
     background-color: transparent;
-    color: #3F9444;
-    font-size: 16px;
+    color: #134f1a;
+    font-size: 14px;
     line-height: 1.125em;
     font-weight: 700;
     border-radius: 80px;
-    border: 2px solid #3F9444;
+    border: 2px solid #134f1a;
+    font-family: spacegrotesk-variablefont_wght;
 }
 
 .cart-quantity {
@@ -9232,7 +9259,7 @@ figcaption {
     border-radius: 18px;
     background-color: #fff;
     text-align: center;
-    font-size: 16px;
+    font-size: 17.3px;
     line-height: 25px;
     font-weight: 500;
     color: #737373;
@@ -9488,8 +9515,9 @@ figcaption {
 
 .cta-2-button-primary-text {
     margin-bottom: 18px;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.273em;
+    font-weight: 700;
 }
 
 .cta-2-button-primary-arrow {
@@ -9707,7 +9735,7 @@ figcaption {
     }
 
 .container-medium-710px {
-    max-width: 755px;
+    max-width: 1024px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 24px;
@@ -10027,9 +10055,9 @@ figcaption {
     background-color: #fff;
     box-shadow: 0 6px 34px 0 rgba(12, 34, 72, 0.06);
     color: #292C32;
-    font-size: 17px;
+    font-size: 19px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 34px; /* 174.08% */
 }
 
@@ -10485,7 +10513,7 @@ figcaption {
     }
 
     .container-medium-616px.services {
-        margin-bottom: 72px;
+        margin-bottom: 100px;
         text-align: center;
     }
 
@@ -11043,7 +11071,7 @@ figcaption {
 }
 
 .card-service-content {
-    padding: 36px 32px 54px;
+    padding: 10px 15px 40px;
 }
 
 .container-small-585px {
@@ -11055,7 +11083,7 @@ figcaption {
 }
 
     .container-small-585px.contact {
-        margin-bottom: 65px;
+        margin-bottom: 130px;
         text-align: center;
     }
 
@@ -12267,7 +12295,7 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 70px;
+    margin-bottom: 120px;
     padding: 8px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -12335,6 +12363,7 @@ figcaption {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
+    font-weight:500;
 }
 
 .card-plan-feature-dot {
@@ -12370,11 +12399,13 @@ figcaption {
     color: #B6F174;
     line-height: 1.111em;
     font-weight: 500;
+    font-family: spacegrotesk-variablefont_wght;
 }
 
     .pricing-tab-link.w--current {
         background-color: #B6F174;
         color: #134F1A;
+        font-family: spacegrotesk-variablefont_wght;
     }
 
 .pricing-tabs-wrapper {
@@ -12791,7 +12822,7 @@ figcaption {
         border-color: #055f5b;
         border-radius: 5px;
         background-color: #055f5b;
-        background-image: url('../images/icon-check-startup-x-template.svg');
+        background-image: url('../images/checkbox.svg');
     }
 
     .create-account-checkbox.w--redirected-focus {
@@ -13172,7 +13203,7 @@ figcaption {
 }
 
 .request-demo-content-team-position {
-    color: #055f5b;
+    color: #3F9444;
     line-height: 1.333em;
     font-weight: 500;
 }
@@ -13774,7 +13805,7 @@ figcaption {
     }
 
 .dropdown-nav-item {
-    margin-bottom: 24px;
+    margin-bottom: 15px;
     line-height: 1.125em;
 }
 
@@ -13783,9 +13814,9 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 100%;
+    width: 80%;
     max-width: 100%;
-    padding: 60px 40px 45px;
+    padding: 20px 35px 20px;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
@@ -16835,8 +16866,8 @@ figcaption {
     }
 
     .card-perk-content {
-        left: 10px;
-        right: 10px;
+        left: 18px;
+        /*right: 10px;*/
         max-width: 378px;
         margin-right: auto;
         margin-left: auto;
@@ -19324,7 +19355,7 @@ figcaption {
     .title.neutral-100.cta-2 {
         max-width: 575px;
         margin-bottom: 35px;
-        font-size: 23px;
+        font-size: 26px;
     }
 
     .title.neutral-100.home-v1-hero {
@@ -19333,8 +19364,7 @@ figcaption {
 
     .title.neutral-100.about-v1-hero {
         margin-bottom: 10px;
-        font-size: 30px !important;
-        padding-top: 40px;
+        font-size: xx-large !important;
     }
 
     .button-darkgreen {
@@ -22984,6 +23014,7 @@ figcaption {
     .card.request-demo {
         min-height: 776px;
         padding: 48px 25px;
+        z-index: 1;
     }
 
     .card.request-demo-content-team {
@@ -23055,7 +23086,7 @@ figcaption {
 
     .title.neutral-100.blog-v2-hero {
         margin-bottom: 6px;
-        font-size: 45px;
+        font-size: 30px;
     }
 
     .title.neutral-100.blog-post {
@@ -23064,7 +23095,7 @@ figcaption {
 
     .title.neutral-100.pricing {
         margin-bottom: 6px;
-        font-size: 50px !important;
+        font-size: 30px !important;
     }
 
     .title.neutral-100.help-center-hero {
@@ -23152,6 +23183,7 @@ figcaption {
     .title.clients-startups {
         margin-right: 0px;
         margin-left: 0px;
+        font-size: 34px !important;
     }
 
     .title.blog-v1-post {
@@ -23264,7 +23296,7 @@ figcaption {
         max-width: 402px;
         margin-right: auto;
         margin-left: auto;
-        font-size:28px;
+        font-size: 28px;
     }
 
     .title.careers-hero {
@@ -23414,8 +23446,9 @@ figcaption {
     }
 
     .split-content.clients-startups-right {
-        margin-bottom: 40px;
+        padding-bottom: 40px;
         text-align: left;
+        max-width: 100% !important;
     }
 
     .split-content.about-v1-story-left {
@@ -23755,6 +23788,14 @@ figcaption {
         margin-bottom: 15px;
     }
 
+    .store-btn {
+        text-align: center;
+    }
+
+    .karage-banner {
+        width: 50%;
+    }
+
     .order-item-wrapper {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -23765,6 +23806,7 @@ figcaption {
 
     .cart-button {
         margin-right: 8px;
+        padding: 15px 20px 15px 20px;
     }
 
     .cart-container {
@@ -24588,7 +24630,7 @@ figcaption {
         left: auto;
         top: auto;
         right: 0px;
-        bottom: 10px;
+        bottom: 50px;
         grid-row-gap: 10px;
     }
 
@@ -24598,7 +24640,7 @@ figcaption {
     }
 
     .clients-startups-achievement {
-        bottom: 20px;
+        /*bottom: 20px;*/
         padding: 30px 20px;
     }
 
