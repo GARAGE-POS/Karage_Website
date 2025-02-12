@@ -2817,7 +2817,7 @@
 
 body {
     font-family: 'inter-regular';
-    color: #6e7277;
+    color: var(--Base-600, #666) !important;
     font-size: 18px;
     line-height: 1.5rem;
     font-weight: 600;
@@ -3415,7 +3415,7 @@ figcaption {
 
     .button-lightgreen:hover {
         background-color: #ffffff;
-        border: black, 1px solid !important;
+        border: #3F9444, 1px solid !important;
         box-shadow: 0 10px 22px 0 rgba(41, 44, 50, 0.1);
         -webkit-transform: translate(0px, -4px);
         -ms-transform: translate(0px, -4px);
@@ -3902,9 +3902,10 @@ figcaption {
     }
 
 .nav-link {
-    color: #292c32;
-    line-height: 1.125em;
-    font-weight: 700;
+    color: var(--base-900-black, #1E1E1E) !important;
+    line-height: 20.25px;
+    font-weight: 500;
+    font-size: 20px;
     text-decoration: none;
     font-family: spacegrotesk-variablefont_wght;
 }
@@ -4516,11 +4517,11 @@ figcaption {
 }
 
     .input:hover {
-        border-color: #055f5b;
+        border: 1.5px solid #3F9444 !important;
     }
 
     .input:focus {
-        border-color: #055f5b;
+        border: 1.px solid #3F9444 !important;
         color: #494a4d;
     }
 
@@ -7707,12 +7708,12 @@ figcaption {
 .cart-button {
     padding: 15px 30px 15px 30px;
     background-color: transparent;
-    color: #134f1a;
+    color: #3F9444;
     font-size: 14px;
     line-height: 1.125em;
     font-weight: 700;
     border-radius: 80px;
-    border: 2px solid #134f1a;
+    border: 2px solid #3F9444;
     font-family: spacegrotesk-variablefont_wght;
 }
 
@@ -7727,6 +7728,11 @@ figcaption {
     color: #055f5b;
     font-size: 16px;
     line-height: 1.125em;
+}
+
+.font-color {
+    color: #3F9444 !important;
+    transition: 300ms ease, transform 300ms ease, box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease !important;
 }
 
 .cart-container {

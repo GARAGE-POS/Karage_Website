@@ -33,3 +33,7 @@ E:\Projects\Karage_Website\Karage_Website\obj\Release\net8.0\scopedcss\Views\Sha
 E:\Projects\Karage_Website\Karage_Website\bin\Release\net8.0\Kveer.XmlRPC.dll
 E:\Projects\Karage_Website\Karage_Website\obj\Release\net8.0\Karage_Website.csproj.AssemblyReference.cache
 E:\Projects\Karage_Website\Karage_Website\obj\Release\net8.0\Karage_W.C9CF04DC.Up2Date
+E:\Projects\Karage_Website\Karage_Website\bin\Release\net8.0\Karage_Website.staticwebassets.endpoints.json
+E:\Projects\Karage_Website\Karage_Website\obj\Release\net8.0\staticwebassets.build.endpoints.json
+E:\Projects\Karage_Website\Karage_Website\obj\Release\net8.0\staticwebassets\msbuild.Karage_Website.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\Projects\Karage_Website\Karage_Website\obj\Release\net8.0\staticwebassets.upToDateCheck.txt

@@ -2820,9 +2820,40 @@
     font-family: 'ibmplexsansarabic-regular';
     src: url('../fonts/ibmplex/ibmplexsansarabic-regular.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'ibmplexsansarabic-bold';
+    src: url('../fonts/ibmplex/ibmplexsansarabic-bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ibmplexsansarabic-light';
+    src: url('../fonts/ibmplex/ibmplexsansarabic-light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ibmplexsansarabic-medium';
+    src: url('../fonts/ibmplex/ibmplexsansarabic-medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ibmplexsans-regular';
+    src: url('../fonts/IBMPlexSansArabic/IBMPlexSansArabic-Regular.ttf')format('truetype');
+    
+}
+@font-face {
+    font-family: 'ibmplexsans-bold';
+    src: url('../fonts/IBMPlexSansArabic/IBMPlexSansArabic-bold') format('truetype');
+}
+@font-face {
+    font-family: 'ibmplexsans-medium';
+    src: url('../fonts/IBMPlexSansArabic/IBMPlexSansArabic-medium') format('truetype');
+}
+@font-face {
+    font-family: 'ibmplexsans-light';
+    src: url('../fonts/IBMPlexSansArabic/IBMPlexSansArabic-light') format('truetype');
+}
+
 
 body {
-    font-family: 'ibmplexsansarabic-regular';
+    font-family: 'linotype - avenir arabic regular';
     color: #6e7277;
     font-size: 18px;
     line-height: 1.5rem;
@@ -2842,7 +2873,17 @@ h1 {
     font-size: 60px;
     line-height: 1.308em;
     font-weight: 900;
-    font-family: 'ibmplexsansarabic-regular';
+    font-family: 'ibmplexsans-regular';
+}
+
+h1-arabic {
+    font-size: 90px !important;
+    color: var(--base-900-black, #1E1E1E) !important;
+    margin-top: 0px;
+    margin-bottom: 18px;
+    line-height: 1.308em;
+    font-weight: 900;
+    font-family: 'ibmplexsans-regular';
 }
 
 h2 {
@@ -2852,7 +2893,7 @@ h2 {
     font-size: 36px;
     line-height: 1.316em;
     font-weight: 700;
-    font-family: 'ibmplexsansarabic-regular';
+    font-family: 'ibmplexsans-regular';
 }
 
 h3 {
@@ -2862,7 +2903,7 @@ h3 {
     font-size: 24px;
     line-height: 1.375em;
     font-weight: 700;
-    font-family: 'ibmplexsansarabic-regular';
+    font-family: 'ibmplexsans-regular';
 }
 
 h4 {
@@ -2872,7 +2913,7 @@ h4 {
     font-size: 22px;
     line-height: 1.091em;
     font-weight: 700;
-    font-family: 'ibmplexsansarabic-regular';
+    font-family: 'ibmplexsans-regular';
 }
 
 h5 {
@@ -2882,7 +2923,7 @@ h5 {
     font-size: 18px;
     line-height: 1.389em;
     font-weight: 700;
-    font-family: 'ibmplexsansarabic-regular';
+    font-family: 'ibmplexsans-regular';
 }
 
 h6 {
@@ -2892,7 +2933,7 @@ h6 {
     font-size: 16px;
     line-height: 1.125em;
     font-weight: 800;
-    font-family: 'ibmplexsansarabic-regular';
+    font-family: 'ibmplexsans-regular';
 }
 
 p {
@@ -3444,7 +3485,7 @@ figcaption {
     }
 
 .button-primary:hover {
-    background-color: #003c39;
+    background-color: #134f1a;
     /*box-shadow: 0 10px 22px 0 rgba(41, 44, 50, 0.1);*/
     -webkit-transform: translate(0px, -4px);
     -ms-transform: translate(0px, -4px);
@@ -3892,10 +3933,12 @@ figcaption {
     }
 
 .nav-link {
-    color: #292c32;
+    color: var(--base-900-black, #1E1E1E) !important; 
     line-height: 1.125em;
-    font-weight: 700;
+    font-size: 22px;
+    font-weight: 600;
     text-decoration: none;
+    font-family: ibmplexsans-regular;
 }
 
     .nav-link.dropdown {
@@ -4505,11 +4548,11 @@ figcaption {
 }
 
     .input:hover {
-        border-color: #055f5b;
+        border-color: 1.5px solid #3F9444 !important;
     }
 
     .input:focus {
-        border-color: #055f5b;
+        border-color: #3F9444;
         color: #494a4d;
     }
 
@@ -4928,11 +4971,22 @@ figcaption {
 .paragraph.home-v2-hero {
     max-width: 568px;
     margin-right: auto;
-    margin-bottom: 58px;
+    margin-bottom: 40px;
     margin-left: auto;
 }
 
-.paragraph.home-v2-features {
+.p1 {
+    color: var(--Base-500, #737373);
+    text-align: center;
+    font-family: "linotype - avenir arabic regular";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -0.06px;
+    margin-top: 12px;
+}
+    .paragraph.home-v2-features {
     margin-bottom: 32px;
 }
 
@@ -4942,6 +4996,17 @@ figcaption {
 
 .paragraph.clients-individuals {
     margin-bottom: 0px;
+    font-weight: 500px !important;
+}
+
+.paragraph-txt {
+    color: var(--Base-500, #737373) !important;
+    text-align: right;
+    font-family: "linotype - avenir arabic regular" !important;
+    font-size: 17.859px !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: normal;
 }
 
 .paragraph.clients-startups {
@@ -7621,12 +7686,12 @@ figcaption {
 .cart-button {
     padding: 15px 15px 15px 30px;
     background-color: transparent;
-    color: #134f1a;
+    color: #3F9444;
     font-size: 16px;
     line-height: 1.125em;
     font-weight: 700;
     border-radius: 80px;
-    border: 2px solid #134f1a;
+    border: 2px solid #3F9444;
 }
 
 .cart-quantity {
@@ -8609,7 +8674,7 @@ figcaption {
         z-index: -1;
         overflow: hidden;
         width: 49%;
-        background-color: #055f5b;
+        background-color: #134F1A;
     }
 
     .bg.create-account-shape-1 {
@@ -9163,19 +9228,25 @@ figcaption {
     grid-template-rows: auto;
 }
 
+.font-color {
+    color: #3F9444 !important;
+    transition: 300ms ease, transform 300ms ease, box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease !important;
+}
+
 .card-perk-content {
     position: absolute;
     left: 32px;
     right: 32px;
-    bottom: 32px;
+    bottom: 33px;
     padding: 37px 25px 39px;
     border-radius: 18px;
     background-color: #fff;
     text-align: center;
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 500;
-    color: #737373;
+    font-size: 18px !important;
+    line-height: 33px !important;
+    font-weight: 400 !important;
+    color: var(--Base-500, #737373) !important;
+    
 }
 
 .faqs-wrapper {
@@ -9400,14 +9471,14 @@ figcaption {
     position: absolute;
     width: 16px;
     min-height: 2px;
-    background-color: #055f5b;
+    background-color: #3F9444;
 }
 
 .card-faq-icon-2 {
     position: absolute;
     width: 2px;
     min-height: 16px;
-    background-color: #055f5b;
+    background-color: #3F9444;
 }
 
 .cta-2-wrapper {
@@ -12757,7 +12828,7 @@ figcaption {
 }
 
 .create-account-testimonial-position {
-    color: #055f5b;
+    color: #3F9444;
     font-size: 20px;
     line-height: 1em;
     font-weight: 700;
@@ -13081,7 +13152,9 @@ figcaption {
     -ms-flex-align: center;
     align-items: center;
     line-height: 1.333em;
-    font-weight: 600;
+    font-weight: 500;
+    font-
+    color: var(--Base-600, #666);
 }
 
 .request-demo-content-feature-icon {
@@ -13101,7 +13174,7 @@ figcaption {
 }
 
 .request-demo-content-team-position {
-    color: #055f5b;
+    color: #3F9444;
     line-height: 1.333em;
     font-weight: 500;
 }
@@ -23016,7 +23089,7 @@ figcaption {
         font-size: 45px;
         line-height: 1.2em;
         font-weight: 900;
-        font-family: 'ibmplexsansarabic-bold';
+        font-family: 'ibmplexsans-bold';
         letter-spacing: -1px !important;
     }
 

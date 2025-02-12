@@ -48,10 +48,6 @@
                                     <nav class="dropdown-list w-dropdown-list">
                                         <div class="dropdown-nav-main-wrapper">
                                             <div class="dropdown-nav-pages-wrapper">
-                                                <div class="title dropdown-nav-title">
-                                                    أنواع المنتجات
-                                                </div>
-                                                <hr style="color:#e7e9ee;border: 1px solid;" />
                                                 <div class="dropdown-nav-content">
                                                     <ul role="list" class="dropdown-nav">
                                                         <li class="dropdown-nav-item">
@@ -77,29 +73,37 @@
                                 <a href="@Url.Action("ArMarketPlace", "MarketPlace")" class="nav-link">متجر التطبيقات</a>
                             </li>
                             <li class="nav-item-wrapper">
-                                <a href="@Url.Action("ArPricing", "Home")" class="nav-link">التسعير</a>
+                                <a href="@Url.Action("ArPricing", "Home")" class="nav-link">الأسعار</a>
                             </li>
                             <li class="nav-item-wrapper header-button-mobile">
                                 <a href="@Url.Action("ArTryForFree", "LandingPages")" class="button-primary header-button mobile w-button" style="background:#b6f174; color:#134f1a">جربه - مجانًا</a>
                             </li>
                             <li class="nav-item-wrapper header-button-mobile">
-                                <a href="@Url.Action("Index", "Home")" class="header-button w-inline-block" style="padding-left:20px; text-decoration:none;">
+                                <a href="javascript:void(0);" onclick="setLanguage('en')" class="header-button w-inline-block arabic-font" style="padding-right:20px; text-decoration:none;">
+                                    English
+                                    <img src="~/images/flag-for-flag-united-kingdom-svgrepo-com.svg" style="width:40px; padding-right:10px;" />
+                                </a>
+                                @* <a href="@Url.Action("Index", "Home")" class="header-button w-inline-block" style="padding-left:20px; text-decoration:none;">
                                     English
                                     <img src="~/images/flag-for-flag-united-kingdom-svgrepo-com.svg" style="width:40px; padding-left:10px;" />
-                                </a>
+                                </a> *@
                             </li>
                         </ul>
                     </nav>
                     <div data-w-id="78f63fc2-9930-89fb-7433-4c85d37c65a8" class="split-content header-left">
                         <div data-node-type="commerce-cart-wrapper" data-open-product="" data-wf-cart-type="leftSidebar" data-wf-cart-query="" data-wf-page-link-href-prefix="" class="w-commerce-commercecartwrapper">
                             <a href="https://admin.garage.sa/" data-node-type="commerce-cart-open-link" class="w-commerce-commercecartopenlink cart-button w-inline-block" target="_blank" style="padding-left: 15px;">
-                                <div class="w-inline-block">تسجيل الدخول</div>
+                                <div class="w-inline-block font-color"> الدخول</div>
                             </a>
                         </div>
                         @* <a href="@Url.Action("ArTryForFree", "LandingPages")" class="button-primary header-button w-button" style="background:#b6f174; color:#134f1a">جربه - مجانًا</a> *@
-                        <a href="@Url.Action("Index", "Home")" class="button-primary header-button w-inline-block arabic-font" style="padding-left:20px; text-decoration:none; background:none; color:#292C32;">
+                        @* <a href="@Url.Action("Index", "Home")" class="button-primary header-button w-inline-block arabic-font" style="padding-left:20px; text-decoration:none; background:none; color:#292C32;">
                             English
                             <img src="~/images/flag-for-flag-united-kingdom-svgrepo-com.svg" style="width:40px; padding-left:10px;" />
+                        </a> *@
+                        <a href="javascript:void(0);" onclick="setLanguage('en')" class="header-button w-inline-block arabic-font" style="padding-right:20px; text-decoration:none;">
+                            English
+                            <img src="~/images/flag-for-flag-united-kingdom-svgrepo-com.svg" style="width:40px; padding-right:10px;" />
                         </a>
                         <div class="menu-button w-nav-button">
                             <div class="header-menu-button-icon-wrapper">
@@ -122,8 +126,8 @@
                 <div data-w-id="be78ef8e-1474-3219-9769-118139e7f737" class="footer-content">
                     <div class="footer-menu-wrapper">
                         <div class="footer-title">
-                            <a href="#" class="footer-logo-container w-inline-block">
-                                <img src="../images/arabic-logo.svg" alt="Startuper X Webflow Template - Logo" class="footer-logo">
+                            <a href="#" class="footer-logo-container w-inline-block" >
+                                <img src="../images/arabic-logo.svg" alt="Startuper X Webflow Template - Logo" class="footer-logo" style="max-width:50%">
                             </a>
                         </div>
                         <div class="footer-menu-content">
@@ -165,7 +169,7 @@
                                     <a href="@Url.Action("ArContact", "Home")" class="footert-nav-link">اتصل بنا</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="@Url.Action("ArPricing", "Home")" class="footert-nav-link">التسعير</a>
+                                    <a href="@Url.Action("ArPricing", "Home")" class="footert-nav-link">الأسعار</a>
                                 </li>
                             </ul>
                         </div>
@@ -184,7 +188,7 @@
                         </div>
                     </div>
                     <div class="footer-menu-wrapper last">
-                        <div class="footer-title">الصناعات</div>
+                        <div class="footer-title">القطاعات</div>
                         <div class="footer-menu-content">
                             <ul role="list" class="footer-nav w-list-unstyled">
                                 <li class="footer-nav-item">
@@ -212,7 +216,7 @@
                 <div class="divider footer-content-bottom-divider"></div>
                 <div data-w-id="c87e86cc-55f9-10a0-58c6-8bebd2db9d27" class="footer-content-bottom">
                     <div class="footer-small-print">
-                        Copyright © Karage 2024
+                        Karage © 2025. All Rights Reserved.
                     </div>
                 </div>
             </div>
@@ -226,6 +230,22 @@
     <script>
         function YoutubeClick() {
             window.open("https://youtube.com/@@karagehq.?si=wfaD-ZPkCgx9lqTl", "_blank");
+        }
+    </script>
+    <script>
+        function setLanguage(lang) {
+            debugger
+            let currentPath = window.location.pathname.split("/").filter(p => p); // Get path parts
+
+            // Ensure the first part is the language (default is "en")
+            if (currentPath.length > 0 && (currentPath[0] === "ar" || currentPath[0] === "en")) {
+                currentPath[0] = lang; // Replace language part
+            } else {
+                currentPath.unshift(lang); // Add language if missing
+            }
+
+            let newUrl = window.location.origin + "/" + currentPath.join("/");
+            window.location.href = newUrl;
         }
     </script>
 </body>

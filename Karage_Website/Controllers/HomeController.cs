@@ -27,40 +27,77 @@ namespace Karage_Website.Controllers
             _configuration = configuration;
         }
 
-        public IActionResult Index()
+        [Route("{lang=en}/home")]// Matches "/en" or "/ar" directly
+        public IActionResult Index(string lang = "en")
         {
-            return View();
+            if (lang == "ar")
+                return View("ArIndex");
+            return View("Index");
         }
-        [Route("ar/home")]
-        public IActionResult ArIndex()
+
+        [Route("{lang=en}/about")] // Matches "/en/about" or "/ar/about"
+        public IActionResult About(string lang = "en")
         {
-            return View();
+            if (lang == "ar")
+                return View("ArAbout");
+            return View("About");
         }
-        [Route("en/about")]
-        public IActionResult About()
+
+        [Route("{lang=en}/pricing")] // Matches "/en/pricing" or "/ar/pricing"
+        public IActionResult Pricing(string lang = "en")
         {
-            return View();
+            if (lang == "ar")
+                return View("ArPricing");
+            return View("Pricing");
         }
-        [Route("ar/about")]
-        public IActionResult ArAbout()
+
+        [Route("{lang=en}/contact")] // Matches "/en/contact" or "/ar/contact"
+        public IActionResult Contact(string lang = "en")
         {
-            return View();
+            if (lang == "ar")
+                return View("ArContact");
+            return View("Contact");
         }
-        [Route("en/pricing")]
-        public IActionResult Pricing()
-        {
-            return View();
-        }
-        [Route("ar/pricing")]
-        public IActionResult ArPricing()
-        {
-            return View();
-        }
-        [Route("en/contact")]
-        public IActionResult Contact()
-        {
-            return View();
-        }
+
+        //public IActionResult Index()
+        //{
+        //    return View();
+        //}
+        //[Route("ar/home")]
+        //public IActionResult ArIndex()
+        //{
+        //    return View();
+        //}
+        //[Route("en/about")]
+        //public IActionResult About()
+        //{
+        //    return View();
+        //}
+        //[Route("ar/about")]
+        //public IActionResult ArAbout()
+        //{
+        //    return View();
+        //}
+        //[Route("en/pricing")]
+        //public IActionResult Pricing()
+        //{
+        //    return View();
+        //}
+        //[Route("ar/pricing")]
+        //public IActionResult ArPricing()
+        //{
+        //    return View();
+        //}
+        //[Route("en/contact")]
+        //public IActionResult Contact()
+        //{
+        //    return View();
+        //}
+        //[Route("ar/contact")]
+        //public IActionResult ArContact()
+        //{
+        //    return View();
+        //}
 
         [HttpPost]
         public ActionResult Contact(contactBLL obj)
@@ -108,71 +145,7 @@ namespace Karage_Website.Controllers
             }
             return View();
         }
-
-        [Route("ar/contact")]
-        public IActionResult ArContact()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
-        //[HttpGet]
-        //public JsonResult Subscribe(demoEmail obj)
-        //{
-        //    string toEmail = _smtpSettings.From; // Send to the 'From' email from settings
-        //    string subject = "New Subscription at Karage";
-        //    string cc = string.Empty;
-        //    string bcc = string.Empty;
-
-        //    // Read the email template
-        //    //string bodyEmail = System.IO.File.ReadAllText(Server.MapPath("~/Template/newsletter.txt"));
-        //    //bodyEmail = bodyEmail.Replace("#email#", obj.Email);
-
-        //    string templatePath = Path.Combine(_env.ContentRootPath, "Template/contact.txt");
-        //    string bodyEmail = System.IO.File.ReadAllText(templatePath);
-        //    bodyEmail = bodyEmail.Replace("#name#", obj.Name);
-        //    bodyEmail = bodyEmail.Replace("#email#", obj.Email);
-        //    bodyEmail = bodyEmail.Replace("#phone#", obj.Phone);
-        //    bodyEmail = bodyEmail.Replace("#company#", obj.Company);
-        //    bodyEmail = bodyEmail.Replace("#companysize#", obj.CompanySize);
-        //    bodyEmail = bodyEmail.Replace("#position#", obj.Position);
-
-        //    try
-        //    {
-        //        // Create the MailMessage
-        //        MailMessage mail = new MailMessage
-        //        {
-        //            From = new MailAddress(_smtpSettings.From),
-        //            Subject = subject,
-        //            Body = bodyEmail,  // Set the email body
-        //            IsBodyHtml = true
-        //        };
-        //        mail.To.Add(toEmail);
-
-        //        // Configure the SMTP client
-        //        SmtpClient smtp = new SmtpClient
-        //        {
-        //            Host = _smtpSettings.SmtpServer,
-        //            Port = _smtpSettings.SmtpPort,
-        //            Credentials = new System.Net.NetworkCredential(_smtpSettings.UserName, _smtpSettings.Password),
-        //            EnableSsl = true
-        //        };
-
-        //        // Send the email
-        //        smtp.Send(mail);
-        //        ViewBag.Status = "Email sent successfully!";
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        ViewBag.Status = $"Error: {ex.Message}";
-        //    }
-
-        //    return Json(obj);
-        //}
+       
         [Route("Home/Subscribe")]
         [HttpPost]
         public JsonResult Subscribe(demoEmail obj)
@@ -232,6 +205,7 @@ namespace Karage_Website.Controllers
                 return Json(new { success = false, url = "/Home/ar/home", message = $"Oops! Something went wrong." });
             }
         }
+
         public interface IOdooXmlRpc : IXmlRpcProxy
         {
             [XmlRpcMethod("authenticate")]

@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Karage_Website.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Karage_Website.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Karage_Website.nf40oathm8.bundle.scp.css"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\css\\garage-sa-arabic.webflow.css",
@@ -27,6 +27,38 @@
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\IBMPlexSansArabic\\IBMPlexSansArabic-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\IBMPlexSansArabic\\IBMPlexSansArabic-Bold.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\IBMPlexSansArabic\\IBMPlexSansArabic-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\fonts\\IBMPlexSansArabic\\IBMPlexSansArabic-ExtraLight.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\IBMPlexSansArabic\\IBMPlexSansArabic-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\IBMPlexSansArabic\\IBMPlexSansArabic-Light.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\IBMPlexSansArabic\\IBMPlexSansArabic-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\IBMPlexSansArabic\\IBMPlexSansArabic-Medium.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\IBMPlexSansArabic\\IBMPlexSansArabic-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\IBMPlexSansArabic\\IBMPlexSansArabic-Regular.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\IBMPlexSansArabic\\IBMPlexSansArabic-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\IBMPlexSansArabic\\IBMPlexSansArabic-SemiBold.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\IBMPlexSansArabic\\IBMPlexSansArabic-Thin.ttf",
+      "PackagePath": "staticwebassets\\fonts\\IBMPlexSansArabic\\IBMPlexSansArabic-Thin.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\IBMPlexSansArabic\\OFL.txt",
+      "PackagePath": "staticwebassets\\fonts\\IBMPlexSansArabic\\OFL.txt"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\IBMPlex\\IBMPlexSansArabic-Bold.ttf",
@@ -55,6 +87,10 @@
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\IBMPlex\\IBMPlexSansArabic-Thin.ttf",
       "PackagePath": "staticwebassets\\fonts\\IBMPlex\\IBMPlexSansArabic-Thin.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\IBM_Plex_Sans_Arabic.zip",
+      "PackagePath": "staticwebassets\\fonts\\IBM_Plex_Sans_Arabic.zip"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\fonts\\Inter-Regular.ttf",
@@ -1015,6 +1051,10 @@
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Karage_Website.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Karage_Website.Microsoft.AspNetCore.StaticWebAssets.props",

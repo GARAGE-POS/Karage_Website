@@ -25,8 +25,28 @@ app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthorization();
 
+//app.MapControllerRoute(
+//    name: "default",
+//    pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    name: "localized",
+    pattern: "{lang=en}/{action=Index}/{id?}", // Removes the controller from URL
+    defaults: new { controller = "Home", action = "Index", lang = "en" },
+    constraints: new { lang = "en|ar" } // Supports only 'en' and 'ar'
+);
+
+// Redirect root "/" to default language
+app.Use(async (context, next) =>
+{
+    if (context.Request.Path == "/")
+    {
+        context.Response.Redirect("/en/home");
+    }
+    else
+    {
+        await next();
+    }
+});
+
 
 app.Run();
