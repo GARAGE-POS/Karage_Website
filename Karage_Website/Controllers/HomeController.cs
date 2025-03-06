@@ -27,37 +27,39 @@ namespace Karage_Website.Controllers
             _configuration = configuration;
         }
 
-        [Route("{lang=en}/home")]// Matches "/en" or "/ar" directly
-        public IActionResult Index(string lang = "en")
+
+        [Route("{lang:regex(^en|ar$)}/home")]
+        public IActionResult Index(string lang)
         {
             if (lang == "ar")
                 return View("ArIndex");
             return View("Index");
         }
 
-        [Route("{lang=en}/about")] // Matches "/en/about" or "/ar/about"
-        public IActionResult About(string lang = "en")
+        [Route("{lang:regex(^en|ar$)}/about")]
+        public IActionResult About(string lang)
         {
             if (lang == "ar")
                 return View("ArAbout");
             return View("About");
         }
 
-        [Route("{lang=en}/pricing")] // Matches "/en/pricing" or "/ar/pricing"
-        public IActionResult Pricing(string lang = "en")
+        [Route("{lang:regex(^en|ar$)}/pricing")]
+        public IActionResult Pricing(string lang)
         {
             if (lang == "ar")
                 return View("ArPricing");
             return View("Pricing");
         }
 
-        [Route("{lang=en}/contact")] // Matches "/en/contact" or "/ar/contact"
-        public IActionResult Contact(string lang = "en")
+        [Route("{lang:regex(^en|ar$)}/contact")]
+        public IActionResult Contact(string lang)
         {
             if (lang == "ar")
                 return View("ArContact");
             return View("Contact");
         }
+
 
         //public IActionResult Index()
         //{
@@ -191,10 +193,10 @@ namespace Karage_Website.Controllers
                     EnableSsl = true
                 })
                 {
-                    //smtp.Send(mail); // Send the email
+                    smtp.Send(mail); // Send the email
                     // var whatsappResult = WhatsAppSend(obj);
-                    var api = new OdooLeadApi();
-                    api.CreateLead("New Lead", obj.Name, obj.Email, obj.Phone);
+                    //var api = new OdooLeadApi();
+                    //api.CreateLead("New Lead", obj.Name, obj.Email, obj.Phone);
                 }
 
                 return Json(new { success = true, message = "Email sent successfully!" });

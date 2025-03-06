@@ -1,4 +1,4 @@
-using Karage_Website.Models;
+﻿using Karage_Website.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("SmtpSettings"));
@@ -16,8 +16,7 @@ if (app.Environment.IsDevelopment())
 else
 {
     app.UseExceptionHandler("/Home/Error");
-    // Consider enabling HTTPS redirection in Production
-    app.UseHsts(); // Adds HTTP Strict Transport Security (HSTS) headers
+    app.UseHsts(); // Enables HSTS (Strict Transport Security)
 }
 
 // Use static files, routing, and authorization
@@ -25,17 +24,41 @@ app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthorization();
 
+// ✅ Defines the main route pattern for all controllers
 //app.MapControllerRoute(
-//    name: "default",
-//    pattern: "{controller=Home}/{action=Index}/{id?}");
+//    name: "localized",
+//    pattern: "{lang=en}/{controller=Home}/{action=Index}/{id?}",
+//    defaults: new { lang = "en" },
+//    constraints: new { lang = "en|ar" } // Ensures only 'en' or 'ar' are allowed
+//);
 app.MapControllerRoute(
     name: "localized",
-    pattern: "{lang=en}/{action=Index}/{id?}", // Removes the controller from URL
+    pattern: "{lang=en}/{action=Index}/{id?}",
     defaults: new { controller = "Home", action = "Index", lang = "en" },
-    constraints: new { lang = "en|ar" } // Supports only 'en' and 'ar'
+    constraints: new { lang = "en|ar" }
 );
 
-// Redirect root "/" to default language
+app.MapControllerRoute(
+    name: "custom_routes",
+    pattern: "{lang:regex(^en|ar$)}/{action}",
+    defaults: new { controller = "LandingPages", action = "Index" }
+);
+
+app.MapControllerRoute(
+    name: "custom_routes",
+    pattern: "{lang:regex(^en|ar$)}/{action}",
+    defaults: new { controller = "MarketPlace", action = "Index" }
+);
+
+app.MapControllerRoute(
+    name: "custom_routes",
+    pattern: "{lang:regex(^en|ar$)}/{action}",
+    defaults: new { controller = "BusinessType", action = "Index" }
+);
+
+
+
+// Redirect root "/" to "/en/home"
 app.Use(async (context, next) =>
 {
     if (context.Request.Path == "/")
@@ -47,6 +70,5 @@ app.Use(async (context, next) =>
         await next();
     }
 });
-
 
 app.Run();

@@ -2,17 +2,18 @@
 
 namespace Karage_Website.Controllers
 {
+    [Route("{lang:regex(^en|ar$)}/[action]")]
     public class BusinessTypeController : Controller
     {
-        [Route("en/businesstype")]
         public IActionResult BusinessType()
         {
-            return View();
+            string lang = RouteData.Values["lang"]?.ToString() ?? "en";
+            return View(lang == "ar" ? "ArBusinessType" : "BusinessType");
         }
-        [Route("ar/businesstype")]
-        public IActionResult ArBusinessType()
-        {
-            return View();
-        }
+        //[Route("ar/businesstype")]
+        //public IActionResult ArBusinessType()
+        //{
+        //    return View();
+        //}
     }
 }

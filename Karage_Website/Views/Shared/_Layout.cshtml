@@ -52,6 +52,17 @@
                                                 <div class="dropdown-nav-content">
                                                     <ul role="list" class="dropdown-nav">
                                                         <li class="dropdown-nav-item">
+                                                            <a href="@Url.Action("Kashier", "LandingPages", new { lang = Context.Request.RouteValues["lang"] })" class="dropdown-nav-link">Kashier</a>
+                                                        </li>
+                                                        <li class="dropdown-nav-item">
+                                                            <a href="@Url.Action("Pocket", "LandingPages", new { lang = Context.Request.RouteValues["lang"] })" class="dropdown-nav-link">Pocket</a>
+                                                        </li>
+                                                        <li class="dropdown-nav-item">
+                                                            <a href="@Url.Action("MyKarage", "LandingPages", new { lang = Context.Request.RouteValues["lang"] })" class="dropdown-nav-link">My Karage</a>
+                                                        </li>
+                                                    </ul>
+                                                    @* <ul role="list" class="dropdown-nav">
+                                                        <li class="dropdown-nav-item">
                                                             <a href="@Url.Action("Kashier", "LandingPages")" class="dropdown-nav-link">Kashier</a>
                                                         </li>
                                                         <li class="dropdown-nav-item">
@@ -60,7 +71,7 @@
                                                         <li class="dropdown-nav-item">
                                                             <a href="@Url.Action("MyKarage", "LandingPages")" class="dropdown-nav-link">My Karage</a>
                                                         </li>
-                                                    </ul>
+                                                    </ul> *@
                                                 </div>
                                             </div>
                                         </div>
@@ -68,16 +79,16 @@
                                 </div>
                             </li>
                             <li class="nav-item-wrapper">
-                                <a href="@Url.Action("BusinessType", "BusinessType")" class="nav-link">Business Types</a>
+                                <a href="@Url.Action("BusinessType", "BusinessType", new { lang = Context.Request.RouteValues["lang"] })" class="nav-link">Business Types</a>
                             </li>
                             <li class="nav-item-wrapper">
-                                <a href="@Url.Action("MarketPlace", "MarketPlace")" class="nav-link">Marketplace</a>
+                                <a href="@Url.Action("MarketPlace", "MarketPlace", new { lang = Context.Request.RouteValues["lang"] })" class="nav-link">Marketplace</a>
                             </li>
                             <li class="nav-item-wrapper">
-                                <a href="@Url.Action("Pricing", "Home")" class="nav-link">Pricing</a>
+                                <a href="@Url.Action("Pricing", "Home", new { lang = Context.Request.RouteValues["lang"] })" class="nav-link">Pricing</a>
                             </li>
                             <li class="nav-item-wrapper header-button-mobile">
-                                <a href="@Url.Action("TryForFree", "LandingPages")" class="button-primary header-button mobile w-button" style="background:#b6f174; color:#134f1a">Try it for - Free</a>
+                                <a href="@Url.Action("TryForFree", "LandingPages", new { lang = Context.Request.RouteValues["lang"] })" class="button-primary header-button mobile w-button" style="background:#b6f174; color:#134f1a">Try it for - Free</a>
                             </li>
                             @* <li class="nav-item-wrapper header-button-mobile">
                             <a href="@Url.Action("ArIndex", "Home")" class="header-button w-inline-block arabic-font" style="padding-left:20px; text-decoration:none;">
@@ -149,16 +160,16 @@
                         <div class="footer-menu-content">
                             <ul role="list" class="footer-nav w-list-unstyled">
                                 <li class="footer-nav-item">
-                                    <a href="@Url.Action("Kashier", "LandingPages")" class="footert-nav-link">Kashier</a>
+                                    <a href="@Url.Action("Kashier", "LandingPages", new { lang = Context.Request.RouteValues["lang"] })" class="footert-nav-link">Kashier</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="@Url.Action("Pocket", "LandingPages")" class="footert-nav-link">Pocket</a>
+                                    <a href="@Url.Action("Pocket", "LandingPages", new { lang = Context.Request.RouteValues["lang"] })" class="footert-nav-link">Pocket</a>
                                 </li>
                                 @* <li class="footer-nav-item">
                                 <a href="" class="footert-nav-link">Pocket Lite</a>
                                 </li> *@
                                 <li class="footer-nav-item">
-                                    <a href="@Url.Action("MyKarage", "LandingPages")" class="footert-nav-link">My Karage</a>
+                                    <a href="@Url.Action("MyKarage", "LandingPages", new { lang = Context.Request.RouteValues["lang"] })" class="footert-nav-link">My Karage</a>
                                 </li>
                             </ul>
                         </div>
@@ -168,16 +179,16 @@
                         <div class="footer-menu-content">
                             <ul role="list" class="footer-nav w-list-unstyled">
                                 <li class="footer-nav-item">
-                                    <a href="@Url.Action("About", "Home")" class="footert-nav-link">About</a>
+                                    <a href="@Url.Action("About", "Home", new { lang = Context.Request.RouteValues["lang"] })" class="footert-nav-link">About</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="@Url.Action("Contact", "Home")" class="footert-nav-link">Contact Us</a>
+                                    <a href="@Url.Action("Contact", "Home", new { lang = Context.Request.RouteValues["lang"] })" class="footert-nav-link">Contact Us</a>
                                 </li>
                                 @* <li class="footer-nav-item">
                                 <a href="" class="footert-nav-link">Support</a>
                                 </li> *@
                                 <li class="footer-nav-item">
-                                    <a href="@Url.Action("Pricing", "Home")" class="footert-nav-link">Pricing</a>
+                                    <a href="@Url.Action("Pricing", "Home", new { lang = Context.Request.RouteValues["lang"] })" class="footert-nav-link">Pricing</a>
                                 </li>
                             </ul>
                         </div>
@@ -187,10 +198,10 @@
                         <div class="footer-menu-content">
                             <ul role="list" class="footer-nav w-list-unstyled">
                                 <li class="footer-nav-item">
-                                    <a href="@Url.Action("Terms", "LandingPages")" class="footert-nav-link">Terms & Conditions</a>
+                                    <a href="@Url.Action("Terms", "LandingPages", new { lang = Context.Request.RouteValues["lang"] })" class="footert-nav-link">Terms & Conditions</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="@Url.Action("Terms", "LandingPages")" class="footert-nav-link">Privacy Policy</a>
+                                    <a href="@Url.Action("Terms", "LandingPages", new { lang = Context.Request.RouteValues["lang"] })" class="footert-nav-link">Privacy Policy</a>
                                 </li>
                             </ul>
                         </div>

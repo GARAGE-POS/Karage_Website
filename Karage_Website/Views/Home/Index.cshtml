@@ -8,8 +8,8 @@
         <h1 data-w-id="68d7f947-d78b-27ba-bbca-e282fc65cd57" style="font-size: 90px;" class="title home-v2-hero">INNOVATIVE SOLUTION FOR CAR BUSINESS</h1>
         <p data-w-id="cf52aed8-91d5-0d11-757b-9ba8c62968f1" style="" class="paragraph home-v2-hero">Karage is your partner in achieving operational excellence.</p>
         <div data-w-id="a295b755-f7b6-c4a2-e919-d1050ead6efc" style="-webkit-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="_2-buttons">
-            <a href="@Url.Action("TryForFree", "LandingPages")" class="button-lightgreen w-button" style="margin-right: 5px;margin-left: 5px;"> Try it for - Free</a>
-            <a href="@Url.Action("Contact", "Home")" class="button-secondary button-white _2-buttons-button w-button" style="margin-left: 5px;margin-right: 5px">Contact Sales</a>
+            <a href="@Url.Action("TryForFree", "LandingPages", new { lang = Context.Request.RouteValues["lang"] })" class="button-lightgreen w-button" style="margin-right: 5px;margin-left: 5px;"> Try it for - Free</a>
+            <a href="@Url.Action("Contact", "Home", new { lang = Context.Request.RouteValues["lang"] })" class="button-secondary button-white _2-buttons-button w-button" style="margin-left: 5px;margin-right: 5px">Contact Sales</a>
         </div>
     </div>
 </div>
@@ -18,7 +18,7 @@
     <div class="container-default w-container" style="padding-bottom: 100px;">
         <div data-w-id="68d7f947-d78b-27ba-bbca-e282fc65cd57" style="-webkit-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="w-layout-grid perks-grid">
             <div class="card perk">
-                <a href="@Url.Action("Kashier", "LandingPages")">
+                <a href="@Url.Action("Kashier", "LandingPages", new { lang = Context.Request.RouteValues["lang"] })">
                     <img src="../images/Kashier.jpg" data-w-id="68d7f947-d78b-27ba-bbca-e282fc65cd57" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" alt="Business - Startup X Webflow Template" class="image perk">
                     <div class="card-perk-content">
                         <h3 class="title card-perk">Kashier</h3>
@@ -27,7 +27,7 @@
                 </a>
             </div>
             <div class="card perk">
-                <a href="@Url.Action("Pocket", "LandingPages")">
+                <a href="@Url.Action("Pocket", "LandingPages", new { lang = Context.Request.RouteValues["lang"] })">
                     <img src="../images/Pocket.jpg" data-w-id="68d7f947-d78b-27ba-bbca-e282fc65cd57" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" alt="Business - Startup X Webflow Template" class="image perk">
                     <div class="card-perk-content">
                         <h3 class="title card-perk">Pocket</h3>
@@ -38,7 +38,7 @@
                 </a>
             </div>
             <div class="card perk">
-                <a href="@Url.Action("MyKarage", "LandingPages")">
+                <a href="@Url.Action("MyKarage", "LandingPages", new { lang = Context.Request.RouteValues["lang"] })">
                     <img src="../images/My-Karage.jpg" data-w-id="68d7f947-d78b-27ba-bbca-e282fc65cd57" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" alt="Enterprises - Startup X Webflow Template" class="image perk">
                     <div class="card-perk-content">
                         <h3 class="title card-perk">My Karage</h3>
@@ -319,11 +319,11 @@
         <div class="cta-2-wrapper">
             <h2 data-w-id="64250280-a99e-4564-05be-35c4ed59bca3" class="title neutral-100 cta-2" style="color:#ECFBCC!important;">Control your business & <br /> Create a free account today</h2>
             <div data-w-id="64250280-a99e-4564-05be-35c4ed59bca3" class="_2-buttons cta-2">
-                <a data-w-id="64250280-a99e-4564-05be-35c4ed59bca3" href="@Url.Action("TryForFree", "LandingPages")" class="button-primary button-green cta-2 w-inline-block">
+                <a data-w-id="64250280-a99e-4564-05be-35c4ed59bca3" href="@Url.Action("TryForFree", "LandingPages", new { lang = Context.Request.RouteValues["lang"] })" class="button-primary button-green cta-2 w-inline-block">
                     <div class="cta-2-button-primary-text">Try Karage <br>for free</div>
                     <div class="cta-2-button-primary-arrow"><img src="~/images/vectorgreen.svg" /></div>
                 </a>
-                <a data-w-id="64250280-a99e-4564-05be-35c4ed59bca3" href="@Url.Action("Contact", "Home")" class="button-secondary button-green cta-2 w-inline-block">
+                <a data-w-id="64250280-a99e-4564-05be-35c4ed59bca3" href="@Url.Action("Contact", "Home", new { lang = Context.Request.RouteValues["lang"] })" class="button-secondary button-green cta-2 w-inline-block">
                     <div class="cta-2-button-secondary-text">Talk to <br>our sales team</div>
                     <div class="cta-2-button-secondary-icon"><img src="~/images/vector.svg" /></div>
                 </a>

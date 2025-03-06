@@ -2,17 +2,20 @@
 
 namespace Karage_Website.Controllers
 {
+    [Route("{lang:regex(^en|ar$)}/[action]")]
     public class MarketPlaceController : Controller
     {
-        [Route("en/marketplace")]
+        //[HttpGet]
+        //public IActionResult MarketPlace(string lang = "en")
+        //{
+        //    if (lang == "ar")
+        //        return View("ArMarketPlace"); // ✅ Loads Arabic view
+        //    return View("MarketPlace"); // ✅ Loads English view
+        //}
         public IActionResult MarketPlace()
         {
-            return View();
-        }
-        [Route("ar/marketplace")]
-        public IActionResult ArMarketPlace()
-        {
-            return View();
+            string lang = RouteData.Values["lang"]?.ToString() ?? "en";
+            return View(lang == "ar" ? "ArMarketPlace" : "MarketPlace");
         }
     }
 }
