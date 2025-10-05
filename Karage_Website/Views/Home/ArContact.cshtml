@@ -87,12 +87,12 @@
             </div>
             <div data-w-id="cf52aed8-91d5-0d11-757b-9ba8c62968f1" style="-webkit-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="card contact-form">
                 <div class="card-contact-form-block w-form">
-                    <form id="wf-form-Contact-Form" name="wf-form-Contact-Form" data-name="Contact Form" method="get" class="card-contact-form">
+                    <form id="wf-form-Contact-Form" name="wf-form-Contact-Form" data-name="Contact Form" method="post" action="@Url.Action("Contact", "Home", new { lang = ViewContext.RouteData.Values["lang"] })" class="card-contact-form">
                         <input type="text" class="input name-icon w-input paragraph-txt" maxlength="256" name="name" data-name="Name" placeholder="الاسم" id="name" required="">
                         <input type="email" class="input email-icon w-input paragraph-txt" maxlength="256" name="email" data-name="Email" placeholder="البريد الإلكتروني" id="email" required="">
                         <input type="tel" class="input phone-icon w-input paragraph-txt" maxlength="256" name="Phone" data-name="Phone" placeholder="رقم الهاتف" id="phone" required="" style="text-align:right;">
                         <input type="text" class="input company-icon w-input paragraph-txt" maxlength="256" name="Company" data-name="Company" placeholder="الشركة" id="company" required="">
-                        <input type="text" class="input w-node-_269217e3-5f8e-8a21-ae49-ee93e586004b-f72d3bcd w-input paragraph-txt" maxlength="256" name="Inquiry" data-name="Inquiry" placeholder="كيف يمكننا مساعدتك؟" id="Inquiry" required="">
+                        <input type="text" class="input w-node-_269217e3-5f8e-8a21-ae49-ee93e586004b-f72d3bcd w-input paragraph-txt" maxlength="256" name="Subject" data-name="Subject" placeholder="كيف يمكننا مساعدتك؟" id="subject" required="">
                         <textarea placeholder="ما هي رسالتك؟" maxlength="5000" id="message" name="Message" data-name="Message" class="text-area w-node-_248b7818-868a-33a5-f40b-7af8fd54bc8d-f72d3bcd w-input paragraph-txt"></textarea>
                         <input type="submit" value="إرسال" data-wait="Please wait..." id="w-node-_9d484834-0526-f649-cd76-05fa83ddf30b-f72d3bcd" class="button-primary w-button">
                     </form>
@@ -209,3 +209,76 @@
         </div>
     </div>
 </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const form = document.getElementById('wf-form-Contact-Form');
+        const successDiv = document.querySelector('.w-form-done');
+        const errorDiv = document.querySelector('.w-form-fail');
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            // Reset borders
+            const inputs = form.querySelectorAll('input, textarea');
+            inputs.forEach(input => {
+                input.style.borderColor = '';
+            });
+
+            // Validation check
+            let isValid = true;
+
+            inputs.forEach(input => {
+                if (input.hasAttribute('required') && !input.value.trim()) {
+                    input.style.borderColor = 'red';
+                    isValid = false;
+                }
+
+                // Specific type validations (without regex)
+                if (input.type === 'email' && input.value && !input.value.includes('@@')) {
+                    input.style.borderColor = 'red';
+                    isValid = false;
+                }
+
+                if (input.type === 'tel' && input.value && isNaN(input.value)) {
+                    input.style.borderColor = 'red';
+                    isValid = false;
+                }
+            });
+
+            if (!isValid) return;
+
+            // Hide messages
+            successDiv.style.display = 'none';
+            errorDiv.style.display = 'none';
+
+            const formData = new FormData(form);
+            const data = Object.fromEntries(formData.entries());
+
+            fetch(form.action, {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(result => {
+                if (result.success) {
+                    successDiv.querySelector('div').textContent = result.message;
+                    successDiv.style.display = 'block';
+                    form.reset();
+                } else {
+                    errorDiv.querySelector('div').textContent = result.message;
+                    errorDiv.style.display = 'block';
+                }
+            })
+            .catch(error => {
+                console.error('Fetch error:', error);
+                errorDiv.querySelector('div').textContent = "Something went wrong. Please try again later.";
+                errorDiv.style.display = 'block';
+            });
+        });
+    });
+</script>

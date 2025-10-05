@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qk79zptrwl</Fingerprint>
-      <Integrity>ZtoU4r3G6Vm5XSRHue70EsU6+N+vghBMxe1GCB7UlFk=</Integrity>
+      <Fingerprint>0aj9lfq56o</Fingerprint>
+      <Integrity>KIVqQrSSoOWoR/0FjVRc+TmOmpZipYJCERYpMQ20AiU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\garage-sa-arabic.webflow.css'))</OriginalItemSpec>
@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4sittho23d</Fingerprint>
-      <Integrity>VCXuDQ/Cba9pL0X6eEa6nu025shDCtAodNTtTbWi5nw=</Integrity>
+      <Fingerprint>r51wo8c77a</Fingerprint>
+      <Integrity>IXrlHsZ7O73+G1HxM+YqyaE3gfVolufIOCmV0sS2GZo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\garage-sa.webflow.css'))</OriginalItemSpec>
@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4jpyknpa4c</Fingerprint>
-      <Integrity>QOqWPvs/LEGfcFXil9QQO0/dcV4ZVLXACwLHzu2O/TE=</Integrity>
+      <Fingerprint>vfglf6dwp9</Fingerprint>
+      <Integrity>e10oxKQwxDFJab0eoV082/LPuVSKZiZGLjxu8J+f7Gc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\webflow.css'))</OriginalItemSpec>
@@ -1566,6 +1566,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\carwash.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ceo_profile.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Karage_Website</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Karage_Website</BasePath>
+      <RelativePath>images/ceo_profile.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7uus2q1jtk</Fingerprint>
+      <Integrity>4boIHkABbFzhgqVH/uc9so3dY6xvwDq/W4nGBuJHUE0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ceo_profile.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\checkbox.svg'))">
       <SourceType>Package</SourceType>
       <SourceId>Karage_Website</SourceId>
@@ -2321,6 +2339,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\john-carter-profile-picture-small-startup-x-webflow-template.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Karage Logo.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Karage_Website</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Karage_Website</BasePath>
+      <RelativePath>images/Karage Logo.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kfaunbkhoc</Fingerprint>
+      <Integrity>sGywS72fwQ3go0TBs0Yk/mp2myJVrgaC3uQLK3nEzGU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Karage Logo.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Karage Logo.svg'))">
       <SourceType>Package</SourceType>
@@ -3666,8 +3702,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1h8tet6nap</Fingerprint>
-      <Integrity>JVKAdY4tuxljM/HNp/GxNzYX0WY+CjdEQ3d9AAcSTqQ=</Integrity>
+      <Fingerprint>bw5f0ejw76</Fingerprint>
+      <Integrity>ZQwrdXMTFQX6+nFwmOX+5OYitJGDfjI/tQixoJxitcA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</OriginalItemSpec>

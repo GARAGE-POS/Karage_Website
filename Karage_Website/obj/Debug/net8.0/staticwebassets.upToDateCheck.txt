@@ -85,6 +85,7 @@ wwwroot\images\brix-templates-logo-webfow-templates-brix-templates.svg
 wwwroot\images\button-icon.svg
 wwwroot\images\card-icon.svg
 wwwroot\images\carwash.png
+wwwroot\images\ceo_profile.png
 wwwroot\images\checkbox.svg
 wwwroot\images\colors-icon.svg
 wwwroot\images\Container.jpg
@@ -127,6 +128,7 @@ wwwroot\images\img1.png
 wwwroot\images\img2.png
 wwwroot\images\img3.png
 wwwroot\images\john-carter-profile-picture-small-startup-x-webflow-template.jpg
+wwwroot\images\Karage Logo.png
 wwwroot\images\Karage Logo.svg
 wwwroot\images\Kashier.jpg
 wwwroot\images\Kashier.png

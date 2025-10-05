@@ -3,6 +3,28 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<style>
+    a.whatsapp-float {
+        animation: pulse 1.5s infinite;
+    }
+
+    @@keyframes pulse {
+        0%
+
+    {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+    }
+</style>
 <div class="section home-v2-hero wf-section">
     <div class="container-medium-710px home-v2-hero">
         <h1 data-w-id="68d7f947-d78b-27ba-bbca-e282fc65cd57" style="font-size: 90px;" class="title home-v2-hero">INNOVATIVE SOLUTION FOR CAR BUSINESS</h1>
@@ -165,7 +187,7 @@
             <div data-w-id="b1aeb79b-04c3-2497-4e3c-e2f68e511e59" style="-webkit-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="card request-demo">
                 <h2 class="title card-request-demo">Schedule a demo today</h2>
                 <div class="card-request-demo-form-block w-form">
-                    <form id="wf-form-Request-Demo-Form" name="wf-form-Request-Demo-Form" action="/Home/Subscribe" method="post" class="card-request-demo-form">
+                    <form id="wf-form-Request-Demo-Form" name="wf-form-Request-Demo-Form" action="@Url.Action("Subscribe","Home")" method="post" class="card-request-demo-form">
                         <input type="text" class="input name-icon w-input" maxlength="256" name="Name" placeholder="Name" id="name" required>
                         <input type="email" class="input email-icon w-input" maxlength="256" name="Email" placeholder="Email" id="email" required>
                         <input type="tel" class="input phone-icon w-input" maxlength="256" name="Phone" placeholder="Phone number" id="phone" required>
@@ -222,7 +244,7 @@
     </div>
 </div>
 
-<div class="section wf-section" style="padding-top: 250px; padding-bottom: 250px;">
+<div class="section wf-section" style="padding-top: 180px; padding-bottom: 180px;">
     <div class="container-default faqs">
         <h2 data-w-id="68d7f947-d78b-27ba-bbca-e282fc65cd57" style="-webkit-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="title clients-individuals">Frequently Asked Questions</h2>
     </div>
@@ -332,54 +354,84 @@
     </div>
 </div>
 
+
+
+
+
 <script>
-    async function handleFormSubmission(event) {
-        event.preventDefault(); // Prevent the default form submission
-
-        // Disable the submit button and show loader
-        const submitBtn = document.getElementById('submitBtn');
-        submitBtn.disabled = true;
-        document.getElementById('loader').style.display = 'block';
-
-        // Hide previous messages
-        document.querySelector('.success-message').style.display = 'none';
-        document.querySelector('.error-message').style.display = 'none';
-
-        // Collect form data
+    document.addEventListener("DOMContentLoaded", function () {
         const form = document.getElementById('wf-form-Request-Demo-Form');
-        const formData = new FormData(form);
+        const successDiv = form.parentElement.querySelector('.w-form-done');
+        const errorDiv = form.parentElement.querySelector('.w-form-fail');
 
-        try {
-            // Send the form data to the server via fetch
-            const response = await fetch('/Home/Subscribe', { // Replace with the correct controller path
-                method: 'POST',
-                body: formData
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            // Reset previous borders
+            const inputs = form.querySelectorAll('input, textarea');
+            inputs.forEach(input => {
+                input.style.borderColor = '';
             });
 
-            const result = await response.json();
-            console.log(result); // Log the server response for debugging
+            // Validation logic
+            let isValid = true;
 
-            // Hide loader
-            document.getElementById('loader').style.display = 'none';
-            document.querySelector('.error-message').style.display = 'none';
+            inputs.forEach(input => {
+                // Required field check
+                if (input.hasAttribute('required') && !input.value.trim()) {
+                    input.style.borderColor = 'red';
+                    isValid = false;
+                }
 
-            if (result.success) {
-                // Show success message
-                document.querySelector('.success-message').style.display = 'block';
-            } else {
-                // Show error message with server response
-                document.querySelector('.error-message').style.display = 'block';
-                document.querySelector('.error-message').innerText = result.message || "Submission failed.";
-            }
-        } catch (error) {
-            // Hide loader and show error message in case of a network error
-            document.getElementById('loader').style.display = 'none';
-            document.querySelector('.error-message').style.display = 'block';
-            document.querySelector('.error-message').innerText = "An unexpected error occurred. Please try again.";
-            console.error("Error:", error);
-        } finally {
-            // Re-enable the submit button after response or error
-            submitBtn.disabled = false;
-        }
-    }
+                // Email check (basic)
+                if (input.type === 'email' && input.value && !input.value.includes('@@')) {
+                    input.style.borderColor = 'red';
+                    isValid = false;
+                }
+
+                // Phone number must be numeric
+                if (input.name.toLowerCase() === 'phone' && input.value && isNaN(input.value)) {
+                    input.style.borderColor = 'red';
+                    isValid = false;
+                }
+            });
+
+            // If any input is invalid, stop submission
+            if (!isValid) return;
+
+            // Hide any previous messages
+            successDiv.style.display = 'none';
+            errorDiv.style.display = 'none';
+
+            const formData = new FormData(form);
+            const data = Object.fromEntries(formData.entries());
+
+            fetch(form.action, {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(result => {
+                if (result.success) {
+                    successDiv.querySelector('div').textContent = result.message;
+                    successDiv.style.display = 'block';
+                    form.reset();
+                } else {
+                    errorDiv.querySelector('div').textContent = result.message;
+                    errorDiv.style.display = 'block';
+                }
+            })
+            .catch(error => {
+                console.error('Fetch error:', error);
+                errorDiv.querySelector('div').textContent = "Something went wrong. Please try again later.";
+                errorDiv.style.display = 'block';
+            });
+        });
+    });
 </script>
+
+

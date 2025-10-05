@@ -4500,6 +4500,7 @@ figcaption {
     align-items: center;
 }
 
+
 .input {
     min-height: 68px;
     margin-bottom: 0px;
@@ -4513,7 +4514,7 @@ figcaption {
     -webkit-transition: color 300ms ease, border-color 300ms ease;
     transition: color 300ms ease, border-color 300ms ease;
     color: #494a4d;
-    font-size: 18px;
+    font-size: 16px;
 }
 
     .input:hover {
@@ -11268,6 +11269,8 @@ figcaption {
     font-size: 18px;
 }
 
+
+
     .select:focus {
         color: #494a4d;
     }
@@ -12790,19 +12793,43 @@ figcaption {
     grid-template-rows: auto;
 }
 
-.create-account-checkbox-field {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: 12px;
-    margin-bottom: 0px;
-    padding-left: 0px;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+
+    .create-account-form .input {
+        font-size: 13px;
+        font-weight: 500;
+        padding-left: 18px;
+    }
+        .create-account-form .input::placeholder {
+            font-weight: 500;
+            color: #494a4d;
+        }
+
+    .create-account-form select {
+        font-weight: 500;
+        color: #494a4d;
+    }
+
+
+create-account-form select:valid {
+    color: #494a4d;
+    font-weight: 500;
 }
+
+
+
+    .create-account-checkbox-field {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 12px;
+        margin-bottom: 0px;
+        padding-left: 0px;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
 
 .create-account-checkbox {
     width: 28px;

@@ -194,7 +194,7 @@
             <div data-w-id="b1aeb79b-04c3-2497-4e3c-e2f68e511e59" style="-webkit-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="card request-demo">
                 <h2 class="title card-request-demo">قم بحجز عرض توضيحي اليوم</h2>
                 <div class="card-request-demo-form-block w-form">
-                    <form id="wf-form-Request-Demo-Form" name="wf-form-Request-Demo-Form" data-name="Request Demo Form" method="get" class="card-request-demo-form">
+                    <form id="wf-form-Request-Demo-Form" name="wf-form-Request-Demo-Form" action="@Url.Action("Subscribe","Home")" data-name="Request Demo Form" method="post" class="card-request-demo-form">
                         <input type="text" class="input name-icon w-input paragraph-txt" maxlength="256" name="name" data-name="Name" placeholder="الاسم" id="name" required="">
                         <input type="email" class="input email-icon w-input paragraph-txt" maxlength="256" name="email" data-name="Email" placeholder="البريد الإلكتروني" id="email" required="">
                         <input type="tel" class="input phone-icon w-input paragraph-txt" maxlength="256" name="Phone" data-name="Phone" placeholder="رقم الهاتف" id="phone" required="" style="text-align:right;">
@@ -259,7 +259,7 @@
     </div>
 </div>
 
-<div class="section wf-section" style="padding-top: 250px; padding-bottom: 250px;">
+<div class="section wf-section" style="padding-top: 180px; padding-bottom: 180px;">
     <div class="container-default faqs">
         <h2 data-w-id="68d7f947-d78b-27ba-bbca-e282fc65cd57" style="-webkit-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0; text-align:right" class="title clients-individuals">الأسئلة الشائعة</h2>
     </div>
@@ -371,3 +371,80 @@
         </div>
     </div>
 </div>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const form = document.getElementById('wf-form-Request-Demo-Form');
+        const successDiv = form.parentElement.querySelector('.w-form-done');
+        const errorDiv = form.parentElement.querySelector('.w-form-fail');
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            // Reset previous borders
+            const inputs = form.querySelectorAll('input, textarea');
+            inputs.forEach(input => {
+                input.style.borderColor = '';
+            });
+
+            // Validation logic
+            let isValid = true;
+
+            inputs.forEach(input => {
+                // Required field check
+                if (input.hasAttribute('required') && !input.value.trim()) {
+                    input.style.borderColor = 'red';
+                    isValid = false;
+                }
+
+                // Email check (basic)
+                if (input.type === 'email' && input.value && !input.value.includes('@@')) {
+                    input.style.borderColor = 'red';
+                    isValid = false;
+                }
+
+                // Phone number must be numeric
+                if (input.name.toLowerCase() === 'phone' && input.value && isNaN(input.value)) {
+                    input.style.borderColor = 'red';
+                    isValid = false;
+                }
+            });
+
+            // If any input is invalid, stop submission
+            if (!isValid) return;
+
+            // Hide any previous messages
+            successDiv.style.display = 'none';
+            errorDiv.style.display = 'none';
+
+            const formData = new FormData(form);
+            const data = Object.fromEntries(formData.entries());
+
+            fetch(form.action, {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(result => {
+                if (result.success) {
+                    successDiv.querySelector('div').textContent = result.message;
+                    successDiv.style.display = 'block';
+                    form.reset();
+                } else {
+                    errorDiv.querySelector('div').textContent = result.message;
+                    errorDiv.style.display = 'block';
+                }
+            })
+            .catch(error => {
+                console.error('Fetch error:', error);
+                errorDiv.querySelector('div').textContent = "Something went wrong. Please try again later.";
+                errorDiv.style.display = 'block';
+            });
+        });
+    });
+</script>

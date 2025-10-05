@@ -12756,6 +12756,11 @@ figcaption {
     grid-template-rows: auto;
 }
 
+    .create-account-form .input {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
 .create-account-checkbox-field {
     display: -webkit-box;
     display: -webkit-flex;

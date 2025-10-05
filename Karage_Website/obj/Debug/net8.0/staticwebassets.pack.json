@@ -325,6 +325,10 @@
       "PackagePath": "staticwebassets\\images\\KSA.svg"
     },
     {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Karage Logo.png",
+      "PackagePath": "staticwebassets\\images\\Karage Logo.png"
+    },
+    {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\Karage Logo.svg",
       "PackagePath": "staticwebassets\\images\\Karage Logo.svg"
     },
@@ -467,6 +471,10 @@
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\carwash.png",
       "PackagePath": "staticwebassets\\images\\carwash.png"
+    },
+    {
+      "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\ceo_profile.png",
+      "PackagePath": "staticwebassets\\images\\ceo_profile.png"
     },
     {
       "Id": "E:\\Projects\\Karage_Website\\Karage_Website\\wwwroot\\images\\checkbox.svg",

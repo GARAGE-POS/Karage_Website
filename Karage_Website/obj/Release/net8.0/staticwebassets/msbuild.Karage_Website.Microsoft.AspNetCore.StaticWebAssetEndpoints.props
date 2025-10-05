@@ -1,28 +1,28 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Karage_Website/css/garage-sa-arabic.webflow.0aj9lfq56o.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\garage-sa-arabic.webflow.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0aj9lfq56o"},{"Name":"integrity","Value":"sha256-KIVqQrSSoOWoR/0FjVRc\u002BTmOmpZipYJCERYpMQ20AiU="},{"Name":"label","Value":"_content/Karage_Website/css/garage-sa-arabic.webflow.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"568511"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KIVqQrSSoOWoR/0FjVRc\u002BTmOmpZipYJCERYpMQ20AiU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 01 Oct 2025 12:38:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Karage_Website/css/garage-sa-arabic.webflow.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\garage-sa-arabic.webflow.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZtoU4r3G6Vm5XSRHue70EsU6\u002BN\u002BvghBMxe1GCB7UlFk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"568419"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ZtoU4r3G6Vm5XSRHue70EsU6\u002BN\u002BvghBMxe1GCB7UlFk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 13:49:27 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Karage_Website/css/garage-sa-arabic.webflow.qk79zptrwl.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\garage-sa-arabic.webflow.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qk79zptrwl"},{"Name":"integrity","Value":"sha256-ZtoU4r3G6Vm5XSRHue70EsU6\u002BN\u002BvghBMxe1GCB7UlFk="},{"Name":"label","Value":"_content/Karage_Website/css/garage-sa-arabic.webflow.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"568419"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ZtoU4r3G6Vm5XSRHue70EsU6\u002BN\u002BvghBMxe1GCB7UlFk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 13:49:27 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Karage_Website/css/garage-sa.webflow.4sittho23d.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\garage-sa.webflow.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4sittho23d"},{"Name":"integrity","Value":"sha256-VCXuDQ/Cba9pL0X6eEa6nu025shDCtAodNTtTbWi5nw="},{"Name":"label","Value":"_content/Karage_Website/css/garage-sa.webflow.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"570720"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VCXuDQ/Cba9pL0X6eEa6nu025shDCtAodNTtTbWi5nw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 08:53:37 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KIVqQrSSoOWoR/0FjVRc\u002BTmOmpZipYJCERYpMQ20AiU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"568511"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KIVqQrSSoOWoR/0FjVRc\u002BTmOmpZipYJCERYpMQ20AiU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 01 Oct 2025 12:38:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Karage_Website/css/garage-sa.webflow.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\garage-sa.webflow.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VCXuDQ/Cba9pL0X6eEa6nu025shDCtAodNTtTbWi5nw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"570720"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VCXuDQ/Cba9pL0X6eEa6nu025shDCtAodNTtTbWi5nw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 08:53:37 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IXrlHsZ7O73\u002BG1HxM\u002BYqyaE3gfVolufIOCmV0sS2GZo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"571189"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022IXrlHsZ7O73\u002BG1HxM\u002BYqyaE3gfVolufIOCmV0sS2GZo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 01 Oct 2025 12:36:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Karage_Website/css/garage-sa.webflow.r51wo8c77a.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\garage-sa.webflow.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r51wo8c77a"},{"Name":"integrity","Value":"sha256-IXrlHsZ7O73\u002BG1HxM\u002BYqyaE3gfVolufIOCmV0sS2GZo="},{"Name":"label","Value":"_content/Karage_Website/css/garage-sa.webflow.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"571189"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022IXrlHsZ7O73\u002BG1HxM\u002BYqyaE3gfVolufIOCmV0sS2GZo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 01 Oct 2025 12:36:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Karage_Website/css/normalize.77fw49v604.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\normalize.css'))</AssetFile>
@@ -48,17 +48,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fosamezn9b"},{"Name":"integrity","Value":"sha256-r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei\u002BSfmQ0="},{"Name":"label","Value":"_content/Karage_Website/css/site.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"341"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei\u002BSfmQ0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 14:18:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Karage_Website/css/webflow.4jpyknpa4c.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\webflow.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4jpyknpa4c"},{"Name":"integrity","Value":"sha256-QOqWPvs/LEGfcFXil9QQO0/dcV4ZVLXACwLHzu2O/TE="},{"Name":"label","Value":"_content/Karage_Website/css/webflow.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"39585"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QOqWPvs/LEGfcFXil9QQO0/dcV4ZVLXACwLHzu2O/TE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 14:18:11 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Karage_Website/css/webflow.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\webflow.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QOqWPvs/LEGfcFXil9QQO0/dcV4ZVLXACwLHzu2O/TE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"39585"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QOqWPvs/LEGfcFXil9QQO0/dcV4ZVLXACwLHzu2O/TE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 14:18:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-e10oxKQwxDFJab0eoV082/LPuVSKZiZGLjxu8J\u002Bf7Gc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"40249"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022e10oxKQwxDFJab0eoV082/LPuVSKZiZGLjxu8J\u002Bf7Gc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 26 Sep 2025 07:51:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Karage_Website/css/webflow.vfglf6dwp9.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\webflow.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vfglf6dwp9"},{"Name":"integrity","Value":"sha256-e10oxKQwxDFJab0eoV082/LPuVSKZiZGLjxu8J\u002Bf7Gc="},{"Name":"label","Value":"_content/Karage_Website/css/webflow.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"40249"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022e10oxKQwxDFJab0eoV082/LPuVSKZiZGLjxu8J\u002Bf7Gc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 26 Sep 2025 07:51:51 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Karage_Website/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -1044,6 +1044,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xpcdpk9xba"},{"Name":"integrity","Value":"sha256-pdp/0vnsJHtYgvHJyFHgFgC/aO/Z81Ms9eMy4EU9/uU="},{"Name":"label","Value":"_content/Karage_Website/images/carwash.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"211232"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022pdp/0vnsJHtYgvHJyFHgFgC/aO/Z81Ms9eMy4EU9/uU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 14:18:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Karage_Website/images/ceo_profile.7uus2q1jtk.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ceo_profile.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7uus2q1jtk"},{"Name":"integrity","Value":"sha256-4boIHkABbFzhgqVH/uc9so3dY6xvwDq/W4nGBuJHUE0="},{"Name":"label","Value":"_content/Karage_Website/images/ceo_profile.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"88220"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00224boIHkABbFzhgqVH/uc9so3dY6xvwDq/W4nGBuJHUE0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Jul 2025 07:52:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Karage_Website/images/ceo_profile.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ceo_profile.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4boIHkABbFzhgqVH/uc9so3dY6xvwDq/W4nGBuJHUE0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"88220"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00224boIHkABbFzhgqVH/uc9so3dY6xvwDq/W4nGBuJHUE0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Jul 2025 07:52:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Karage_Website/images/checkbox.svg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\checkbox.svg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -1553,6 +1565,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7pkl9kxp8f"},{"Name":"integrity","Value":"sha256-9dorMAWCM0eVjbcJOO3XaaUnLX\u002BD\u002BPuvMJ8nee4tqts="},{"Name":"label","Value":"_content/Karage_Website/images/Karage Logo.svg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2787"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u00229dorMAWCM0eVjbcJOO3XaaUnLX\u002BD\u002BPuvMJ8nee4tqts=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 14:18:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Karage_Website/images/Karage Logo.kfaunbkhoc.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Karage Logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kfaunbkhoc"},{"Name":"integrity","Value":"sha256-sGywS72fwQ3go0TBs0Yk/mp2myJVrgaC3uQLK3nEzGU="},{"Name":"label","Value":"_content/Karage_Website/images/Karage Logo.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2653"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022sGywS72fwQ3go0TBs0Yk/mp2myJVrgaC3uQLK3nEzGU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 03 Sep 2025 15:08:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Karage_Website/images/Karage Logo.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Karage Logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-sGywS72fwQ3go0TBs0Yk/mp2myJVrgaC3uQLK3nEzGU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2653"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022sGywS72fwQ3go0TBs0Yk/mp2myJVrgaC3uQLK3nEzGU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 03 Sep 2025 15:08:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Karage_Website/images/Karage Logo.svg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Karage Logo.svg'))</AssetFile>
@@ -2248,13 +2272,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\profile.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Zrx6axJZP0ASh27kR9QY7Ed/aqMgth3YbYRBtxPLPws="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"99331"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Zrx6axJZP0ASh27kR9QY7Ed/aqMgth3YbYRBtxPLPws=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 14:18:11 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"99331"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Zrx6axJZP0ASh27kR9QY7Ed/aqMgth3YbYRBtxPLPws=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Jul 2025 15:15:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Karage_Website/images/profile.uys7e8sal8.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\profile.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uys7e8sal8"},{"Name":"integrity","Value":"sha256-Zrx6axJZP0ASh27kR9QY7Ed/aqMgth3YbYRBtxPLPws="},{"Name":"label","Value":"_content/Karage_Website/images/profile.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"99331"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Zrx6axJZP0ASh27kR9QY7Ed/aqMgth3YbYRBtxPLPws=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 14:18:11 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"99331"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Zrx6axJZP0ASh27kR9QY7Ed/aqMgth3YbYRBtxPLPws=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Jul 2025 15:15:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Karage_Website/images/protection.pmckfl1siy.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\protection.png'))</AssetFile>
@@ -2436,29 +2460,29 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-s6zhxtciIOIneK7VGKfOw2ojJZpGXktC9E2VOqnJQ5o="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7099"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022s6zhxtciIOIneK7VGKfOw2ojJZpGXktC9E2VOqnJQ5o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 14:18:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Karage_Website/js/site.1h8tet6nap.js">
+    <StaticWebAssetEndpoint Include="_content/Karage_Website/js/site.bw5f0ejw76.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1h8tet6nap"},{"Name":"integrity","Value":"sha256-JVKAdY4tuxljM/HNp/GxNzYX0WY\u002BCjdEQ3d9AAcSTqQ="},{"Name":"label","Value":"_content/Karage_Website/js/site.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1211"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022JVKAdY4tuxljM/HNp/GxNzYX0WY\u002BCjdEQ3d9AAcSTqQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 14:18:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bw5f0ejw76"},{"Name":"integrity","Value":"sha256-ZQwrdXMTFQX6\u002BnFwmOX\u002B5OYitJGDfjI/tQixoJxitcA="},{"Name":"label","Value":"_content/Karage_Website/js/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6086"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ZQwrdXMTFQX6\u002BnFwmOX\u002B5OYitJGDfjI/tQixoJxitcA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 29 Sep 2025 10:11:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Karage_Website/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JVKAdY4tuxljM/HNp/GxNzYX0WY\u002BCjdEQ3d9AAcSTqQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1211"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022JVKAdY4tuxljM/HNp/GxNzYX0WY\u002BCjdEQ3d9AAcSTqQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 14:18:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZQwrdXMTFQX6\u002BnFwmOX\u002B5OYitJGDfjI/tQixoJxitcA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6086"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ZQwrdXMTFQX6\u002BnFwmOX\u002B5OYitJGDfjI/tQixoJxitcA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 29 Sep 2025 10:11:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Karage_Website/js/webflow.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\webflow.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-B\u002BI\u002B7AwgcfJqxtyD6Xi2/2nqo5Rtd0o6SqryfSNDbW8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3229206"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022B\u002BI\u002B7AwgcfJqxtyD6Xi2/2nqo5Rtd0o6SqryfSNDbW8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 14:18:11 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3229206"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022B\u002BI\u002B7AwgcfJqxtyD6Xi2/2nqo5Rtd0o6SqryfSNDbW8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 26 Sep 2025 07:57:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Karage_Website/js/webflow.v22a5t86hh.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\webflow.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v22a5t86hh"},{"Name":"integrity","Value":"sha256-B\u002BI\u002B7AwgcfJqxtyD6Xi2/2nqo5Rtd0o6SqryfSNDbW8="},{"Name":"label","Value":"_content/Karage_Website/js/webflow.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3229206"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022B\u002BI\u002B7AwgcfJqxtyD6Xi2/2nqo5Rtd0o6SqryfSNDbW8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 14:18:11 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3229206"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022B\u002BI\u002B7AwgcfJqxtyD6Xi2/2nqo5Rtd0o6SqryfSNDbW8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 26 Sep 2025 07:57:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Karage_Website/Karage_Website.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Karage_Website.nf40oathm8.bundle.scp.css'))</AssetFile>
