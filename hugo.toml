@@ -1,0 +1,28 @@
+baseURL = 'http://localhost'
+languageCode = 'en'
+title = 'Karage'
+disableKinds = []
+
+[languages]
+[languages.en]
+title = "Karage"
+languageCode = "en"
+weight = 1
+contentDir = "content/en"
+
+[languages.ar]
+title = "كراچ"
+languageCode = "ar"
+weight = 2
+contentDir = "content/ar"
+languageDirection = "rtl"
+
+# Permalinks configuration
+[permalinks]
+  pages = "/:slug/"
+
+# Output formats
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
+  page = ["HTML"]
