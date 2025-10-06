@@ -3,6 +3,9 @@ languageCode = 'en'
 title = 'Karage'
 disableKinds = []
 
+defaultContentLanguageInSubdir = true
+
+
 # Build configuration
 [build]
   writeStats = false
