@@ -1,7 +1,25 @@
-baseURL = 'http://localhost'
+baseURL = 'http://localhost'  # Change to your production domain (e.g., 'https://your-domain.com')
 languageCode = 'en'
 title = 'Karage'
 disableKinds = []
+
+# Build configuration
+[build]
+  writeStats = false
+  useResourceCacheWhen = "fallback"
+
+# Minification settings for production
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = true
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepWhitespace = false
 
 [languages]
 [languages.en]
