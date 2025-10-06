@@ -2,6 +2,7 @@
 <!--  This site was created in Webflow. https://www.webflow.com  -->
 <!--  Last Published: Wed Aug 24 2022 14:05:14 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="63062f16e5949425112d3c2f" data-wf-site="63062f16e59494a89c2d3b6a">
+
 <head>
     <meta charset="utf-8">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
@@ -28,17 +29,32 @@
     <meta content="Hugo" name="generator">
     <link href="/css/normalize.css" rel="stylesheet" type="text/css">
     <link href="/css/webflow.css" rel="stylesheet" type="text/css">
-    <link href="/css/garage-sa.webflow.css" rel="stylesheet" type="text/css">
+
+
+       {{ if eq .Site.Language.Lang "ar" }}
+       <link href="/css/garage-sa-arabic.webflow.css" rel="stylesheet" type="text/css">
+        {{ else }}
+          <link href="/css/garage-sa.webflow.css" rel="stylesheet" type="text/css">
+        {{ end }}
+
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
     <script type="text/javascript">WebFont.load({ google: { families: ["DM Sans:regular,500,700"] } });</script>
     <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-    <script type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
+    <script
+        type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
     <link href="/images/favicon.svg" rel="shortcut icon" type="image/x-icon">
     <link href="/images/favicon.svg" rel="apple-touch-icon">
 </head>
+
 <body>
     <div style="opacity:0" class="page-wrapper">
-        <div data-collapse="medium" data-animation="over-left" data-duration="400" data-w-id="58db7844-5919-d71b-dd74-2323ed8dffe9" data-easing="ease" data-easing2="ease" role="banner" class="header w-nav">
+        {{ if eq .Site.Language.Lang "ar" }}
+        {{ partial "navbar-ar.html" . }}
+        {{ else }}
+        {{ partial "navbar-en.html" . }}
+        {{ end }}
+
+        <!-- <div data-collapse="medium" data-animation="over-left" data-duration="400" data-w-id="58db7844-5919-d71b-dd74-2323ed8dffe9" data-easing="ease" data-easing2="ease" role="banner" class="header w-nav">
             <div class="container-default w-container">
                 <div class="header-wrapper">
                     <div data-w-id="02b293cc-fd03-8c39-78c3-dfe63557a722" class="split-content header-right">
@@ -117,7 +133,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <main role="main">
             {{ block "main" . }}{{ end }}
         </main>
@@ -126,16 +142,22 @@
                 <div data-w-id="be78ef8e-1474-3219-9769-118139e7f737" class="footer-content">
                     <div class="footer-menu-wrapper">
                         <div class="footer-title">
-                            <a href="{{ "/" | relLangURL }}" class="footer-logo-container w-inline-block"><img src="/images/Karage Logo.svg" alt="Karage Logo" class="footer-logo"></a>
+                            <a href="{{ " /" | relLangURL }}" class="footer-logo-container w-inline-block"><img
+                                    src="/images/Karage Logo.svg" alt="Karage Logo" class="footer-logo"></a>
                         </div>
                         <div class="footer-menu-content">
                             <ul role="list" class="footer-nav w-list-unstyled">
                                 <li class="footer-nav-item" style="letter-spacing: 10px;">
-                                    <a href="https://www.facebook.com/share/168eYbn3ow/?mibextid=LQQJ4d" class="footert-nav-link" target="_blank"><img src="/images/fbicon.svg" /></a>
-                                    <a href="https://x.com/Karagehq" class="footert-nav-link" target="_blank"><img src="/images/link.svg" /></a>
-                                    <a href="https://www.instagram.com/karagehq/" class="footert-nav-link" target="_blank"><img src="/images/link-2.svg" /></a>
-                                    <a href="https://www.linkedin.com/company/karagehq/" class="footert-nav-link" target="_blank"><img src="/images/link-3.svg" /></a>
-                                    <a onclick="YoutubeClick()" class="footert-nav-link" target="_blank"><img src="/images/link-4.svg" /></a>
+                                    <a href="https://www.facebook.com/share/168eYbn3ow/?mibextid=LQQJ4d"
+                                        class="footert-nav-link" target="_blank"><img src="/images/fbicon.svg" /></a>
+                                    <a href="https://x.com/Karagehq" class="footert-nav-link" target="_blank"><img
+                                            src="/images/link.svg" /></a>
+                                    <a href="https://www.instagram.com/karagehq/" class="footert-nav-link"
+                                        target="_blank"><img src="/images/link-2.svg" /></a>
+                                    <a href="https://www.linkedin.com/company/karagehq/" class="footert-nav-link"
+                                        target="_blank"><img src="/images/link-3.svg" /></a>
+                                    <a onclick="YoutubeClick()" class="footert-nav-link" target="_blank"><img
+                                            src="/images/link-4.svg" /></a>
                                 </li>
                             </ul>
                         </div>
@@ -145,13 +167,13 @@
                         <div class="footer-menu-content">
                             <ul role="list" class="footer-nav w-list-unstyled">
                                 <li class="footer-nav-item">
-                                    <a href="{{ "/kashier/" | relLangURL }}" class="footert-nav-link">Kashier</a>
+                                    <a href="{{ " /kashier/" | relLangURL }}" class="footert-nav-link">Kashier</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="{{ "/pocket/" | relLangURL }}" class="footert-nav-link">Pocket</a>
+                                    <a href="{{ " /pocket/" | relLangURL }}" class="footert-nav-link">Pocket</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="{{ "/mykarage/" | relLangURL }}" class="footert-nav-link">My Karage</a>
+                                    <a href="{{ " /mykarage/" | relLangURL }}" class="footert-nav-link">My Karage</a>
                                 </li>
                             </ul>
                         </div>
@@ -161,13 +183,13 @@
                         <div class="footer-menu-content">
                             <ul role="list" class="footer-nav w-list-unstyled">
                                 <li class="footer-nav-item">
-                                    <a href="{{ "/about/" | relLangURL }}" class="footert-nav-link">About</a>
+                                    <a href="{{ " /about/" | relLangURL }}" class="footert-nav-link">About</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="{{ "/contact/" | relLangURL }}" class="footert-nav-link">Contact Us</a>
+                                    <a href="{{ " /contact/" | relLangURL }}" class="footert-nav-link">Contact Us</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="{{ "/pricing/" | relLangURL }}" class="footert-nav-link">Pricing</a>
+                                    <a href="{{ " /pricing/" | relLangURL }}" class="footert-nav-link">Pricing</a>
                                 </li>
                             </ul>
                         </div>
@@ -177,10 +199,11 @@
                         <div class="footer-menu-content">
                             <ul role="list" class="footer-nav w-list-unstyled">
                                 <li class="footer-nav-item">
-                                    <a href="{{ "/terms/" | relLangURL }}" class="footert-nav-link">Terms & Conditions</a>
+                                    <a href="{{ " /terms/" | relLangURL }}" class="footert-nav-link">Terms &
+                                        Conditions</a>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <a href="{{ "/terms/" | relLangURL }}" class="footert-nav-link">Privacy Policy</a>
+                                    <a href="{{ " /terms/" | relLangURL }}" class="footert-nav-link">Privacy Policy</a>
                                 </li>
                             </ul>
                         </div>
@@ -190,13 +213,16 @@
                         <div class="footer-menu-content">
                             <ul role="list" class="footer-nav w-list-unstyled">
                                 <li class="footer-nav-item">
-                                    <div href="" class="footert-nav-link" style="cursor:pointer">Oil Change & Maintenance</div>
+                                    <div href="" class="footert-nav-link" style="cursor:pointer">Oil Change &
+                                        Maintenance</div>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <div href="" class="footert-nav-link" style="cursor:pointer">Protection & Polishing</div>
+                                    <div href="" class="footert-nav-link" style="cursor:pointer">Protection & Polishing
+                                    </div>
                                 </li>
                                 <li class="footer-nav-item">
-                                    <div href="" class="footert-nav-link" style="cursor:pointer">Painting & Denting</div>
+                                    <div href="" class="footert-nav-link" style="cursor:pointer">Painting & Denting
+                                    </div>
                                 </li>
                                 <li class="footer-nav-item">
                                     <div href="" class="footert-nav-link" style="cursor:pointer">Tyres & Battries</div>
@@ -221,9 +247,7 @@
         </footer>
     </div>
 
-    <a href="https://wa.me/+966920015563"
-       target="_blank"
-       style="
+    <a href="https://wa.me/+966920015563" target="_blank" style="
      position: fixed;
      bottom: 20px;
      right: 20px;
@@ -238,10 +262,17 @@
      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
      z-index: 9999;
    ">
-        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 100%; height: 100%; fill: rgb(255, 255, 255); stroke: none;"><path d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"></path></svg>
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            style="width: 100%; height: 100%; fill: rgb(255, 255, 255); stroke: none;">
+            <path
+                d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z">
+            </path>
+        </svg>
     </a>
 
-    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=63062f16e59494a89c2d3b6a" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=63062f16e59494a89c2d3b6a"
+        type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
     <script src="/js/webflow.js" type="text/javascript"></script>
     <script src="https://unpkg.com/libphonenumber-js@1.10.18/bundle/libphonenumber-js.min.js"></script>
     <script src="/js/site.js" type="text/javascript"></script>
@@ -267,4 +298,5 @@
         }
     </script>
 </body>
+
 </html>
