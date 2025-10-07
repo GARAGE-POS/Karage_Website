@@ -3930,6 +3930,7 @@ figcaption {
     padding-bottom: 42px;
     /*border-top: 1px solid #caccd1;*/
     background-color: #fff;
+    font-family:spacegrotesk-variablefont_wght;
 }
 
 .footer-logo-container {
@@ -9669,6 +9670,7 @@ figcaption {
 .footer-small-print {
     font-size: 16px;
     line-height: 1.6em;
+    font-family :spacegrotesk-variablefont_wght;
     font-weight: 500;
 }
 
