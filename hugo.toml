@@ -1,4 +1,4 @@
-baseURL = 'http://localhost'  # Change to your production domain (e.g., 'https://your-domain.com')
+baseURL = 'https://garage-pos.github.io/Karage_Website/'
 languageCode = 'en'
 title = 'Karage'
 disableKinds = []
