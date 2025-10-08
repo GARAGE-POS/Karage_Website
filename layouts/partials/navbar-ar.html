@@ -7,8 +7,8 @@
       
       <!-- Logo -->
       <div class="split-content header-left">
-        <a href="/ar/home" class="brand w-nav-brand">
-          <img src="/Karage_Website/images/arabic-logo.svg" alt="Karage Logo" class="header-logo" />
+        <a href="{{ "/home/" | relLangURL }}" class="brand w-nav-brand">
+          <img src="{{ "images/arabic-logo.svg" | relURL }}" alt="Karage Logo" class="header-logo" />
         </a>
       </div>
 
@@ -22,7 +22,7 @@
               <div class="nav-link dropdown w-dropdown-toggle">
                 <div>
                   <span class="dropdown-arrow">
-                    <img src="/Karage_Website/images/arrow-drop-down-big.svg" width="20px" />
+                    <img src="{{ "images/arrow-drop-down-big.svg" | relURL }}" width="20px" />
                   </span>
                   المنتجات
                 </div>
@@ -73,7 +73,7 @@
             <a href="{{ "/" | relLangURL | replaceRE "/$" "/en/" }}" class="header-button w-inline-block"
                style="padding-right:20px; text-decoration:none;">
               English
-              <img src="/Karage_Website/images/flag-for-flag-united-kingdom-svgrepo-com.svg"
+              <img src="{{ "images/flag-for-flag-united-kingdom-svgrepo-com.svg" | relURL }}"
                    style="width:40px; padding-right:10px;" />
             </a>
           </li>
@@ -96,11 +96,11 @@
         </div>
 
         <!-- Language Toggle -->
-        <a href="{{ "/en/" | absURL }}"
+        <a href="{{ "/en/home/" | absURL }}"
            class="header-button w-inline-block"
            style="padding-right:20px; text-decoration:none;">
           English
-          <img src="/Karage_Website/images/flag-for-flag-united-kingdom-svgrepo-com.svg"
+          <img src="{{ "images/flag-for-flag-united-kingdom-svgrepo-com.svg" | relURL }}"
                style="width:40px; padding-right:10px;" />
         </a>
 

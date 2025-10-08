@@ -2,6 +2,7 @@ baseURL = 'https://garage-pos.github.io/Karage_Website/'
 languageCode = 'en'
 title = 'Karage'
 disableKinds = []
+canonifyURLs = true
 
 defaultContentLanguageInSubdir = true
 
