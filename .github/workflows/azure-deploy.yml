@@ -35,7 +35,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "https://zealous-pebble-041f79000.5.azurestaticapps.net/"
+            --baseURL "https://zealous-pebble-041f79000.2.azurestaticapps.net/"
 
       - name: Deploy to Azure Static Web Apps
         id: builddeploy
