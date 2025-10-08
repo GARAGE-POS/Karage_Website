@@ -1,4 +1,4 @@
-baseURL = 'https://garage-pos.github.io/Karage_Website/'
+baseURL = 'https://garage-pos.github.io/'
 languageCode = 'en'
 title = 'Karage'
 disableKinds = []
