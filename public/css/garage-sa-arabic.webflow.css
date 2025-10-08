@@ -2985,7 +2985,7 @@ blockquote {
     border-left: 0px solid #000;
     border-radius: 18px;
     background-color: #055f5b;
-    background-image: url('/images/shape-2-block-quote-startup-x-template.svg'), url('/images/shape-1-block-quote-startup-x-template.svg');
+    background-image: none;
     background-position: 115% -25%, -20% 120%;
     background-size: auto, auto;
     background-repeat: no-repeat, no-repeat;
@@ -4607,34 +4607,34 @@ figcaption {
 
     .input.name-icon {
         padding-right: 60px;
-        background-image: url('/images/icon-1-input-2-startup-x-template.svg');
+        background-image: none;
         background-position: 90% 50%;
         background-size: auto;
         background-repeat: no-repeat;
     }
 
         .input.name-icon:hover {
-            background-image: url('/images/icon-1-input-startup-x-template.svg');
+            background-image: none;
         }
 
         .input.name-icon:focus {
-            background-image: url('/images/icon-1-input-startup-x-template.svg');
+            background-image: none;
         }
 
     .input.email-icon {
         padding-right: 60px;
-        background-image: url('/images/icon-2-input-2-startup-x-template.svg');
+        background-image: none;
         background-position: 90% 50%;
         background-size: auto;
         background-repeat: no-repeat;
     }
 
         .input.email-icon:hover {
-            background-image: url('/images/icon-2-input-startup-x-template.svg');
+            background-image: none;
         }
 
         .input.email-icon:focus {
-            background-image: url('/images/icon-2-input-startup-x-template.svg');
+            background-image: none;
         }
 
         .input.email-icon.large {
@@ -4643,46 +4643,46 @@ figcaption {
 
     .input.phone-icon {
         padding-right: 60px;
-        background-image: url('/images/icon-3-input-2-startup-x-template.svg');
+        background-image: none;
         background-position: 90% 50%;
         background-size: auto;
         background-repeat: no-repeat;
     }
 
         .input.phone-icon:hover {
-            background-image: url('/images/icon-3-input-startup-x-template.svg');
+            background-image: none;
         }
 
         .input.phone-icon:focus {
-            background-image: url('/images/icon-3-input-startup-x-template.svg');
+            background-image: none;
         }
 
     .input.company-icon {
         padding-right: 60px;
-        background-image: url('/images/icon-4-input-2-startup-x-template.svg');
+        background-image: none;
         background-position: 90% 50%;
         background-size: auto;
         background-repeat: no-repeat;
     }
 
         .input.company-icon:hover {
-            background-image: url('/images/icon-4-input-startup-x-template.svg');
+            background-image: none;
         }
 
         .input.company-icon:focus {
-            background-image: url('/images/icon-4-input-startup-x-template.svg');
+            background-image: none;
         }
 
         .input.company-icon.v2 {
-            background-image: url('/images/icon-1-input-request-demo-startup-x-template.svg');
+            background-image: none;
         }
 
             .input.company-icon.v2:hover {
-                background-image: url('/images/icon-1-input-focused-request-demo-startup-x-template.svg');
+                background-image: none;
             }
 
             .input.company-icon.v2:focus {
-                background-image: url('/images/icon-1-input-focused-request-demo-startup-x-template.svg');
+                background-image: none;
             }
 
     .input.newsletter-v1 {
@@ -4703,18 +4703,18 @@ figcaption {
 
     .input.password-icon {
         padding-right: 60px;
-        background-image: url('/images/icon-input-pasword-startup-x-template.svg');
+        background-image: none;
         background-position: 95% 50%;
         background-size: auto;
         background-repeat: no-repeat;
     }
 
         .input.password-icon:hover {
-            background-image: url('/images/icon-input-focused-pasword-startup-x-template.svg');
+            background-image: none;
         }
 
         .input.password-icon:focus {
-            background-image: url('/images/icon-input-focused-pasword-startup-x-template.svg');
+            background-image: none;
         }
 
     .input.coming-soon {
@@ -4727,18 +4727,18 @@ figcaption {
 
     .input.position-icon {
         padding-right: 60px;
-        background-image: url('/images/icon-2-input-request-demo-startup-x-template.svg');
+        background-image: none;
         background-position: 90% 50%;
         background-size: auto;
         background-repeat: no-repeat;
     }
 
         .input.position-icon:hover {
-            background-image: url('/images/icon-2-input-focused-request-demo-startup-x-template.svg');
+            background-image: none;
         }
 
         .input.position-icon:focus {
-            background-image: url('/images/icon-2-input-focused-request-demo-startup-x-template.svg');
+            background-image: none;
         }
 
     .input.cart-item-quantity {
@@ -22037,7 +22037,7 @@ figcaption {
 
     blockquote {
         padding: 60px 25px;
-        background-image: url('/images/shape-2-block-quote-startup-x-template.svg');
+        background-image: none;
         background-position: 150% -100%;
         background-size: auto;
         background-repeat: no-repeat;
