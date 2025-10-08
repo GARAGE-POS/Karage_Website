@@ -2835,20 +2835,20 @@
 
 @font-face {
     font-family: 'ibmplexsans-regular';
-    src: url('../fonts/IBMPlexSansArabic/IBMPlexSansArabic-Regular.ttf')format('truetype');
+    src: url('../fonts/ibmplexsansarabic/ibmplexsansarabic-regular.ttf')format('truetype');
     
 }
 @font-face {
     font-family: 'ibmplexsans-bold';
-    src: url('../fonts/IBMPlexSansArabic/IBMPlexSansArabic-bold') format('truetype');
+    src: url('../fonts/ibmplexsansarabic/ibmplexsansarabic-bold.ttf') format('truetype');
 }
 @font-face {
     font-family: 'ibmplexsans-medium';
-    src: url('../fonts/IBMPlexSansArabic/IBMPlexSansArabic-medium') format('truetype');
+    src: url('../fonts/ibmplexsansarabic/ibmplexsansarabic-medium.ttf') format('truetype');
 }
 @font-face {
     font-family: 'ibmplexsans-light';
-    src: url('../fonts/IBMPlexSansArabic/IBMPlexSansArabic-light') format('truetype');
+    src: url('../fonts/ibmplexsansarabic/ibmplexsansarabic-light.ttf') format('truetype');
 }
 
 
@@ -26065,7 +26065,7 @@ figcaption {
 
 @font-face {
     font-family: 'Thicccboi';
-    src: url('../fonts/THICCCBOI-Bold.ttf') format('truetype');
+    src: url('../fonts/thicccboi-bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -26073,7 +26073,7 @@ figcaption {
 
 @font-face {
     font-family: 'Thicccboi';
-    src: url('../fonts/THICCCBOI-Medium.ttf') format('truetype');
+    src: url('../fonts/thicccboi-medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -26081,7 +26081,7 @@ figcaption {
 
 @font-face {
     font-family: 'Thicccboi';
-    src: url('../fonts/THICCCBOI-SemiBold.ttf') format('truetype');
+    src: url('../fonts/thicccboi-semibold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -26089,7 +26089,7 @@ figcaption {
 
 @font-face {
     font-family: 'Thicccboi';
-    src: url('../fonts/THICCCBOI-ExtraBold.ttf') format('truetype');
+    src: url('../fonts/thicccboi-extrabold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
     font-display: swap;
