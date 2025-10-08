@@ -29,7 +29,7 @@ name: Azure Static Web Apps CI/CD
             app_location: "/"
             api_location: ""
             output_location: "public"
-            app_build_command: "hugo"
+            app_build_command: "hugo --baseURL https://zealous-pebble-041f79000.5.azurestaticapps.net/ --gc --minify"
 
     close_pull_request_job:
       if: github.event_name == 'pull_request' && github.event.action == 'closed'
