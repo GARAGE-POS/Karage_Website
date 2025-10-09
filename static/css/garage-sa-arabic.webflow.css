@@ -5662,9 +5662,14 @@ figcaption {
 
 .card.plan {
     position: relative;
+    flex: 1 1 360px; 
     max-width: 384px;
-    margin-right: 23px;
+    min-width: 320px; 
     padding: 49px 32px 57px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 100%; 
 }
 
     .card.plan.popular {
@@ -12290,11 +12295,14 @@ figcaption {
 }
 
 .pricing-wrapper {
-    display: -webkit-box;
+     display: -webkit-box;
     display: -webkit-flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 23px;
+    margin-right: 0;
     display: -ms-flexbox;
     display: flex;
-    margin-right: -23px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -12302,7 +12310,6 @@ figcaption {
     -webkit-box-align: end;
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
-    align-items: flex-end;
 }
 
 .card-plan-price {
