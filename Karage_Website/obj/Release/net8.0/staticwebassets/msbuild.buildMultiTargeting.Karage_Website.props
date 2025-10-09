@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Karage_Website.props" />
-</Project>

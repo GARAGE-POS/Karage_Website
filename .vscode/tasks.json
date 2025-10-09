@@ -1,0 +1,73 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Hugo: Serve",
+      "type": "shell",
+      "command": "hugo server -D --bind 0.0.0.0 --baseURL http://localhost:1313",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "Hugo: Serve (Fast Render)",
+      "type": "shell",
+      "command": "hugo server -D --bind 0.0.0.0 --baseURL http://localhost:1313 --disableFastRender=false",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "Hugo: Build",
+      "type": "shell",
+      "command": "hugo --cleanDestinationDir",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Hugo: Build (Production)",
+      "type": "shell",
+      "command": "hugo --minify --cleanDestinationDir",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "Hugo: Clean",
+      "type": "shell",
+      "command": "rm -rf public resources",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    }
+  ]
+}

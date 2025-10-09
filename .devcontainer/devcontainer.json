@@ -1,0 +1,44 @@
+{
+  "name": "Hugo Development",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  
+  "features": {
+    "ghcr.io/devcontainers/features/hugo:1": {
+      "version": "latest",
+      "extended": true
+    },
+    "ghcr.io/devcontainers/features/git:1": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    }
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "budparr.language-hugo-vscode",
+        "eliostruyf.vscode-hugo-themer",
+        "fivethree.vscode-hugo-snippets"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  },
+
+  "forwardPorts": [1313],
+  "portsAttributes": {
+    "1313": {
+      "label": "Hugo Server",
+      "onAutoForward": "notify"
+    }
+  },
+
+  "postCreateCommand": "hugo version",
+
+  "remoteUser": "vscode",
+  
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
+}
