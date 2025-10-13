@@ -164,22 +164,34 @@ document.addEventListener("DOMContentLoaded", function () {
         showLoader();
 
         try {
-            zohoForm.submit();
+    zohoForm.submit();
 
-            iframe.onload = function () {
-                hideLoader();
-                showMessage(form, "success", "Your request was successfully submitted!");
-                form.reset();
-              document.querySelector(".w-checkbox-input")?.classList.remove("w--redirected-checked");
+    iframe.onload = function () {
+        hideLoader();
 
-            };
+        const isArabic = window.location.pathname.includes('/ar');
 
 
+        const successMessage = isArabic
+            ? "شكرًا لك! تم إرسال طلبك للتجربة المجانية بنجاح، سنتواصل معك قريباً."
+            : "Your request was successfully submitted!";
 
-        } catch (err) {
-            console.error('Zoho form submission error:', err);
-            hideLoader();
-            showMessage(form, "error", "Something went wrong. Please try again.");
-        }
+        showMessage(form, "success", successMessage);
+        form.reset();
+        document.querySelector(".w-checkbox-input")?.classList.remove("w--redirected-checked");
+    };
+
+} catch (err) {
+    console.error('Zoho form submission error:', err);
+    hideLoader();
+
+    const isArabic = window.location.pathname.includes('/ar');
+    const errorMessage = isArabic
+        ? "حدث خطأ ما. يرجى المحاولة مرة أخرى."
+        : "Something went wrong. Please try again.";
+
+    showMessage(form, "error", errorMessage);
+}
+
     });
 });
