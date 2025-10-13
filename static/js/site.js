@@ -65,10 +65,10 @@ function hideLoader() {
 
 function validateForm(form) {
     let isValid = true;
-    const inputs = form.querySelectorAll('input, textarea');
+    const inputs = form.querySelectorAll('input, select, textarea');
 
     inputs.forEach(input => {
-        input.style.borderColor = ''; // reset
+        input.style.borderColor = '';
 
         if (input.hasAttribute('required') && !input.value.trim()) {
             input.style.borderColor = 'red';
@@ -82,7 +82,7 @@ function validateForm(form) {
             isValid = false;
         }
 
-        if (input.name.toLowerCase() === 'phonenumber' && input.value) {
+          if (input.name.toLowerCase() === 'phonenumber' && input.value) {
             const phoneVal = input.value.trim().startsWith('+')
                 ? input.value.trim()
                 : '+' + input.value.trim();
@@ -106,69 +106,80 @@ function validateForm(form) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    const form = document.getElementById('wf-form-Create-Account-Form');
-    if (!form) return; // avoid errors on pages without the form
+    debugger
+    const form = document.getElementById('karage-main-form');
+    if (!form) return;
 
-    const successDiv = form.parentElement.querySelector('.w-form-done');
-    const errorDiv = form.parentElement.querySelector('.w-form-fail');
+    const successDiv = document.getElementById('success-message');
+    const errorDiv = document.getElementById('error-message');
+    const zohoForm = document.getElementById('zoho-hidden-form');
 
     successDiv.style.display = 'none';
     errorDiv.style.display = 'none';
 
     form.addEventListener('submit', function (e) {
         e.preventDefault();
+        
         successDiv.style.display = 'none';
-        successDiv.querySelector('div').textContent = '';
         errorDiv.style.display = 'none';
-        errorDiv.querySelector('div').textContent = '';
 
         if (!validateForm(form)) return;
 
         const formData = new FormData(form);
-        const data = Object.fromEntries(formData.entries());
 
-        if (data.PhoneNumber) {
-            try {
-                const phoneVal = data.PhoneNumber.trim().startsWith('+')
-                    ? data.PhoneNumber.trim()
-                    : '+' + data.PhoneNumber.trim();
 
-                const parsed = libphonenumber.parsePhoneNumber(phoneVal);
-                if (parsed && parsed.isValid()) {
-                    data.PhoneCode = `+${parsed.countryCallingCode}`;
-                    data.PhoneNumber = parsed.nationalNumber;
-                }
-            } catch (err) {
-                console.error("Phone parsing failed:", err);
+        const fullName = formData.get('FullName') || '';
+        const parts = fullName.trim().split(' ');
+        zohoForm.querySelector('input[name="SingleLine"]').value = parts[0] || '';
+        zohoForm.querySelector('input[name="SingleLine1"]').value = parts.slice(1).join(' ') || '';
+        zohoForm.querySelector('input[name="SingleLine2"]').value = formData.get('Company') || '';
+        zohoForm.querySelector('input[name="Email"]').value = formData.get('Email') || '';
+        zohoForm.querySelector('select[name="Address_Country"]').value = formData.get('Country') || '';
+        zohoForm.querySelector('input[name="Address_City"]').value = formData.get('City') || '';
+        zohoForm.querySelector('select[name="Dropdown"]').innerHTML = `<option selected>${formData.get('BusinessType')}</option>`;
+        zohoForm.querySelector('select[name="Dropdown1"]').innerHTML = `<option selected>${formData.get('PrefilledProducts')}</option>`;
+
+
+
+       const phoneValue = formData.get('PhoneNumber')?.trim() || '';
+        const phoneVal = phoneValue.startsWith('+') ? phoneValue : '+' + phoneValue;
+        try {
+            const parsed = libphonenumber.parsePhoneNumber(phoneVal);
+            if (parsed.isValid()) {
+                zohoForm.querySelector('input[name="PhoneNumber_countrycodeval"]').value = `+${parsed.countryCallingCode}`;
+                zohoForm.querySelector('input[name="PhoneNumber_countrycode"]').value = parsed.nationalNumber;
+            } else {
+                zohoForm.querySelector('input[name="PhoneNumber_countrycodeval"]').value = '';
+                zohoForm.querySelector('input[name="PhoneNumber_countrycode"]').value = phoneValue;
             }
+        } catch {
+            zohoForm.querySelector('input[name="PhoneNumber_countrycodeval"]').value = '';
+            zohoForm.querySelector('input[name="PhoneNumber_countrycode"]').value = phoneValue;
         }
 
-        const currentLang = window.location.pathname.startsWith("/ar") ? "ar" : "en";
+
+        zohoForm.setAttribute('target', 'hidden_iframe');
+        const iframe = document.getElementById('hidden_iframe');
 
         showLoader();
 
-        fetch(`/Home/SubmitTrialForm?lang=${currentLang}`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(data)
-        })
-            .then(res => res.json())
-            .then(result => {
+        try {
+            zohoForm.submit();
+
+            iframe.onload = function () {
                 hideLoader();
-                if (result.success) {
-                    showMessage(form, "success", result.message);
-                    form.reset();
-                    const customCheckbox = form.querySelector('.w-checkbox-input');
-                    if (customCheckbox) {
-                        customCheckbox.classList.remove('w--redirected-checked');
-                    }
-                } else {
-                    showMessage(form, "error", result.message || "Something went wrong.");
-                }
-            })
-            .catch(() => {
-                hideLoader();
-                showMessage(form, "error", "Something went wrong. Please try again later.");
-            });
+                showMessage(form, "success", "Your request was successfully submitted!");
+                form.reset();
+              document.querySelector(".w-checkbox-input")?.classList.remove("w--redirected-checked");
+
+            };
+
+
+
+        } catch (err) {
+            console.error('Zoho form submission error:', err);
+            hideLoader();
+            showMessage(form, "error", "Something went wrong. Please try again.");
+        }
     });
 });
