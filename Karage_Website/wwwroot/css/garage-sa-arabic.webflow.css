@@ -2820,14 +2820,17 @@
     font-family: 'ibmplexsansarabic-regular';
     src: url('../fonts/ibmplex/ibmplexsansarabic-regular.ttf') format('truetype');
 }
+
 @font-face {
     font-family: 'ibmplexsansarabic-bold';
     src: url('../fonts/ibmplex/ibmplexsansarabic-bold.ttf') format('truetype');
 }
+
 @font-face {
     font-family: 'ibmplexsansarabic-light';
     src: url('../fonts/ibmplex/ibmplexsansarabic-light.ttf') format('truetype');
 }
+
 @font-face {
     font-family: 'ibmplexsansarabic-medium';
     src: url('../fonts/ibmplex/ibmplexsansarabic-medium.ttf') format('truetype');
@@ -2835,20 +2838,22 @@
 
 @font-face {
     font-family: 'ibmplexsans-regular';
-    src: url('../fonts/IBMPlexSansArabic/IBMPlexSansArabic-Regular.ttf')format('truetype');
-    
+    src: url('../fonts/ibmplexsansarabic/ibmplexsansarabic-regular.ttf')format('truetype');
 }
+
 @font-face {
     font-family: 'ibmplexsans-bold';
-    src: url('../fonts/IBMPlexSansArabic/IBMPlexSansArabic-bold') format('truetype');
+    src: url('../fonts/ibmplexsansarabic/ibmplexsansarabic-bold.ttf') format('truetype');
 }
+
 @font-face {
     font-family: 'ibmplexsans-medium';
-    src: url('../fonts/IBMPlexSansArabic/IBMPlexSansArabic-medium') format('truetype');
+    src: url('../fonts/ibmplexsansarabic/ibmplexsansarabic-medium.ttf') format('truetype');
 }
+
 @font-face {
     font-family: 'ibmplexsans-light';
-    src: url('../fonts/IBMPlexSansArabic/IBMPlexSansArabic-light') format('truetype');
+    src: url('../fonts/ibmplexsansarabic/ibmplexsansarabic-light.ttf') format('truetype');
 }
 
 
@@ -2985,7 +2990,7 @@ blockquote {
     border-left: 0px solid #000;
     border-radius: 18px;
     background-color: #055f5b;
-    background-image: url('../images/shape-2-block-quote-startup-x-template.svg'), url('../images/shape-1-block-quote-startup-x-template.svg');
+    background-image: none;
     background-position: 115% -25%, -20% 120%;
     background-size: auto, auto;
     background-repeat: no-repeat, no-repeat;
@@ -3933,7 +3938,7 @@ figcaption {
     }
 
 .nav-link {
-    color: var(--base-900-black, #1E1E1E) !important; 
+    color: var(--base-900-black, #1E1E1E) !important;
     line-height: 1.125em;
     font-size: 22px;
     font-weight: 600;
@@ -4607,34 +4612,34 @@ figcaption {
 
     .input.name-icon {
         padding-right: 60px;
-        background-image: url('../images/icon-1-input-2-startup-x-template.svg');
+        background-image: none;
         background-position: 90% 50%;
         background-size: auto;
         background-repeat: no-repeat;
     }
 
         .input.name-icon:hover {
-            background-image: url('../images/icon-1-input-startup-x-template.svg');
+            background-image: none;
         }
 
         .input.name-icon:focus {
-            background-image: url('../images/icon-1-input-startup-x-template.svg');
+            background-image: none;
         }
 
     .input.email-icon {
         padding-right: 60px;
-        background-image: url('../images/icon-2-input-2-startup-x-template.svg');
+        background-image: none;
         background-position: 90% 50%;
         background-size: auto;
         background-repeat: no-repeat;
     }
 
         .input.email-icon:hover {
-            background-image: url('../images/icon-2-input-startup-x-template.svg');
+            background-image: none;
         }
 
         .input.email-icon:focus {
-            background-image: url('../images/icon-2-input-startup-x-template.svg');
+            background-image: none;
         }
 
         .input.email-icon.large {
@@ -4643,46 +4648,46 @@ figcaption {
 
     .input.phone-icon {
         padding-right: 60px;
-        background-image: url('../images/icon-3-input-2-startup-x-template.svg');
+        background-image: none;
         background-position: 90% 50%;
         background-size: auto;
         background-repeat: no-repeat;
     }
 
         .input.phone-icon:hover {
-            background-image: url('../images/icon-3-input-startup-x-template.svg');
+            background-image: none;
         }
 
         .input.phone-icon:focus {
-            background-image: url('../images/icon-3-input-startup-x-template.svg');
+            background-image: none;
         }
 
     .input.company-icon {
         padding-right: 60px;
-        background-image: url('../images/icon-4-input-2-startup-x-template.svg');
+        background-image: none;
         background-position: 90% 50%;
         background-size: auto;
         background-repeat: no-repeat;
     }
 
         .input.company-icon:hover {
-            background-image: url('../images/icon-4-input-startup-x-template.svg');
+            background-image: none;
         }
 
         .input.company-icon:focus {
-            background-image: url('../images/icon-4-input-startup-x-template.svg');
+            background-image: none;
         }
 
         .input.company-icon.v2 {
-            background-image: url('../images/icon-1-input-request-demo-startup-x-template.svg');
+            background-image: none;
         }
 
             .input.company-icon.v2:hover {
-                background-image: url('../images/icon-1-input-focused-request-demo-startup-x-template.svg');
+                background-image: none;
             }
 
             .input.company-icon.v2:focus {
-                background-image: url('../images/icon-1-input-focused-request-demo-startup-x-template.svg');
+                background-image: none;
             }
 
     .input.newsletter-v1 {
@@ -4703,18 +4708,18 @@ figcaption {
 
     .input.password-icon {
         padding-right: 60px;
-        background-image: url('../images/icon-input-pasword-startup-x-template.svg');
+        background-image: none;
         background-position: 95% 50%;
         background-size: auto;
         background-repeat: no-repeat;
     }
 
         .input.password-icon:hover {
-            background-image: url('../images/icon-input-focused-pasword-startup-x-template.svg');
+            background-image: none;
         }
 
         .input.password-icon:focus {
-            background-image: url('../images/icon-input-focused-pasword-startup-x-template.svg');
+            background-image: none;
         }
 
     .input.coming-soon {
@@ -4727,18 +4732,18 @@ figcaption {
 
     .input.position-icon {
         padding-right: 60px;
-        background-image: url('../images/icon-2-input-request-demo-startup-x-template.svg');
+        background-image: none;
         background-position: 90% 50%;
         background-size: auto;
         background-repeat: no-repeat;
     }
 
         .input.position-icon:hover {
-            background-image: url('../images/icon-2-input-focused-request-demo-startup-x-template.svg');
+            background-image: none;
         }
 
         .input.position-icon:focus {
-            background-image: url('../images/icon-2-input-focused-request-demo-startup-x-template.svg');
+            background-image: none;
         }
 
     .input.cart-item-quantity {
@@ -4986,7 +4991,8 @@ figcaption {
     letter-spacing: -0.06px;
     margin-top: 12px;
 }
-    .paragraph.home-v2-features {
+
+.paragraph.home-v2-features {
     margin-bottom: 32px;
 }
 
@@ -5113,7 +5119,7 @@ figcaption {
     font-style: normal;
     font-weight: 500;
     line-height: 26px;
-    text-align:right;
+    text-align: right;
 }
 
 .paragraph.card-contact {
@@ -5662,9 +5668,14 @@ figcaption {
 
 .card.plan {
     position: relative;
+    flex: 1 1 360px;
     max-width: 384px;
-    margin-right: 23px;
+    min-width: 320px;
     padding: 49px 32px 57px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 
     .card.plan.popular {
@@ -9246,7 +9257,6 @@ figcaption {
     line-height: 33px !important;
     font-weight: 400 !important;
     color: var(--Base-500, #737373) !important;
-    
 }
 
 .faqs-wrapper {
@@ -12292,9 +12302,12 @@ figcaption {
 .pricing-wrapper {
     display: -webkit-box;
     display: -webkit-flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 23px;
+    margin-right: 0;
     display: -ms-flexbox;
     display: flex;
-    margin-right: -23px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -12302,7 +12315,6 @@ figcaption {
     -webkit-box-align: end;
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
-    align-items: flex-end;
 }
 
 .card-plan-price {
@@ -12799,7 +12811,7 @@ figcaption {
         border-color: #055f5b;
         border-radius: 5px;
         background-color: #055f5b;
-        background-image: url('../images/checkbox.svg');
+        background-image: url('/images/checkbox.svg');
     }
 
     .create-account-checkbox.w--redirected-focus {
@@ -13158,8 +13170,7 @@ figcaption {
     align-items: center;
     line-height: 1.333em;
     font-weight: 500;
-    font-
-    color: var(--Base-600, #666);
+    font- color: var(--Base-600, #666);
 }
 
 .request-demo-content-feature-icon {
@@ -22037,7 +22048,7 @@ figcaption {
 
     blockquote {
         padding: 60px 25px;
-        background-image: url('../images/shape-2-block-quote-startup-x-template.svg');
+        background-image: none;
         background-position: 150% -100%;
         background-size: auto;
         background-repeat: no-repeat;
@@ -26065,7 +26076,7 @@ figcaption {
 
 @font-face {
     font-family: 'Thicccboi';
-    src: url('../fonts/THICCCBOI-Bold.ttf') format('truetype');
+    src: url('../fonts/thicccboi-bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -26073,7 +26084,7 @@ figcaption {
 
 @font-face {
     font-family: 'Thicccboi';
-    src: url('../fonts/THICCCBOI-Medium.ttf') format('truetype');
+    src: url('../fonts/thicccboi-medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -26081,7 +26092,7 @@ figcaption {
 
 @font-face {
     font-family: 'Thicccboi';
-    src: url('../fonts/THICCCBOI-SemiBold.ttf') format('truetype');
+    src: url('../fonts/thicccboi-semibold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -26089,7 +26100,7 @@ figcaption {
 
 @font-face {
     font-family: 'Thicccboi';
-    src: url('../fonts/THICCCBOI-ExtraBold.ttf') format('truetype');
+    src: url('../fonts/thicccboi-extrabold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
     font-display: swap;
