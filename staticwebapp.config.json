@@ -3,6 +3,10 @@
     {
       "route": "/sadeq/*",
       "allowedRoles": ["authenticated"]
+    },
+    {
+      "route": "/*",
+      "allowedRoles": ["anonymous"]
     }
   ]
 }
