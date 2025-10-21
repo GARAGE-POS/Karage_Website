@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>إنشاء عقد جديد - نظام إدارة العقود</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="config.js"></script>
+    <link rel="stylesheet" href="/sadeq/styles.css">
+    <script src="/sadeq/config.js"></script>
 </head>
 <body>
     <div class="container">
@@ -17,8 +17,8 @@
 
         <!-- Navigation -->
         <div class="nav">
-            <a href="index.html">قائمة العقود</a>
-            <a href="create-contract.html" class="active">إنشاء عقد جديد</a>
+            <a href="/sadeq/index.html">قائمة العقود</a>
+            <a href="/sadeq/create-contract.html" class="active">إنشاء عقد جديد</a>
         </div>
 
         <!-- Alert Container -->
@@ -194,10 +194,21 @@
     <script>
         let currentTab = 'template';
 
+        // Ensure CONFIG is loaded before proceeding
+        function waitForConfig(callback) {
+            if (typeof CONFIG !== 'undefined') {
+                callback();
+            } else {
+                setTimeout(() => waitForConfig(callback), 10);
+            }
+        }
+
         // Initialize the page
         document.addEventListener('DOMContentLoaded', function() {
-            // Set default template ID
-            document.getElementById('template_templateId').value = CONFIG.DEFAULT_TEMPLATE_ID;
+            waitForConfig(() => {
+                // Set default template ID
+                document.getElementById('template_templateId').value = CONFIG.DEFAULT_TEMPLATE_ID;
+            });
         });
 
         // Switch between tabs

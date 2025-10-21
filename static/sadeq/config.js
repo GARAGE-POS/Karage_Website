@@ -12,3 +12,6 @@ const CONFIG = {
 
 // Make CONFIG globally available
 window.CONFIG = CONFIG;
+
+// Add a small debug log to confirm the script is loaded
+console.log('CONFIG loaded successfully:', CONFIG);
