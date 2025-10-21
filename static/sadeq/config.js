@@ -3,7 +3,7 @@ const CONFIG = {
     // API Base URL - change this to your production API endpoint when deploying
     API_BASE_URL: window.location.hostname === 'localhost' 
         ? 'http://localhost:7071/api'
-        : 'https://functions-uat.karage.co/api', // Update this with your actual production API URL
+        : 'https://functions.karage.co/api', // Update this with your actual production API URL
     
     // Application settings
     APP_NAME: 'نظام إدارة العقود الرقمية',
