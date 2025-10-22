@@ -185,21 +185,102 @@ slug: "home"
             <div data-w-id="b1aeb79b-04c3-2497-4e3c-e2f68e511e59" style="-webkit-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="card request-demo">
                 <h2 class="title card-request-demo">Schedule your demo today</h2>
                 <div class="card-request-demo-form-block w-form">
-                    <form id="wf-form-Request-Demo-Form" name="wf-form-Request-Demo-Form" action="#" method="post" class="card-request-demo-form">
-                        <input type="text" class="input name-icon w-input" maxlength="256" name="Name" placeholder="Full Name" id="name" required>
-                        <input type="email" class="input email-icon w-input" maxlength="256" name="Email" placeholder="Email Address" id="email" required>
-                        <input type="tel" class="input phone-icon w-input" maxlength="256" name="Phone" placeholder="Phone Number" id="phone" required>
-                        <input type="text" class="input company-icon v2 w-input" maxlength="256" name="Company" placeholder="Company" id="company" required>
-                        <input type="text" class="input w-input" maxlength="256" name="CompanySize" placeholder="Company Size (Number of Employees)" id="Company-Size" required>
-                        <input type="text" class="input position-icon w-input" maxlength="256" name="Position" placeholder="Position" id="position" required>
-                        <input type="submit" value="Book a demo" data-wait="Please wait..." style="grid-area: span 1 / span 2 / span 1 / span 2" class="button-primary request-demo w-button">
+                      <!-- ===================== -->
+                    <!-- Main Visible Form -->
+                    <!-- ===================== -->
+                    <form id="karage-main-form" class="create-account-form">
+                        <input type="text" class="input name-icon w-input full-width-row" name="FullName"
+                            placeholder="Full Name" required>
+                        <input type="email" class="input email-icon w-input full-width-row" name="Email"
+                            placeholder="Email" required>
+                        <input type="text" class="input company-icon w-input" name="Company" placeholder="Company"
+                            required>
+                        <input type="text" class="input w-input" name="PhoneNumber" placeholder="Phone Number" required>
+
+                        <select name="Country" class="input w-input" required>
+                            <option value="" disabled selected>Select Country</option>
+                            <option value="UAE">UAE</option>
+                            <option value="Bahrain">Bahrain</option>
+                            <option value="Kuwait">Kuwait</option>
+                            <option value="Qatar">Qatar</option>
+                            <option value="Oman">Oman</option>
+                            <option value="Jordan">Jordan</option>
+                            <option value="Lebanon">Lebanon</option>
+                            <option value="Egypt">Egypt</option>
+                        </select>
+
+                        <input type="text" class="input w-input" name="City" placeholder="City" required>
+
+                        <select name="BusinessType" class="input w-input" required>
+                            <option value="" disabled selected>Select Business Type</option>
+                            <option value="غيار زيوت">Oil Change</option>
+                            <option value="صيانة">Car Maintenance</option>
+                            <option value="مغسلة">Car Wash</option>
+                            <option value="عناية">Car Detailing</option>
+                            <option value="سمكرة و بوية">Bodywork & Paint</option>
+                            <option value="كهرباء">Auto Electrical</option>
+                            <option value="برمجة">Car Programming</option>
+                            <option value="بطاريات">Batteries</option>
+                            <option value="تكييف">Car AC</option>
+                            <option value="اطارات">Tires</option>
+                        </select>
+
+                        <select name="PrefilledProducts" class="input w-input" required>
+                            <option value="" disabled selected>Add products by business Type</option>
+                            <option value="نعم">Yes</option>
+                            <option value="لا">No</option>
+                        </select>
+
+                        <label class="w-checkbox create-account-checkbox-field">
+                            <div class="w-checkbox-input w-checkbox-input--inputType-custom create-account-checkbox">
+                            </div>
+                            <input type="checkbox" name="checkbox" required
+                                style="opacity:0;position:absolute;z-index:-1">
+                            <span>I agree to the <a href="/en/termsAndconditions/">Terms & Conditions</a>.</span>
+                        </label>
+
+                        <button type="submit" class="button-primary full-width create-account w-button">Submit</button>
                     </form>
-                    <div class="success-message w-form-done">
-                        <div>Thanks. We will get back to you within 24-48 hours.</div>
+                 <div id="form-message" style="margin-top:10px;"></div>
+
+                    <!-- ===================== -->
+                    <!-- Hidden Zoho Form -->
+                    <!-- ===================== -->
+                    <form id="zoho-hidden-form" style="display:none" method="POST"
+                        action="https://forms.zohopublic.sa/karage1/form/KaragePosFreeTrailForm/formperma/BkEJiKh49zfwlm8Wu7YW_uesZdCIG40jWnPz4so5WFw/htmlRecords/submit"
+                        enctype="multipart/form-data">
+                        <input type="text" name="SingleLine" /> <!-- First Name -->
+                        <input type="text" name="SingleLine1" /> <!-- Last Name -->
+                        <input type="text" name="SingleLine2" /> <!-- Company -->
+                        <input type="text" name="Email" />
+                        <input type="text" name="PhoneNumber_countrycodeval" /> <!-- Default country code -->
+                        <input type="text" name="PhoneNumber_countrycode" />
+                        <select name="Address_Country">
+                            <option value="-Select-">-Select-</option>
+                            <option>UAE</option>
+                            <option>Bahrain</option>
+                            <option>Kuwait</option>
+                            <option>Qatar</option>
+                            <option>Oman</option>
+                            <option>Jordan</option>
+                            <option>Lebanon</option>
+                            <option>Egypt</option>
+                        </select>
+                        <input type="text" name="Address_City" />
+                        <select name="Dropdown"></select> <!-- Business Type -->
+                        <select name="Dropdown1"></select> <!-- Prefilled -->
+                    </form>
+
+
+
+
+                    <div id="success-message" class="success-message w-form-done" style="display:none;">
+                        <div></div>
                     </div>
-                    <div class="error-message w-form-fail">
-                        <div>Oops! Something went wrong.</div>
+                    <div id="error-message" class="error-message w-form-fail" style="display:none;">
+                        <div></div>
                     </div>
+
                 </div>
             </div>
             <div data-w-id="b1aeb79b-04c3-2497-4e3c-e2f68e511e59" style="-webkit-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="split-content request-demo-content">
@@ -353,6 +434,8 @@ slug: "home"
 </div>
 
 
+
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
 
 
 
