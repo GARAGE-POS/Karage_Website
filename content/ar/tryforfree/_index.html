@@ -26,19 +26,32 @@ slug: "tryforfree"
                     قم بإنشاء حساب اليوم وابدأ باستخدام Karage.
                 </p>
                 <div class="create-account-form-block w-form">
-                    <form id="karage-main-form" method="post" class="create-account-form">
-                        <input type="text" class="input w-input full-width-row" maxlength="255" name="FullName"
-                            placeholder="الاسم الكامل" required>
+                    <form
+                        action='https://forms.zohopublic.sa/karage1/form/KaragePosFreeTrailForm/formperma/BkEJiKh49zfwlm8Wu7YW_uesZdCIG40jWnPz4so5WFw/htmlRecords/submit'
+                        class="create-account-form" name='form' id='create-account-form' method='POST'
+                        accept-charset='UTF-8' enctype='multipart/form-data'>
+
+
+                        <input type="text" class="input w-input" maxlength="255" name="SingleLine"
+                            placeholder="الاسم الأول" required>
+
+                        <input type="text" class="input w-input" maxlength="255" name="SingleLine1"
+                            placeholder="اسم العائلة" required>
+
                         <input type="email" class="input w-input full-width-row" maxlength="255" name="Email"
                             placeholder="البريد الإلكتروني" required>
                         <input type="text" class="input w-input" maxlength="255" name="Company" placeholder="اسم الشركة"
                             required>
-                        <input type="text" class="input w-input" maxlength="20" name="PhoneNumber"
-                            placeholder="رقم الجوال" required>
+                        <input type="text" class="input w-input" compname="PhoneNumber_countrycodeval"
+                            name="PhoneNumber_countrycodeval" phoneFormat="1" maxlength="10"
+                            id="international_PhoneNumber_countrycodeval" placeholder="رمز الدولة" />
+                        <input type="text" class="input w-input" maxlength="20" compname="PhoneNumber"
+                            name="PhoneNumber_countrycode" placeholder="رقم الجوال" required>
+                        <input type="text" class="input w-input" name="SingleLine2" placeholder="Company" required>
 
 
 
-                        <select name="Country" class="input w-input" required>
+                        <select name="Address_Country" class="input w-input" required>
                             <option value="" disabled selected>-اختر-</option>
                             <option value="Saudia Arabia">Saudia Arabia</option>
                             <option value="UAE">UAE</option>
@@ -52,10 +65,10 @@ slug: "tryforfree"
                         </select>
 
 
-                        <input type="text" class="input w-input" maxlength="255" name="City" placeholder="المدينة"
-                            required>
 
-                        <select name="BusinessType" class="input w-input" required>
+                        <input type="text" class="input w-input" name="Address_City" placeholder="المدينة" required>
+
+                        <select name="Dropdown" class="input w-input" required>
                             <option value="">اختر نوع النشاط</option>
                             <option value="غيار زيوت">غيار زيوت</option>
                             <option value="صيانة">صيانة</option>
@@ -69,7 +82,7 @@ slug: "tryforfree"
                             <option value="اطارات">اطارات</option>
                         </select>
 
-                        <select name="PrefilledProducts" class="input w-input" required>
+                        <select name="Dropdown1" class="input w-input" required>
                             <option value="" disabled selected>نضيف منتجات حسب نشاطك؟</option>
                             <option value="نعم">نعم</option>
                             <option value="لا">لا</option>
@@ -83,44 +96,10 @@ slug: "tryforfree"
                             </div>
                             <input type="checkbox" name="checkbox" required
                                 style="opacity:0;position:absolute;z-index:-1">
-                            <span>أوافق على <a href="/termsandconditions/">الشروط والأحكام</a>.</span>
+                            <span>أوافق على <a href="/ar//termsandconditions/">الشروط والأحكام</a>.</span>
                         </label>
 
                         <input type="submit" value="إرسال" class="button-primary full-width create-account w-button">
-                    </form>
-
-                    <div id="success-message" class="success-message w-form-done" style="display:none;">
-                        <div></div>
-                    </div>
-                    <div id="error-message" class="error-message w-form-fail" style="display:none;">
-                        <div></div>
-                    </div>
-
-                    <!-- Hidden Zoho Form -->
-                    <!-- ===================== -->
-                    <form id="zoho-hidden-form" style="display:none" method="POST"
-                        action="https://forms.zohopublic.sa/karage1/form/KaragePosFreeTrailForm/formperma/BkEJiKh49zfwlm8Wu7YW_uesZdCIG40jWnPz4so5WFw/htmlRecords/submit"
-                        enctype="multipart/form-data">
-                        <input type="text" name="SingleLine" /> <!-- First Name -->
-                        <input type="text" name="SingleLine1" /> <!-- Last Name -->
-                        <input type="text" name="SingleLine2" /> <!-- Company -->
-                        <input type="text" name="Email" />
-                        <input type="text" name="PhoneNumber_countrycodeval" /> <!-- Default country code -->
-                        <input type="text" name="PhoneNumber_countrycode" />
-                        <select name="Address_Country">
-                            <option value="-Select-">-Select-</option>
-                            <option>UAE</option>
-                            <option>Bahrain</option>
-                            <option>Kuwait</option>
-                            <option>Qatar</option>
-                            <option>Oman</option>
-                            <option>Jordan</option>
-                            <option>Lebanon</option>
-                            <option>Egypt</option>
-                        </select>
-                        <input type="text" name="Address_City" />
-                        <select name="Dropdown"></select> <!-- Business Type -->
-                        <select name="Dropdown1"></select> <!-- Prefilled -->
                     </form>
 
                 </div>

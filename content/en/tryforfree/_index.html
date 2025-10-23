@@ -26,18 +26,31 @@ slug: "tryforfree"
                 </p>
                 <div class="create-account-form-block w-form">
                     <!-- ===================== -->
-                    <!-- Main Visible Form -->
+                    <!-- Main  Form -->
                     <!-- ===================== -->
-                    <form id="karage-main-form" class="create-account-form">
-                        <input type="text" class="input name-icon w-input full-width-row" name="FullName"
-                            placeholder="Full Name" required>
-                        <input type="email" class="input email-icon w-input full-width-row" name="Email"
-                            placeholder="Email" required>
-                        <input type="text" class="input company-icon w-input" name="Company" placeholder="Company"
-                            required>
-                        <input type="text" class="input w-input" name="PhoneNumber" placeholder="Phone Number" required>
 
-                        <select name="Country" class="input w-input" required>
+
+
+                    <form class="create-account-form" name="form"
+                        action='https://forms.zohopublic.sa/karage1/form/KaragePosFreeTrailForm/formperma/BkEJiKh49zfwlm8Wu7YW_uesZdCIG40jWnPz4so5WFw/htmlRecords/submit'
+                        name='form' method='POST'
+                        onSubmit='javascript:document.charset="UTF-8"; return zf_ValidateAndSubmit();'
+                        accept-charset='UTF-8' enctype='multipart/form-data' id='create-account-form'>
+                        <!-- Hidden Zoho fields -->
+                        <input type="hidden" name="zf_referrer_name" value="">
+                        <input type="hidden" name="zf_redirect_url" value="">
+                        <input type="hidden" name="zc_gad" value="">
+
+                        <!-- INPUT FIELDS -->
+                        <input type="text" class="input w-input " name="SingleLine" placeholder="First Name" required>
+                        <input type="text" class="input w-input" name="SingleLine1" placeholder="Last Name" required>
+                        <input type="email" class="input w-input " name="Email" placeholder="Email"
+                            required>
+                        <input type="text" class="input w-input" compname="PhoneNumber_countrycodeval" name="PhoneNumber_countrycodeval" phoneFormat="1" maxlength="10"  id="international_PhoneNumber_countrycodeval" placeholder="Country Code" />
+                        <input type="text" class="input w-input" compname="PhoneNumber"  name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=true maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder="Mobile Nummber" required >
+                        <input type="text" class="input w-input" name="SingleLine2" placeholder="Company" required>
+
+                        <select name="Address_Country" class="input w-input" required>
                             <option value="" disabled selected>Select Country</option>
                             <option value="Saudia Arabia">Saudia Arabia</option>
                             <option value="UAE">UAE</option>
@@ -50,9 +63,9 @@ slug: "tryforfree"
                             <option value="Egypt">Egypt</option>
                         </select>
 
-                        <input type="text" class="input w-input" name="City" placeholder="City" required>
+                        <input type="text" class="input w-input" name="Address_City" placeholder="City" required>
 
-                        <select name="BusinessType" class="input w-input" required>
+                        <select name="Dropdown" class="input w-input" required>
                             <option value="" disabled selected>Select Business Type</option>
                             <option value="غيار زيوت">Oil Change</option>
                             <option value="صيانة">Car Maintenance</option>
@@ -66,7 +79,7 @@ slug: "tryforfree"
                             <option value="اطارات">Tires</option>
                         </select>
 
-                        <select name="PrefilledProducts" class="input w-input" required>
+                        <select name="Dropdown1" class="input w-input" required>
                             <option value="" disabled selected>Add products by business Type</option>
                             <option value="نعم">Yes</option>
                             <option value="لا">No</option>
@@ -81,48 +94,21 @@ slug: "tryforfree"
                         </label>
 
                         <button type="submit" class="button-primary full-width create-account w-button">Submit</button>
+
+
+
                     </form>
 
-                    <div id="form-message" style="margin-top:10px;"></div>
-
-
-                    <!-- ===================== -->
-                    <!-- Hidden Zoho Form -->
-                    <!-- ===================== -->
-                    <form id="zoho-hidden-form" style="display:none" method="POST"
-                        action="https://forms.zohopublic.sa/karage1/form/KaragePosFreeTrailForm/formperma/BkEJiKh49zfwlm8Wu7YW_uesZdCIG40jWnPz4so5WFw/htmlRecords/submit"
-                        enctype="multipart/form-data">
-                        <input type="text" name="SingleLine" /> <!-- First Name -->
-                        <input type="text" name="SingleLine1" /> <!-- Last Name -->
-                        <input type="text" name="SingleLine2" /> <!-- Company -->
-                        <input type="text" name="Email" />
-                        <input type="text" name="PhoneNumber_countrycodeval" /> <!-- Default country code -->
-                        <input type="text" name="PhoneNumber_countrycode" />
-                        <select name="Address_Country">
-                            <option value="-Select-">-Select-</option>
-                            <option>UAE</option>
-                            <option>Bahrain</option>
-                            <option>Kuwait</option>
-                            <option>Qatar</option>
-                            <option>Oman</option>
-                            <option>Jordan</option>
-                            <option>Lebanon</option>
-                            <option>Egypt</option>
-                        </select>
-                        <input type="text" name="Address_City" />
-                        <select name="Dropdown"></select> <!-- Business Type -->
-                        <select name="Dropdown1"></select> <!-- Prefilled -->
-                    </form>
-
-
-
-
+                    <!-- Global messages -->
                     <div id="success-message" class="success-message w-form-done" style="display:none;">
                         <div></div>
                     </div>
                     <div id="error-message" class="error-message w-form-fail" style="display:none;">
                         <div></div>
                     </div>
+
+
+
                 </div>
             </div>
             <div data-w-id="78f63fc2-9930-89fb-7433-4c85d37c65a8"
@@ -164,5 +150,10 @@ slug: "tryforfree"
 
 
 
-
-    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+                    <script type="text/javascript">var dateAndMonthRegexFormateArray = zf_SetDateAndMonthRegexBasedOnDateFormate('dd-MMM-yyyy');
+                        var zf_DateRegex = new RegExp(dateAndMonthRegexFormateArray[0]);
+                        var zf_MonthYearRegex = new RegExp(dateAndMonthRegexFormateArray[1]);
+                        var zf_MandArray = ["SingleLine", "SingleLine1", "SingleLine2", "Email", "PhoneNumber_countrycode", "PhoneNumber_countrycodeVal", "Dropdown", "Dropdown1"];
+                        var zf_FieldArray = ["SingleLine", "SingleLine1", "SingleLine2", "Email", "PhoneNumber_countrycode", "PhoneNumber_countrycodeVal", "Address_Country", "Address_AddressLine1", "Address_City", "Address_Region", "Dropdown", "Dropdown1"];
+                        var isSalesIQIntegrationEnabled = false;
+                        var salesIQFieldsArray = [];</script>
