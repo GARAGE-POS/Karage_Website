@@ -28,9 +28,6 @@ slug: "tryforfree"
                     <!-- ===================== -->
                     <!-- Main  Form -->
                     <!-- ===================== -->
-
-
-
                     <form class="create-account-form" name="form"
                         action='https://forms.zohopublic.sa/karage1/form/KaragePosFreeTrailForm/formperma/BkEJiKh49zfwlm8Wu7YW_uesZdCIG40jWnPz4so5WFw/htmlRecords/submit'
                         name='form' method='POST'
@@ -42,11 +39,10 @@ slug: "tryforfree"
                         <input type="hidden" name="zc_gad" value="">
 
                         <!-- INPUT FIELDS -->
-                        <input type="text" class="input w-input " name="SingleLine" placeholder="First Name" required>
-                        <input type="text" class="input w-input" name="SingleLine1" placeholder="Last Name" required>
-                        <input type="email" class="input w-input " name="Email" placeholder="Email"
+                        <input type="text" class="input w-input full-width-row " name="SingleLine" placeholder="Full Name" required>
+                        <input type="email" class="input w-input full-width-row   " name="Email" placeholder="Email"
                             required>
-                        <input type="text" class="input w-input" compname="PhoneNumber_countrycodeval" name="PhoneNumber_countrycodeval" phoneFormat="1" maxlength="10"  id="international_PhoneNumber_countrycodeval" placeholder="Country Code" />
+                            <input type="hidden" name="PhoneNumber_countrycodeval" />
                         <input type="text" class="input w-input" compname="PhoneNumber"  name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=true maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder="Mobile Nummber" required >
                         <input type="text" class="input w-input" name="SingleLine2" placeholder="Company" required>
 
@@ -65,7 +61,7 @@ slug: "tryforfree"
 
                         <input type="text" class="input w-input" name="Address_City" placeholder="City" required>
 
-                        <select name="Dropdown" class="input w-input" required>
+                        <select name="Dropdown" class="input w-input  full-width-row" required>
                             <option value="" disabled selected>Select Business Type</option>
                             <option value="غيار زيوت">Oil Change</option>
                             <option value="صيانة">Car Maintenance</option>
@@ -79,7 +75,7 @@ slug: "tryforfree"
                             <option value="اطارات">Tires</option>
                         </select>
 
-                        <select name="Dropdown1" class="input w-input" required>
+                        <select name="Dropdown1" class="input w-input  full-width-row" required>
                             <option value="" disabled selected>Add products by business Type</option>
                             <option value="نعم">Yes</option>
                             <option value="لا">No</option>
@@ -98,6 +94,9 @@ slug: "tryforfree"
 
 
                     </form>
+                       
+
+                   
 
                     <!-- Global messages -->
                     <div id="success-message" class="success-message w-form-done" style="display:none;">

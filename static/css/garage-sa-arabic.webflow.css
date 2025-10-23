@@ -11283,7 +11283,8 @@ figcaption {
     -webkit-transition: color 300ms ease, border-color 300ms ease;
     transition: color 300ms ease, border-color 300ms ease;
     color: #494a4d;
-    font-size: 18px;
+    font-size: 13px;
+    font-weight:500;
 }
 
     .text-area:hover {

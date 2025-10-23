@@ -87,7 +87,7 @@ slug: "contact"
                     style="-webkit-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 35px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                     class="w-layout-grid contact-form-links-grid">
                     <a href="mailto:info@karage.co" class="contact-form-link w-inline-block">
-                        <img src="shape-1-contact-form-startup-x-template.svg" alt="Email Icon -Karage Web"
+                        <img src="/images/icon-1-contact-links-startup-x-template.svg" alt="Email Icon -Karage Web"
                             class="image contact-form-link-icon">
                         <div class="contact-form-link-text">info@karage.co</div>
                     </a>
@@ -103,7 +103,7 @@ slug: "contact"
                 class="card contact-form">
                 <div class="card-contact-form-block w-form">
                     <form action='https://forms.zohopublic.sa/karage1/form/ContactUs/formperma/IRhoWZ-LYJtMYq8s8qrGgil6P0X2M0iRoxhLmhRhvzg/htmlRecords/submit' 
-                    name='form' class="card-contact-form" id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+                    name='form' class="create-account-form" id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
                     <input type="text" class="input name-icon w-input" maxlength="256"
                             name="SingleLine" data-name="Name" placeholder="Name" id="name" required="">
                         <input type="text" class="input company-icon w-input" maxlength="256" name="SingleLine1"
@@ -256,75 +256,3 @@ Describe the reason for contacting us?.
     </div>
 </div>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const form = document.getElementById('wf-form-Contact-Form');
-        const successDiv = document.querySelector('.w-form-done');
-        const errorDiv = document.querySelector('.w-form-fail');
-
-        form.addEventListener('submit', function (e) {
-            e.preventDefault();
-
-            // Reset borders
-            const inputs = form.querySelectorAll('input, textarea');
-            inputs.forEach(input => {
-                input.style.borderColor = '';
-            });
-
-            // Validation check
-            let isValid = true;
-
-            inputs.forEach(input => {
-                if (input.hasAttribute('required') && !input.value.trim()) {
-                    input.style.borderColor = 'red';
-                    isValid = false;
-                }
-
-                // Specific type validations (without regex)
-                if (input.type === 'email' && input.value && !input.value.includes('@@')) {
-                    input.style.borderColor = 'red';
-                    isValid = false;
-                }
-
-                if (input.type === 'tel' && input.value && isNaN(input.value)) {
-                    input.style.borderColor = 'red';
-                    isValid = false;
-                }
-            });
-
-            if (!isValid) return;
-
-            // Hide messages
-            successDiv.style.display = 'none';
-            errorDiv.style.display = 'none';
-
-            const formData = new FormData(form);
-            const data = Object.fromEntries(formData.entries());
-
-            fetch(form.action, {
-                method: 'POST',
-                headers: {
-                    'Accept': 'application/json',
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(data)
-            })
-                .then(response => response.json())
-                .then(result => {
-                    if (result.success) {
-                        successDiv.querySelector('div').textContent = result.message;
-                        successDiv.style.display = 'block';
-                        form.reset();
-                    } else {
-                        errorDiv.querySelector('div').textContent = result.message;
-                        errorDiv.style.display = 'block';
-                    }
-                })
-                .catch(error => {
-                    console.error('Fetch error:', error);
-                    errorDiv.querySelector('div').textContent = "Something went wrong. Please try again later.";
-                    errorDiv.style.display = 'block';
-                });
-        });
-    });
-</script>

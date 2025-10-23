@@ -37,10 +37,40 @@ function getmail() {
     });
 }
 
-var form = document.getElementById("create-account-form");
-form.addEventListener("submit", function() {
-    
- document.querySelector(".w-checkbox-input")?.classList.remove("w--redirected-checked");
 
-}
-);
+
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.getElementById("create-account-form");
+  const countrySelect = document.querySelector('select[name="Address_Country"]');
+  const hiddenCode = document.querySelector('input[name="PhoneNumber_countrycodeval"]');
+  const checkboxDiv = document.querySelector(".w-checkbox-input");
+  const checkboxInput = document.querySelector('input[name="checkbox"]');
+
+  const countryCodes = {
+    "Saudia Arabia": "+966",
+    "UAE": "+971",
+    "Bahrain": "+973",
+    "Kuwait": "+965",
+    "Qatar": "+974",
+    "Oman": "+968",
+    "Jordan": "+962",
+    "Lebanon": "+961",
+    "Egypt": "+20"
+  };
+
+
+  hiddenCode.value = localStorage.getItem("countryCode") || "";
+
+  countrySelect.addEventListener("change", () => {
+    const code = countryCodes[countrySelect.value] || "";
+    hiddenCode.value = code;
+    localStorage.setItem("countryCode", code);
+  });
+
+
+  form.addEventListener("submit", () => {
+    localStorage.setItem("countryCode", hiddenCode.value);
+    checkboxInput.checked = false;
+    checkboxDiv?.classList.remove("w--redirected-checked");
+  });
+});

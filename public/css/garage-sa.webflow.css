@@ -11312,7 +11312,8 @@ figcaption {
     -webkit-transition: color 300ms ease, border-color 300ms ease;
     transition: color 300ms ease, border-color 300ms ease;
     color: #494a4d;
-    font-size: 18px;
+    font-size: 13px;
+    font-weight:500;
 }
 
     .text-area:hover {
@@ -12801,6 +12802,7 @@ figcaption {
         font-weight: 500;
         padding-left: 18px;
     }
+
         .create-account-form .input::placeholder {
             font-weight: 500;
             color: #494a4d;
