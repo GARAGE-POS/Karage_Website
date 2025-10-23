@@ -82,6 +82,7 @@
                             <th>حالة التوقيع</th>
                             <th>تاريخ الإنشاء</th>
                             <th>تاريخ التوقيع</th>
+                            <th>تحميل</th>
                         </tr>
                     </thead>
                     <tbody id="contracts-tbody">
@@ -164,6 +165,7 @@
                     <td>${getSignedStatusBadge(contract.signed)}</td>
                     <td>${formatDate(contract.createdAt)}</td>
                     <td>${contract.signedAt ? formatDate(contract.signedAt) : '-'}</td>
+                    <td>${contract.signed ? `<button class="btn btn-secondary" onclick="downloadContract('${contract.documentId}')">تحميل</button>` : '-'}</td>
                 </tr>
             `).join('');
         }
@@ -268,6 +270,38 @@
         // Refresh contracts
         function refreshContracts() {
             loadContracts();
+        }
+
+        // Download signed contract
+        async function downloadContract(documentId) {
+            if (!documentId) {
+                showAlert('معرف المستند مفقود', 'error');
+                return;
+            }
+
+            try {
+                const response = await fetch(`${CONFIG.API_BASE_URL}/download_signed_contract/${documentId}`);
+
+                if (!response.ok) {
+                    const errorData = await response.json().catch(() => ({}));
+                    throw new Error(errorData.message || `فشل في تحميل الملف: ${response.status}`);
+                }
+
+                const blob = await response.blob();
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `signed-contract-${documentId}.zip`;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                window.URL.revokeObjectURL(url);
+
+                showAlert('تم تحميل الملف بنجاح', 'success');
+            } catch (error) {
+                console.error('Error downloading contract:', error);
+                showAlert('حدث خطأ أثناء تحميل الملف: ' + error.message, 'error');
+            }
         }
     </script>
 </body>
