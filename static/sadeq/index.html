@@ -291,7 +291,7 @@
                 const url = window.URL.createObjectURL(blob);
                 const a = document.createElement('a');
                 a.href = url;
-                a.download = `signed-contract-${documentId}.pdf`;
+                a.download = `signed-contract-${documentId}.zip`;
                 document.body.appendChild(a);
                 a.click();
                 document.body.removeChild(a);
