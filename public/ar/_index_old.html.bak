@@ -55,9 +55,9 @@ title: "الرئيسية"
             </div>
             <div class="card perk">
                 <a href="/mykarage/">
-                    <img src="/Karage_Website/images/My-Karage.jpg" data-w-id="68d7f947-d78b-27ba-bbca-e282fc65cd57" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" alt="كاراجي" class="image perk">
+                    <img src="/Karage_Website/images/My-Karage.jpg" data-w-id="68d7f947-d78b-27ba-bbca-e282fc65cd57" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" alt="كراج ي" class="image perk">
                     <div class="card-perk-content">
-                        <h3 class="title card-perk">كاراجي</h3>
+                        <h3 class="title card-perk">كراج ي</h3>
                         <p class="paragraph card-perk">تجربة مستدامة لحفظ الفواتير وإرشاد العملاء لمراكز الصيانة القريبة.</p>
                     </div>
                 </a>
