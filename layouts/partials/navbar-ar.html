@@ -69,14 +69,15 @@
           </li>
 
           <!-- English Switch -->
+
+          
           <li class="nav-item-wrapper header-button-mobile">
-            <a href="{{ "/" | relLangURL | replaceRE "/$" "/en/" }}" class="header-button w-inline-block"
-               style="padding-right:20px; text-decoration:none;">
+            <a href="javascript:void(0);" onclick="switchLang('en')" class="header-button w-inline-block"
+              style="padding-right:20px; text-decoration:none;">
               English
               <img src="{{ "images/flag-for-flag-united-kingdom-svgrepo-com.svg" | relURL }}"
-                   style="width:40px; padding-right:10px;" />
+                style="width:40px; padding-right:10px;" />
             </a>
-          </li>
         </ul>
       </nav>
 
@@ -96,13 +97,12 @@
         </div>
 
         <!-- Language Toggle -->
-        <a href="{{ .Site.BaseURL }}en/home/"
-           class="header-button w-inline-block"
-           style="padding-right:20px; text-decoration:none;">
-          English
-          <img src="{{ "images/flag-for-flag-united-kingdom-svgrepo-com.svg" | relURL }}"
-               style="width:40px; padding-right:10px;" />
-        </a>
+            <a href="javascript:void(0);" onclick="switchLang('en')" class="header-button w-inline-block"
+              style="padding-right:20px; text-decoration:none;">
+              English
+              <img src="{{ "images/flag-for-flag-united-kingdom-svgrepo-com.svg" | relURL }}"
+                style="width:40px; padding-right:10px;" />
+            </a>
 
         <!-- Mobile Menu -->
         <div class="menu-button w-nav-button">

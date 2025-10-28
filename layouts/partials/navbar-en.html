@@ -56,8 +56,8 @@
                             class="button-primary header-button mobile w-button"
                             style="background:#b6f174; color:#134f1a">Try it for - Free</a>
                     </li>
-                    <li class="nav-item-wrapper header-button-mobile">
-                        <a href="{{ "/" | relLangURL | replaceRE "/$" "/ar/" }}"
+                 <li class="nav-item-wrapper header-button-mobile">
+                        <a href="javascript:void(0);" onclick="switchLang('ar')"
                             class="header-button w-inline-block arabic-font"
                             style="padding-left:20px; text-decoration:none;">
                             العربية
@@ -74,11 +74,12 @@
                         <div class="w-inline-block font-color">Sign In</div>
                     </a>
                 </div>
-                <a href="{{ .Site.BaseURL }}ar/home/" class="header-button w-inline-block arabic-font"
-                    style="padding-left:20px; text-decoration:none;">
-                    العربية
-                    <img src="{{ "images/KSA.svg" | relURL }}" style="width:50px; padding-left:10px;" />
-                </a>
+                     <a href="javascript:void(0);" onclick="switchLang('ar')"
+                            class="header-button w-inline-block arabic-font"
+                            style="padding-left:20px; text-decoration:none;">
+                            العربية
+                            <img src="{{ "images/KSA.svg" | relURL }}" style="width:50px; padding-left:10px;" />
+                        </a>
 
                 <div class="menu-button w-nav-button">
                     <div class="header-menu-button-icon-wrapper">

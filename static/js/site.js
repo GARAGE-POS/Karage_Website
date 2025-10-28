@@ -74,3 +74,16 @@ document.addEventListener("DOMContentLoaded", () => {
     checkboxDiv?.classList.remove("w--redirected-checked");
   });
 });
+
+
+
+  function switchLang(lang) {
+    let url = window.location.href;
+    if (lang === 'ar') {
+      url = url.replace('/en/', '/ar/');
+    } else if (lang === 'en') {
+      url = url.replace('/ar/', '/en/');
+    }
+    window.location.href = url;
+  }
+
