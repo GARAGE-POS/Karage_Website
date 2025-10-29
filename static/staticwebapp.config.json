@@ -1,14 +1,1 @@
-{
-  "routes": [
-    {
-      "route": "/sadeq/*",
-      "allowedRoles": ["authenticated"]
-    }
-  ],
-  "responseOverrides": {
-    "401": {
-      "redirect": "/.auth/login/github?post_login_redirect_uri=.referrer",
-      "statusCode": 302
-    }
-  }
-}
+{"routes":[{"route":"/sadeq/*","allowedRoles":["authenticated"]}],"responseOverrides":{"401":{"redirect":"/.auth/login/github?post_login_redirect_uri=.referrer","statusCode":302}},"auth":{"rolesSource":"https://staging.karage.co/.auth/me","identityProviders":{"google":{"registration":{"clientIdSettingName":"GOOGLE_CLIENT_ID","clientSecretSettingName":"GOOGLE_CLIENT_SECRET_APP_SETTING_NAME"}}}}}
