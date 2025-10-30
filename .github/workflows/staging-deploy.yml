@@ -1,0 +1,61 @@
+name: Staging Deployment
+
+on:
+  push:
+    branches:
+      - move_to_hugo
+      - staging
+  workflow_dispatch:
+
+jobs:
+  build_and_deploy_staging:
+    runs-on: ubuntu-latest
+    name: Build and Deploy to Staging
+    environment:
+      name: staging
+      url: https://staging.karage.co
+    env:
+      HUGO_VERSION: 0.128.0
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          lfs: false
+
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Verify Hugo Installation
+        run: hugo version
+
+      - name: Build Staging Site
+        env:
+          HUGO_ENVIRONMENT: staging
+          HUGO_ENV: staging
+        run: |
+          hugo \
+            --gc \
+            --minify \
+            --cleanDestinationDir \
+            --baseURL "https://staging.karage.co/"
+
+      - name: Deploy to Azure Static Web Apps (Staging)
+        id: deploy_staging
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_STAGING }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          action: "upload"
+          app_location: "public"
+          api_location: ""
+          skip_app_build: true
+
+      - name: Staging Deployment Complete
+        run: |
+          echo "✅ Staging deployment completed successfully!"
+          echo "🌐 Staging URL: https://staging.karage.co"
+          echo "📅 Deployed at: $(date)"

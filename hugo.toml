@@ -1,0 +1,50 @@
+baseURL = 'https://garage-pos.github.io/Karage_Website/'
+languageCode = 'en'
+title = 'Karage'
+disableKinds = []
+canonifyURLs = true
+
+defaultContentLanguageInSubdir = true
+
+
+# Build configuration
+[build]
+  writeStats = false
+  useResourceCacheWhen = "fallback"
+
+# Minification settings for production
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = true
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepWhitespace = false
+
+[languages]
+[languages.en]
+title = "Karage"
+languageCode = "en"
+weight = 1
+contentDir = "content/en"
+
+[languages.ar]
+title = "كراچ"
+languageCode = "ar"
+weight = 2
+contentDir = "content/ar"
+languageDirection = "rtl"
+
+# Permalinks configuration
+[permalinks]
+  pages = "/:slug/"
+
+# Output formats
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
+  page = ["HTML"]
