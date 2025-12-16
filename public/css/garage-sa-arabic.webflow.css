@@ -5271,7 +5271,7 @@ figcaption {
 }
 
 .card {
-    overflow: hidden;
+    /* overflow: hidden; */
     border-style: solid;
     border-width: 1px;
     border-color: #e7e9ee;
