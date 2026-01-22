@@ -2802,7 +2802,7 @@
 
     .w-commerce-commerceaddtocartquantityinput {
         font-size: 16px;
-    }
+    }   
 }
 
 @font-face {
@@ -9286,6 +9286,10 @@ figcaption {
 }
 
     .faqs-wrapper.v2 {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 24px;
+        align-items: start;
         position: relative;
         -webkit-box-pack: center;
         -webkit-justify-content: center;
@@ -9295,6 +9299,10 @@ figcaption {
         -webkit-align-items: center;
         -ms-flex-align: center;
         align-items: center;
+    }
+
+    .faqs-wrapper.v2 .card-faq-content-bottom {
+        max-width: 100%;
     }
 
 .content-top {
@@ -26138,6 +26146,10 @@ create-account-form select:valid {
         -ms-grid-column-align: stretch;
         justify-self: stretch;
     }
+
+      .faqs-wrapper.v2 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
 }
 
 @font-face {
@@ -26148,7 +26160,7 @@ create-account-form select:valid {
     font-display: swap;
 }
 
-`
+
 @font-face {
     font-family: 'Line Rounded Icons';
     src: url('../fonts/line-rounded-icons.woff2') format('woff2'), url('../fonts/line-rounded-icons.eot') format('embedded-opentype'), url('../fonts/line-rounded-icons.woff') format('woff'), url('../fonts/line-rounded-icons.ttf') format('truetype'), url('../fonts/line-rounded-icons.svg') format('svg');
