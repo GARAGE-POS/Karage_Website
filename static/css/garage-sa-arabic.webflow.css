@@ -9267,6 +9267,10 @@ figcaption {
 }
 
     .faqs-wrapper.v2 {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 24px;
+        align-items: start;
         position: relative;
         -webkit-box-pack: center;
         -webkit-justify-content: center;
@@ -9276,6 +9280,10 @@ figcaption {
         -webkit-align-items: center;
         -ms-flex-align: center;
         align-items: center;
+    }
+
+     .faqs-wrapper.v2 .card-faq-content-bottom {
+        max-width: 100%;
     }
 
 .content-top {
@@ -26028,6 +26036,10 @@ figcaption {
         -ms-grid-column-align: stretch;
         justify-self: stretch;
     }
+
+          .faqs-wrapper.v2 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
 }
 
 @font-face {
